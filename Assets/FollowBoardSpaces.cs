@@ -27,11 +27,12 @@ public class FollowBoardSpaces : MonoBehaviour
     {
         if(boardSpaceIndex <= boardSpaces.Length - 1)
         {
-            transform.position = Vector2.MoveTowards(transform.position, boardSpaces[boardSpaceIndex].transform.position, moveSpeed * Time.deltaTime);
+            transform.position = Vector3.MoveTowards(transform.position, boardSpaces[boardSpaceIndex].transform.position, moveSpeed * Time.deltaTime);
             if (transform.position == boardSpaces[boardSpaceIndex].transform.position)
             {
                 boardSpaceIndex += 1;
             }
         }
+        
     }
 }

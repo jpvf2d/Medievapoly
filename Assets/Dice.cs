@@ -23,7 +23,6 @@ public class Dice : MonoBehaviour
             StartCoroutine("RollTheDice");
     }
 
-    // Update is called once per frame
     private IEnumerator RollTheDice()
     {
         coroutine = false;
@@ -34,13 +33,13 @@ public class Dice : MonoBehaviour
             rend.sprite = diceSides[randomDiceSide];
             yield return new WaitForSeconds(0.05f);
         }
-        /*
+        
         GameplaySystem.diceSideThrown = randomDiceSide + 1;
-        if(turn >= 5)
+        if(turn > 2)
             turn = 1;
         GameplaySystem.MovePlayer(turn);
         turn += 1;
-        */
+        
         coroutine = true;
     }
 }

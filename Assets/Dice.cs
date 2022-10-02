@@ -8,7 +8,9 @@ public class Dice : MonoBehaviour
     private SpriteRenderer rend;
     private int turn = 1;
     private bool coroutine = true;
-
+	public int DiceNum = 0;
+	public bool db_coroutine = false;
+	
     // Start is called before the first frame update
     void Start()
     {
@@ -17,13 +19,14 @@ public class Dice : MonoBehaviour
         rend.sprite = diceSides[5];
     }
 
-    private void OnMouseDown() 
+    public void OnMouseDown() 
     {
         if(coroutine)
             StartCoroutine("RollTheDice");
     }
+	
 
-    private IEnumerator RollTheDice()
+	public IEnumerator RollTheDice()
     {
         coroutine = false;
         int randomDiceSide = 0;
@@ -34,12 +37,11 @@ public class Dice : MonoBehaviour
             yield return new WaitForSeconds(0.05f);
         }
         
-        GameplaySystem.diceSideThrown = randomDiceSide + 1;
-        if(turn > 2)
-            turn = 1;
-        GameplaySystem.MovePlayer(turn);
-        turn += 1;
-        
+        //GameplaySystem.diceSideThrown = randomDiceSide + 1;
         coroutine = true;
+		randomDiceSide++;
+		DiceNum = randomDiceSide;
+		db_coroutine = true; 
     }
+
 }

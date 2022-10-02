@@ -22,8 +22,8 @@ public class GameplaySystem : MonoBehaviour
         player1 = GameObject.Find("Player1");
         player2 = GameObject.Find("Player2");
 
-        player1.GetComponent<FollowBoardSpaces>().move = false;
-        player2.GetComponent<FollowBoardSpaces>().move = false;
+        player1.GetComponent<Player>().move = false;
+        player2.GetComponent<Player>().move = false;
 
         //whoWinsTextShadow.GameObject.SetActive(false);
         //player1MoveText.GameObject.SetActive(false);
@@ -33,20 +33,21 @@ public class GameplaySystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(player1.GetComponent<FollowBoardSpaces>().boardSpaceIndex > player1StartSpace + diceSideThrown)
+        if(player1.GetComponent<Player>().boardSpaceIndex > player1StartSpace + diceSideThrown)
         {
-            player1.GetComponent<FollowBoardSpaces>().move = false;
+            player1.GetComponent<Player>().move = false;
             //player1MoveText.GameObject.SetActive(false);
             //player1MoveText.GameObject.SetActive(true);
-
-            player1StartSpace = --player1.GetComponent<FollowBoardSpaces>().boardSpaceIndex;
+            if(player1.GetComponent<Player>().boardSpaceIndex != 0)
+                player1StartSpace = --player1.GetComponent<Player>().boardSpaceIndex;
         }
-        if(player2.GetComponent<FollowBoardSpaces>().boardSpaceIndex > player2StartSpace + diceSideThrown)
+        if(player2.GetComponent<Player>().boardSpaceIndex > player2StartSpace + diceSideThrown)
         {
-            player2.GetComponent<FollowBoardSpaces>().move = false;
+            player2.GetComponent<Player>().move = false;
             //player2MoveText.GameObject.SetActive(false);
             //player2MoveText.GameObject.SetActive(true);
-            player2StartSpace = --player2.GetComponent<FollowBoardSpaces>().boardSpaceIndex;
+            if(player2.GetComponent<Player>().boardSpaceIndex != 0)
+                player2StartSpace = --player2.GetComponent<Player>().boardSpaceIndex;
         }
     }
 
@@ -55,12 +56,16 @@ public class GameplaySystem : MonoBehaviour
         switch(player)
         {
             case 1:
-                player1.GetComponent<FollowBoardSpaces>().boardSpaceIndex += diceSideThrown;
-                player1.GetComponent<FollowBoardSpaces>().move = true;
+                player1.GetComponent<Player>().boardSpaceIndex = (player1.GetComponent<Player>().boardSpaceIndex + diceSideThrown) % 40;
+                if(player1StartSpace > player1.GetComponent<Player>().boardSpaceIndex)
+                    player1StartSpace = -1;
+                player1.GetComponent<Player>().move = true;
                 break;
             case 2:
-                player2.GetComponent<FollowBoardSpaces>().boardSpaceIndex += diceSideThrown;
-                player2.GetComponent<FollowBoardSpaces>().move = true;
+                player2.GetComponent<Player>().boardSpaceIndex = (player2.GetComponent<Player>().boardSpaceIndex + diceSideThrown) % 40;
+                if(player2StartSpace > player2.GetComponent<Player>().boardSpaceIndex)
+                    player2StartSpace = -1;
+                player2.GetComponent<Player>().move = true;
                 break;
         }
     }

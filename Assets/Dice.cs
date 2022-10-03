@@ -27,4 +27,9 @@ public class Dice : MonoBehaviour
         rend.sprite = diceSides[value];
         GameplaySystem.MovePlayer();
     }
+
+    private void OnMouseDown() 
+    {
+        GameplaySystem.roll();
+    }
 }

@@ -37,10 +37,4 @@ public class Player : MonoBehaviour
             move = false;
         }
     }
-
-
-    private void OnMouseDown() 
-    {
-        GameplaySystem.roll();
-    }
 }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 public class GameplaySystem : MonoBehaviour
 {
@@ -16,10 +17,14 @@ public class GameplaySystem : MonoBehaviour
     public class StaticMB: MonoBehaviour { }
     private static StaticMB mb;
 
+    public static GameObject[] cams;
+    public static GameObject activeCam = null;
+
     // Start is called before the first frame update
     void Start()
     {
         players = new GameObject[] {GameObject.Find("Player1"), GameObject.Find("Player2")};
+        cams = new GameObject[] {GameObject.Find("CM vcam1"), GameObject.Find("CM vcam2")};
         dice = GameObject.Find("Dice");
          if (mb == null)
         {
@@ -31,8 +36,7 @@ public class GameplaySystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(turn >= numPlayers)
-            turn = 0;
+
     }
 
     public static void MovePlayer()
@@ -40,6 +44,9 @@ public class GameplaySystem : MonoBehaviour
         players[turn].GetComponent<Player>().boardSpaceIndex = (players[turn].GetComponent<Player>().boardSpaceIndex + diceSideThrown) % 40;
         players[turn].GetComponent<Player>().move = true;
         turn += 1;
+        if(turn >= numPlayers)
+            turn = 0;
+        mb.StartCoroutine(SwitchCamera(cams[turn]));
     }
 
     public static void roll()
@@ -48,4 +55,15 @@ public class GameplaySystem : MonoBehaviour
         mb.StartCoroutine(dice.GetComponent<Dice>().RollTheDice(diceSideThrown - 1));
     }
 
+    public static IEnumerator SwitchCamera(GameObject cam)
+    {
+        yield return new WaitForSeconds(2.0f);
+        cam.GetComponent<CinemachineVirtualCamera>().Priority = 10;
+        activeCam = cam;
+        foreach(GameObject c in cams)
+        {
+            if(c.GetComponent<CinemachineVirtualCamera>() != activeCam.GetComponent<CinemachineVirtualCamera>())
+                c.GetComponent<CinemachineVirtualCamera>().Priority = 0;
+        }
+    }
 }

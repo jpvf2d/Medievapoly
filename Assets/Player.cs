@@ -22,21 +22,19 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        Debug.Log(boardSpaceIndex);
         if(move)
             Move();
     }
 
     private void Move()
     {
-        if(boardSpaceIndex <= boardSpaces.Length - 1)
+        if(boardSpaceIndex <= boardSpaces.Length - 1 && transform.position != boardSpaces[boardSpaceIndex].transform.position)
         {
             transform.position = Vector3.MoveTowards(transform.position, boardSpaces[boardSpaceIndex].transform.position, moveSpeed * Time.deltaTime);
-            if (transform.position == boardSpaces[boardSpaceIndex].transform.position && boardSpaceIndex != 0)
-            {
-                boardSpaceIndex += 1;
-            }
         }
-        
+        else
+        {
+            move = false;
+        }
     }
 }

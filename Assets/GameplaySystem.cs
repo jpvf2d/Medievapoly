@@ -10,7 +10,7 @@ public class GameplaySystem : MonoBehaviour
     public static int diceSideThrown = 0;
     public static int[] playersStartSpace = {0, 0, 0, 0};
     public static bool gameOver = false;
-    private static int turn = 1;
+    private static int turn = 0;
     
 
     // Start is called before the first frame update
@@ -22,7 +22,7 @@ public class GameplaySystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public static void MovePlayer(int player)

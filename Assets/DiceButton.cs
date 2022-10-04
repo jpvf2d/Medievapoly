@@ -9,8 +9,6 @@ public class DiceButton : MonoBehaviour
 	public Dice Dice1;
 	public Dice Dice2;
 	private int turn = 1; 
-	private bool cont = false;
-	private bool cont2 = false;
 	private bool coroutine = true;
 	
     // Start is called before the first frame update

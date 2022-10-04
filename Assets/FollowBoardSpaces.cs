@@ -21,6 +21,7 @@ public class FollowBoardSpaces : MonoBehaviour
     {
         if(move)
             Move();
+			
     }
 
     private void Move()
@@ -33,6 +34,8 @@ public class FollowBoardSpaces : MonoBehaviour
                 boardSpaceIndex += 1;
             }
         }
-        
+		
+		GameplaySystem.playerIndex = boardSpaceIndex;
     }
+
 }

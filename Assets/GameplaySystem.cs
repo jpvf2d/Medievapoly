@@ -11,20 +11,21 @@ public class GameplaySystem : MonoBehaviour
     public static int player1StartSpace = 0;
     public static int player2StartSpace = 0;
     public static bool gameOver = false;
-
+	public static GameObject PurchasePropertyMenu;
+	public static float playerIndex = 0;
     // Start is called before the first frame update
     void Start()
     {
         //whoWinsTextShadow = GameObject.Find("WhoWinsText");
         //player1MoveText = GameObject.Find("Player1MoveText");
         //player2MoveText = GameObject.Find("Player2MoveText");
-
+		
         player1 = GameObject.Find("Player1");
         player2 = GameObject.Find("Player2");
-
+		PurchasePropertyMenu = GameObject.Find("PurchasePropertyMenu");
         player1.GetComponent<FollowBoardSpaces>().move = false;
         player2.GetComponent<FollowBoardSpaces>().move = false;
-
+		PurchasePropertyMenu.SetActive(false);
         //whoWinsTextShadow.GameObject.SetActive(false);
         //player1MoveText.GameObject.SetActive(false);
         //player2MoveText.GameObject.SetActive(false);
@@ -36,6 +37,7 @@ public class GameplaySystem : MonoBehaviour
         if(player1.GetComponent<FollowBoardSpaces>().boardSpaceIndex > player1StartSpace + diceSideThrown)
         {
             player1.GetComponent<FollowBoardSpaces>().move = false;
+		    PropertySpace.runCoroutine = true;
             //player1MoveText.GameObject.SetActive(false);
             //player1MoveText.GameObject.SetActive(true);
 
@@ -44,6 +46,7 @@ public class GameplaySystem : MonoBehaviour
         if(player2.GetComponent<FollowBoardSpaces>().boardSpaceIndex > player2StartSpace + diceSideThrown)
         {
             player2.GetComponent<FollowBoardSpaces>().move = false;
+			PropertySpace.runCoroutine = true;
             //player2MoveText.GameObject.SetActive(false);
             //player2MoveText.GameObject.SetActive(true);
             player2StartSpace = --player2.GetComponent<FollowBoardSpaces>().boardSpaceIndex;
@@ -64,5 +67,6 @@ public class GameplaySystem : MonoBehaviour
                 break;
         }
     }
+	
     
 }

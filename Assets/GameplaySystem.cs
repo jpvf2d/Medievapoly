@@ -39,6 +39,11 @@ public class GameplaySystem : MonoBehaviour
 
     }
 
+    public static void PlayerTurn()
+    {
+        
+    }
+
     public static void MovePlayer()
     {
         players[turn].GetComponent<Player>().boardSpaceIndex = (players[turn].GetComponent<Player>().boardSpaceIndex + diceSideThrown) % 40;

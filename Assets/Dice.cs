@@ -6,6 +6,8 @@ public class Dice : MonoBehaviour
 {
     private Sprite[] diceSides;
     private SpriteRenderer rend;
+    public bool db_coroutine = false;
+    public int DiceNum = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -15,7 +17,7 @@ public class Dice : MonoBehaviour
         rend.sprite = diceSides[5];
     }
 
-    public IEnumerator RollTheDice(int value)
+    public IEnumerator RollTheDice(int val)
     {
         int randomDiceSide = 0;
         for(int i = 0; i <= 20; i++)
@@ -24,8 +26,10 @@ public class Dice : MonoBehaviour
             rend.sprite = diceSides[randomDiceSide];
             yield return new WaitForSeconds(0.05f);
         }
-        rend.sprite = diceSides[value];
-        GameplaySystem.MovePlayer();
+        rend.sprite = diceSides[val];
+        DiceNum = val;
+        db_coroutine = true;
+        //GameplaySystem.MovePlayer();
     }
 
     private void OnMouseDown() 

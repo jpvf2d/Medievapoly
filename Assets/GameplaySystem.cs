@@ -12,7 +12,7 @@ public class GameplaySystem : MonoBehaviour
     public static int[] playersStartSpace = {0, 0, 0, 0};
     public static bool gameOver = false;
     public static int turn = 0;
-    public static GameObject dice;
+    public static GameObject dice1,dice2;
 
     public class StaticMB: MonoBehaviour { }
     private static StaticMB mb;
@@ -25,7 +25,8 @@ public class GameplaySystem : MonoBehaviour
     {
         players = new GameObject[] {GameObject.Find("Player1"), GameObject.Find("Player2")};
         cams = new GameObject[] {GameObject.Find("CM vcam1"), GameObject.Find("CM vcam2")};
-        dice = GameObject.Find("Dice");
+        dice1 = GameObject.Find("Dice1");
+		dice2 = GameObject.Find("Dice2");
          if (mb == null)
         {
             GameObject gameObject = new GameObject("MyStatic");
@@ -56,8 +57,11 @@ public class GameplaySystem : MonoBehaviour
 
     public static void roll()
     {
+		Debug.Log("rolling");
         diceSideThrown = Random.Range(0,6) + 1;
-        mb.StartCoroutine(dice.GetComponent<Dice>().RollTheDice(diceSideThrown - 1));
+        //mb.StartCoroutine(dice.GetComponent<Dice>().RollTheDice(diceSideThrown - 1));
+        mb.StartCoroutine(dice1.GetComponent<Dice>().RollTheDice(diceSideThrown - 1));
+		mb.StartCoroutine(dice2.GetComponent<Dice>().RollTheDice(diceSideThrown - 1));
     }
 
     public static IEnumerator SwitchCamera(GameObject cam)

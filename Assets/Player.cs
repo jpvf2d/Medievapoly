@@ -35,6 +35,7 @@ public class Player : MonoBehaviour
         else
         {
             move = false;
+			PropertySpace.runCoroutine = true; 
         }
     }
 }

@@ -13,7 +13,10 @@ public class GameplaySystem : MonoBehaviour
     public static bool gameOver = false;
     public static int turn = 0;
     public static GameObject dice1,dice2;
-
+	public static int playerIndex = 0;
+	public static bool switchPlayerView = false;
+	public static GameObject PurchasePropertyMenu;
+	
     public class StaticMB: MonoBehaviour { }
     private static StaticMB mb;
 
@@ -27,6 +30,8 @@ public class GameplaySystem : MonoBehaviour
         cams = new GameObject[] {GameObject.Find("CM vcam1"), GameObject.Find("CM vcam2")};
         dice1 = GameObject.Find("Dice1");
 		dice2 = GameObject.Find("Dice2");
+		PurchasePropertyMenu = GameObject.Find("PurchasePropertyMenu");
+		PurchasePropertyMenu.SetActive(false);
          if (mb == null)
         {
             GameObject gameObject = new GameObject("MyStatic");
@@ -45,11 +50,15 @@ public class GameplaySystem : MonoBehaviour
         
     }
 
+    //public static void MovePlayer()
     public static void MovePlayer()
     {
+		switchPlayerView = false; 
         players[turn].GetComponent<Player>().boardSpaceIndex = (players[turn].GetComponent<Player>().boardSpaceIndex + diceSideThrown) % 40;
         players[turn].GetComponent<Player>().move = true;
+		playerIndex = players[turn].GetComponent<Player>().boardSpaceIndex;
         turn += 1;
+
         if(turn >= numPlayers)
             turn = 0;
         mb.StartCoroutine(SwitchCamera(cams[turn]));
@@ -57,16 +66,20 @@ public class GameplaySystem : MonoBehaviour
 
     public static void roll()
     {
-		Debug.Log("rolling");
         diceSideThrown = Random.Range(0,6) + 1;
         //mb.StartCoroutine(dice.GetComponent<Dice>().RollTheDice(diceSideThrown - 1));
         mb.StartCoroutine(dice1.GetComponent<Dice>().RollTheDice(diceSideThrown - 1));
+		diceSideThrown = Random.Range(0,6) + 1;
 		mb.StartCoroutine(dice2.GetComponent<Dice>().RollTheDice(diceSideThrown - 1));
     }
 
     public static IEnumerator SwitchCamera(GameObject cam)
     {
-        yield return new WaitForSeconds(2.0f);
+		while(!switchPlayerView)
+		{
+			yield return new WaitForSeconds(0.01f);
+		}
+        yield return new WaitForSeconds(1.0f);
         cam.GetComponent<CinemachineVirtualCamera>().Priority = 10;
         activeCam = cam;
         foreach(GameObject c in cams)

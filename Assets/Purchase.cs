@@ -8,6 +8,7 @@ public class Purchase : MonoBehaviour
 {
 	
 	public Button y_Btn, n_Btn;
+	public static bool purchasedProp = false; 
 	
 	void Start()
 	{
@@ -19,17 +20,21 @@ public class Purchase : MonoBehaviour
 	private void PurchaseProp()
 	{
 		Debug.Log("Purchase property");
+
+		purchasedProp = true; 
 		GameplaySystem.PurchasePropertyMenu.SetActive(false);
 		DisplayCard.stopDisplay = true;
-		GameplaySystem.switchPlayerView = true; 
+		SpaceLogic.continue_sl = true; 
 	}
 	
 	private void NoPurchase()
 	{
 		Debug.Log("Did not purchase");
+
+		purchasedProp = false; 
 		GameplaySystem.PurchasePropertyMenu.SetActive(false);
 		DisplayCard.stopDisplay = true;
-		GameplaySystem.switchPlayerView = true; 
+		SpaceLogic.continue_sl = true; 
 	}
 	
 }

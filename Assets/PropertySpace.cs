@@ -5,13 +5,24 @@ using UnityEngine.SceneManagement;
 
 public class PropertySpace : BoardSpace
 {
-	public  float index;
+	public int index;
 	public static bool runCoroutine = false;
-	private bool owned = false; 
 	public float purchaseCost;
-	public float[] rentCosts; //Base rent, w/houses (1,2,3,4), and w/hotel
-	
-	void Update()
+	public bool owned = false;
+	//public float[] rentCosts; //Base rent, w/houses (1,2,3,4), and w/hotel
+	public int indexOfOwner;
+
+	//****TEMPORARY VARIABLES (TMP_*): Delete when Card class is being used ****
+	public float TMP_rent = 0; 
+	public float TMP_purchaseCost = 0;
+
+	/****
+	//TODO: Each PropertySpace needs a PropertyCard object associated with it to pull purchase cost and rent information 
+
+	private PropertyCard propertyCard;
+	****/
+
+	/*void Update()
 	{
 		if(runCoroutine)
 		{
@@ -20,6 +31,11 @@ public class PropertySpace : BoardSpace
 				StartCoroutine("land");
 			}
 		}
+	}*/
+	void Start()
+	{
+		TMP_rent = 500;
+		TMP_purchaseCost = 100;
 	}
     public override void passing()
 	{
@@ -37,8 +53,29 @@ public class PropertySpace : BoardSpace
 			
 			else
 			{
-				Debug.Log("Make player pay rent");
-				GameplaySystem.switchPlayerView = true; 
+
+					if(GameplaySystem.turn != indexOfOwner)
+					{
+						//TODO: Display graphic saying how much playerX paid playerY
+						Debug.Log("Player "+ GameplaySystem.turn + "paid Player " + indexOfOwner);
+						GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money -= TMP_rent;
+						GameplaySystem.players[indexOfOwner].GetComponent<Player>().money += TMP_rent;
+
+						/****
+						//TODO: Each PropertySpace needs a PropertyCard object associated with it to pull purchase cost and rent information 
+					
+						GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money += propertyCard.rent;
+						****/
+					}
+
+					else
+					{
+						//TODO: Display graphic saying player owns property
+						Debug.Log("Player owns this property");
+					}
+				
+
+					SpaceLogic.continue_sl = true; 
 			}
 			runCoroutine = false; 
 	}

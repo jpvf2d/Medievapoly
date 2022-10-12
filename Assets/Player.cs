@@ -9,14 +9,17 @@ public class Player : MonoBehaviour
     [HideInInspector] public int boardSpaceIndex = 0;
     public bool move = false;
     public float money = 0;
-    public int[] property;
+    //public int[] property;
+    public List<int> property; //Use list to easily add purchaed properties 
     public string name;
 
 
     // Start is called before the first frame update
     private void Start()
     {
+        money = 3000; //Change to whatever
         transform.position = boardSpaces[boardSpaceIndex].transform.position;
+        List<int> property = new List<int>();
     }
 
     // Update is called once per frame
@@ -35,7 +38,7 @@ public class Player : MonoBehaviour
         else
         {
             move = false;
-			PropertySpace.runCoroutine = true; 
+            SpaceLogic.coroutine_sl = true; //Player finishes moving and interacts with space
         }
     }
 }

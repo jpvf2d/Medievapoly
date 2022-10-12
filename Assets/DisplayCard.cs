@@ -25,7 +25,6 @@ public class DisplayCard : MonoBehaviour
 	{
 			stopDisplay = false;
 			coroutine = false; 
-			Debug.Log("Displaying a Card");
 			rend.sprite = cardToDisplay;
 			while(!stopDisplay)
 			{

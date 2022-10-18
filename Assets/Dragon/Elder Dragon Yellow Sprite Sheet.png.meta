@@ -1,0 +1,1468 @@
+fileFormatVersion: 2
+guid: 465e454d40781b94d82b9d6b3a81f29f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 660
+        width: 110
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032d8a56c939ac244bcc7cbf1184e4b2
+      internalID: 472861625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 663
+        width: 111
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4fe9464b7abf44690063233c624f20
+      internalID: 1376313304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 663
+        width: 109
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fc4916e0384eb44a12eba8128929b7
+      internalID: -1743656166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 663
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6451063170475384a84fc8d4aa8a0ca9
+      internalID: 1139281113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 663
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c1d79f67524a44fa60785da47834da
+      internalID: 195734291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 663
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa30df8d4cf51b4da02ce42f28b735e
+      internalID: 719672682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 667
+        width: 109
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5eb932493a34447b8d80571f42aafe
+      internalID: 1223845943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 669
+        width: 113
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4511183dbdb34494a9f2a55f65ea5e6e
+      internalID: 963854499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 568
+        width: 152
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73659f8b51fac0a4d911efa7a8d27b39
+      internalID: -1013013355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 576
+        width: 134
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522f27ccd6446ec4eb8b1cef23e35004
+      internalID: -785122424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 568
+        width: 123
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4edb2b458faa5774dbd03d68921f89d7
+      internalID: -1289819036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 578
+        width: 120
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7fe62f31a387f4786bdd8ac6c03040
+      internalID: 1234379177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 576
+        width: 127
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306595589414a614ab7179512f2972ec
+      internalID: 1731723086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 576
+        width: 116
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562e51062abf66f4da274785dfc63f81
+      internalID: 230944383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 590
+        width: 116
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b4eb3bd18475543a6479a53e05d1a6
+      internalID: -1985685695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 581
+        width: 150
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29351e9ce45b72c439d666548f07977a
+      internalID: 1563985123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 468
+        width: 110
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60408033f96bf34f8bbc9e219f51d46
+      internalID: -559373747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 471
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10edaac1dcf50514a80dd1317d58d5d5
+      internalID: 1557794197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 471
+        width: 109
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e60aba6b9294d49afff9a26d0e97ed
+      internalID: -975258420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 471
+        width: 123
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d11c4e3e103cc45ba7b476eefab0fb
+      internalID: 14543664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 471
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a095d397cb98941b45ee5dc488bb4a
+      internalID: -493067288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 467
+        width: 132
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a992550cd9f8264cbed7d435c405ddd
+      internalID: -1968680831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 479
+        width: 131
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d4619df13835541b93ce47fbe5cae5
+      internalID: -385500030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 476
+        width: 134
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5daf9e40ea20e2489eb2647a889e43f
+      internalID: -1709236320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 372
+        width: 110
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74409ba18adee0e4694789041c134895
+      internalID: -450507700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 375
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52f173d81d91464185253eeb056af5b
+      internalID: -168649545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 375
+        width: 109
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3de67bacfa03b94d8e5e42136820464
+      internalID: 1244651989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 375
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a73bc3dacabd146be00dfb9066da8e
+      internalID: 1491981247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 375
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241b106a6bca66b4cba6639348be4691
+      internalID: -655761724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 375
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5470c7aa509103b42a82e6d545e1740d
+      internalID: -1441317942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 375
+        width: 109
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4a7c9d9c48e654891cbb2e8164e192
+      internalID: -1725042355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 375
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39988d643ad934e448587f44acb6c570
+      internalID: 1077910538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 276
+        width: 110
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d63dd28060e04749b35a931a7f85f41
+      internalID: 1683051418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 279
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084a245ed6acab94cbe48af71ae88bdd
+      internalID: -1590410864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 279
+        width: 109
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e579dd84a97ab9d418834e4148428887
+      internalID: -1363529139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 279
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b354aa08531ab24aa75e7c5d7710487
+      internalID: -1483574049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 279
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e342ca0799ccbb844a96deb0b296b157
+      internalID: 641766912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 279
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c213878ab85b11e4087b440cecab9c0f
+      internalID: -1619581311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 279
+        width: 109
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4b0f9b5bc5d584b96eea1187db6261
+      internalID: -83560059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 280
+        width: 114
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834d76df7150c734186b42271cb8b9b0
+      internalID: 955500635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 189
+        width: 115
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2118cfd314d4104584051ebe8d5f579
+      internalID: 1366651813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 183
+        width: 109
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f987693c444c22c4a90f27e29c424952
+      internalID: -1128182668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 183
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5385f0633c3d94281aa1947979c4c5
+      internalID: 710250972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 183
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7693887bc2d5d704e93092fabbb971d4
+      internalID: -2001367286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 167
+        width: 110
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279353b6ae4387545988aa885206a165
+      internalID: -1012051948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 167
+        width: 109
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2555ceb67528c7a4aa0ccc3d3a374182
+      internalID: -1856269580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 167
+        width: 110
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57207ed5e1eeb44dbd7a467259468fb
+      internalID: -1741941536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 167
+        width: 110
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4841ea6861ec82740a728e043fed9b4a
+      internalID: -1078230495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 84
+        width: 110
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c19104dd64e6d24bbc13390fe22fbbb
+      internalID: -470603937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 83
+        width: 110
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0731deacea96dd34bacd254fd9060628
+      internalID: -556534700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 79
+        width: 110
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263edfc72479dbf40aff53a08f6ede41
+      internalID: 1988292448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 75
+        width: 110
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ee9eb0fa31bc343b446043477ac7d4
+      internalID: 960471314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 124
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e842a022f0878c479b4cf63007db9ca
+      internalID: -1647839814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 0
+        width: 99
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe22a400cd836242ab47bed1b34496c
+      internalID: 1237271173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 0
+        width: 93
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c2ddbfb638ef74287f5c0dc55dbec8
+      internalID: -1295755899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 0
+        width: 95
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51a44be19179544c95e57416b64d7f2
+      internalID: -1380413896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 0
+        width: 148
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0687cb5bca801a440a1366b9ab08ae24
+      internalID: 624875766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 0
+        width: 144
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e03921fc8085e240b929fde25f17802
+      internalID: 553025891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 0
+        width: 163
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db71a771e495834e98b5177ffbf3337
+      internalID: -179028000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 0
+        width: 141
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a648d091066aa64daf7be7e29238a9d
+      internalID: 1281843256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Elder Dragon Yellow Sprite Sheet_14: 230944383
+      Elder Dragon Yellow Sprite Sheet_61: 1403139518
+      Elder Dragon Yellow Sprite Sheet_24: -385500030
+      Elder Dragon Yellow Sprite Sheet_43: 641766912
+      Elder Dragon Yellow Sprite Sheet_13: 1731723086
+      Elder Dragon Yellow Sprite Sheet_52: -1012051948
+      Elder Dragon Yellow Sprite Sheet_16: 1563985123
+      Elder Dragon Yellow Sprite Sheet_47: 1366651813
+      Elder Dragon Yellow Sprite Sheet_41: -1363529139
+      Elder Dragon Yellow Sprite Sheet_72: 1281843256
+      Elder Dragon Yellow Sprite Sheet_65: -1380413896
+      Elder Dragon Yellow Sprite Sheet_10: -785122424
+      Elder Dragon Yellow Sprite Sheet_58: -556534700
+      Elder Dragon Yellow Sprite Sheet_26: 824332949
+      Elder Dragon Yellow Sprite Sheet_62: -1647839814
+      Elder Dragon Yellow Sprite Sheet_63: 1237271173
+      Elder Dragon Yellow Sprite Sheet_69: 553025891
+      Elder Dragon Yellow Sprite Sheet_27: 344995800
+      Elder Dragon Yellow Sprite Sheet_42: -1483574049
+      Elder Dragon Yellow Sprite Sheet_55: -1078230495
+      Elder Dragon Yellow Sprite Sheet_71: -1059693316
+      Elder Dragon Yellow Sprite Sheet_35: -1441317942
+      Elder Dragon Yellow Sprite Sheet_48: 923894816
+      Elder Dragon Yellow Sprite Sheet_5: 195734291
+      Elder Dragon Yellow Sprite Sheet_53: -1856269580
+      Elder Dragon Yellow Sprite Sheet_39: 1683051418
+      Elder Dragon Yellow Sprite Sheet_45: -83560059
+      Elder Dragon Yellow Sprite Sheet_54: -1741941536
+      Elder Dragon Yellow Sprite Sheet_28: 1770209330
+      Elder Dragon Yellow Sprite Sheet_30: -450507700
+      Elder Dragon Yellow Sprite Sheet_32: 1244651989
+      Elder Dragon Yellow Sprite Sheet_59: 1988292448
+      Elder Dragon Yellow Sprite Sheet_44: -1619581311
+      Elder Dragon Yellow Sprite Sheet_70: -179028000
+      Elder Dragon Yellow Sprite Sheet_38: 525854451
+      Elder Dragon Yellow Sprite Sheet_51: -2001367286
+      Elder Dragon Yellow Sprite Sheet_0: -232386036
+      Elder Dragon Yellow Sprite Sheet_17: -747701534
+      Elder Dragon Yellow Sprite Sheet_31: -168649545
+      Elder Dragon Yellow Sprite Sheet_15: -1985685695
+      Elder Dragon Yellow Sprite Sheet_4: 1139281113
+      Elder Dragon Yellow Sprite Sheet_49: -1128182668
+      Elder Dragon Yellow Sprite Sheet_56: -733511297
+      Elder Dragon Yellow Sprite Sheet_18: -559373747
+      Elder Dragon Yellow Sprite Sheet_37: 1077910538
+      Elder Dragon Yellow Sprite Sheet_12: 1234379177
+      Elder Dragon Yellow Sprite Sheet_7: 1223845943
+      Elder Dragon Yellow Sprite Sheet_34: -655761724
+      Elder Dragon Yellow Sprite Sheet_19: 1557794197
+      Elder Dragon Yellow Sprite Sheet_8: 963854499
+      Elder Dragon Yellow Sprite Sheet_20: -975258420
+      Elder Dragon Yellow Sprite Sheet_1: 472861625
+      Elder Dragon Yellow Sprite Sheet_6: 719672682
+      Elder Dragon Yellow Sprite Sheet_33: 1491981247
+      Elder Dragon Yellow Sprite Sheet_68: 525524608
+      Elder Dragon Yellow Sprite Sheet_11: -1289819036
+      Elder Dragon Yellow Sprite Sheet_66: 624875766
+      Elder Dragon Yellow Sprite Sheet_57: -470603937
+      Elder Dragon Yellow Sprite Sheet_21: 14543664
+      Elder Dragon Yellow Sprite Sheet_2: 1376313304
+      Elder Dragon Yellow Sprite Sheet_67: 1422414238
+      Elder Dragon Yellow Sprite Sheet_46: 955500635
+      Elder Dragon Yellow Sprite Sheet_29: -1186204298
+      Elder Dragon Yellow Sprite Sheet_3: -1743656166
+      Elder Dragon Yellow Sprite Sheet_25: -1709236320
+      Elder Dragon Yellow Sprite Sheet_64: -1295755899
+      Elder Dragon Yellow Sprite Sheet_23: -1968680831
+      Elder Dragon Yellow Sprite Sheet_40: -1590410864
+      Elder Dragon Yellow Sprite Sheet_9: -1013013355
+      Elder Dragon Yellow Sprite Sheet_36: -1725042355
+      Elder Dragon Yellow Sprite Sheet_60: 960471314
+      Elder Dragon Yellow Sprite Sheet_50: 710250972
+      Elder Dragon Yellow Sprite Sheet_22: -493067288
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

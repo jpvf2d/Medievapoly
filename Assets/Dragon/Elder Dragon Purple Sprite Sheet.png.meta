@@ -1,0 +1,1461 @@
+fileFormatVersion: 2
+guid: 1e0a2c1e0bda27841904966312a684c7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 663
+        width: 132
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5485eb36e2ae5f849ac60a405c5c2088
+      internalID: 1571146247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 660
+        width: 132
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea566f3f59eb1243b12c0d0a3a851ab
+      internalID: -1201689030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 660
+        width: 131
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f70f086efb24a4ca820c0d14d0a4f1
+      internalID: -1209502497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 660
+        width: 132
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3081fb583c9e464ca3a80d164f42a60
+      internalID: -583568755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 660
+        width: 132
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7941034c21047f4fb5f1b523e76419d
+      internalID: -1667043450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 660
+        width: 132
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e095baf6174c54fbda0a56af79cfe3
+      internalID: -1132609306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 664
+        width: 132
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05579ed14f49785459ab2df77b004685
+      internalID: 237210938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 577
+        width: 124
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906a015582277324fa5ca3becd792dac
+      internalID: 1743114178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 660
+        width: 110
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f62374bc05f1934b8042155ae9aaaec
+      internalID: -1619966100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 568
+        width: 176
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870e0702a213a9845b9d80f85f081625
+      internalID: 375407174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 576
+        width: 147
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78935b9730d476f48a5f87deba08f83d
+      internalID: 1921698875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 568
+        width: 123
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361e02d700d4f62469761d7763c6f3c0
+      internalID: -735660833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 578
+        width: 120
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a75b044e3eea2542abc80d73bcad13e
+      internalID: -395866265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 576
+        width: 140
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8577de30f1f7740995b12574aa425e
+      internalID: 1126069337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 576
+        width: 116
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150dd2c764a7d584ebbaf357de20b40a
+      internalID: 1270982336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 590
+        width: 116
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea5eb8d0972ac74ea0c6def42142149
+      internalID: 2084295187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 471
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51aff2b39e2fea04fbc976d2e7c9be9a
+      internalID: -2077848443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 468
+        width: 110
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda7878f1f3e2364fad797a31292474f
+      internalID: -777687755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 468
+        width: 110
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a90936877372664db88f4ef6a36417a
+      internalID: -656645168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 468
+        width: 123
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e1c308831f3f047a928063dd0d9e59
+      internalID: -2129192978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 468
+        width: 110
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e4729b1cc395c41950a4a84f921e57
+      internalID: -1911550904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 467
+        width: 122
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffee209f6d24b3d49867c65a34f9baea
+      internalID: 1229311499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 467
+        width: 133
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0007580143132c46a83c6b8efd107cc
+      internalID: 506650807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 477
+        width: 132
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b898725b49a2844aab9b3776784f3f
+      internalID: 1492172931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 375
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d811448f02101a142b099831ed958400
+      internalID: -1174202555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 372
+        width: 120
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3925c89a5d0d74845a2683345c415209
+      internalID: -605820970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 372
+        width: 120
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956906a3c819b1543a91f575624e26b2
+      internalID: 1609928696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 372
+        width: 110
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7b0086ee9d9174d8357e4247121b07
+      internalID: -1645561207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 372
+        width: 110
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dfa9a9dd3d4b7a4bafbbd03db686e47
+      internalID: 657615933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 372
+        width: 110
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a9d33516a117343ac55b6bc9e2a546
+      internalID: 1473773582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 372
+        width: 132
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5d0d8066ec71048a22404e0f19ba84
+      internalID: -127960743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 372
+        width: 110
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842018bff0632154b9f6256251e0252d
+      internalID: -524605195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 279
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927a7e8f96f8e1c40acbfabf727d2231
+      internalID: -1202986661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 276
+        width: 110
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e763759736177724481db51472421949
+      internalID: 1762737446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 276
+        width: 110
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd5178ad784cbd4e9dd00becaf825cd
+      internalID: 2134201384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 276
+        width: 110
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d9e0ea5fcfe674bba970a1eb5c7891
+      internalID: -268292094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 276
+        width: 110
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4361b4dd5fdf049a60faf749bd9011
+      internalID: -813400483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 276
+        width: 110
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39096c8dec4839b4f86f66c92ce607e0
+      internalID: 87217440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 276
+        width: 110
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc994e6bce65134e88d02b3c41e208a
+      internalID: -692848591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 276
+        width: 110
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44acd29401e9fbe42bd904270427dff3
+      internalID: -1009718226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 87
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75ea4fa438f0444bbdadf673a0bd19d
+      internalID: -1236467453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 183
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402220a582f74f14984ef7971cdb3060
+      internalID: 1447127264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 80
+        width: 120
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f06a377ae2ff6d4381c0437523e2032
+      internalID: 1519990181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 180
+        width: 110
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290fbea4a22acc94c8fa22fc41404893
+      internalID: -1367143352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 89
+        width: 117
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e893ed8a7baa0224cabdbb9a83d1b720
+      internalID: 1865869461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 180
+        width: 120
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d90caa8137fce4f9824fdedf5c1b07
+      internalID: 317518797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 90
+        width: 122
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77e4b137706d2e4cb29fa99027f405b
+      internalID: -575159993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 180
+        width: 110
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592b8a4c0b1005d4c8b9dec050df980d
+      internalID: -1213611992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 164
+        width: 110
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550be249b392ed742aceb8c14feb3501
+      internalID: -1650946636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 164
+        width: 120
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df02cd31316f3d40a71b1d80c43aa1e
+      internalID: -209550925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 164
+        width: 120
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e367df8b1b3aedd47a11ba4f54af57ad
+      internalID: 816970073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 164
+        width: 110
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802b60d865c9d054e9c55e79a1f5d23f
+      internalID: -1210049470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 124
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c7309021e872f4f8221b07213405f5
+      internalID: 1416086903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 128
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e0fe2098fe1bd41af5f06b3c619429
+      internalID: -1518670523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 128
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02809a85a88b244686612cf421be8e6
+      internalID: 368415523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 136
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522e30f14229bfc4590b1ad14450d750
+      internalID: -1360271168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 0
+        width: 152
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa87c0af0d82e446b708da61d2f41a7
+      internalID: 1410207829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 0
+        width: 194
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa82e2118a8c7d40ade22c0130e9a5f
+      internalID: -369848867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 0
+        width: 162
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489ebd734ea87974ea32ef652e788e02
+      internalID: 293177668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 0
+        width: 141
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7468d046451c408408d8cf114e8ebc4f
+      internalID: -1321131453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Elder Dragon Purple Sprite Sheet_56: 816970073
+      Elder Dragon Purple Sprite Sheet_8: -1619966100
+      Elder Dragon Purple Sprite Sheet_39: 1762737446
+      Elder Dragon Purple Sprite Sheet_34: 657615933
+      Elder Dragon Purple Sprite Sheet_26: -2120868405
+      Elder Dragon Purple Sprite Sheet_38: -1202986661
+      Elder Dragon Purple Sprite Sheet_51: 317518797
+      Elder Dragon Purple Sprite Sheet_25: -1302050002
+      Elder Dragon Purple Sprite Sheet_49: -1367143352
+      Elder Dragon Purple Sprite Sheet_52: -575159993
+      Elder Dragon Purple Sprite Sheet_35: 1473773582
+      Elder Dragon Purple Sprite Sheet_55: -209550925
+      Elder Dragon Purple Sprite Sheet_28: -1871087806
+      Elder Dragon Purple Sprite Sheet_50: 1865869461
+      Elder Dragon Purple Sprite Sheet_22: 506650807
+      Elder Dragon Purple Sprite Sheet_4: -1667043450
+      Elder Dragon Purple Sprite Sheet_59: -1518670523
+      Elder Dragon Purple Sprite Sheet_24: 1492172931
+      Elder Dragon Purple Sprite Sheet_64: 293177668
+      Elder Dragon Purple Sprite Sheet_9: 375407174
+      Elder Dragon Purple Sprite Sheet_18: -656645168
+      Elder Dragon Purple Sprite Sheet_53: -1213611992
+      Elder Dragon Purple Sprite Sheet_29: -432933915
+      Elder Dragon Purple Sprite Sheet_27: 1304340874
+      Elder Dragon Purple Sprite Sheet_33: -1645561207
+      Elder Dragon Purple Sprite Sheet_54: -1650946636
+      Elder Dragon Purple Sprite Sheet_20: -1911550904
+      Elder Dragon Purple Sprite Sheet_65: -1321131453
+      Elder Dragon Purple Sprite Sheet_15: 2084295187
+      Elder Dragon Purple Sprite Sheet_36: -127960743
+      Elder Dragon Purple Sprite Sheet_43: 87217440
+      Elder Dragon Purple Sprite Sheet_60: 368415523
+      Elder Dragon Purple Sprite Sheet_2: -1209502497
+      Elder Dragon Purple Sprite Sheet_45: -1009718226
+      Elder Dragon Purple Sprite Sheet_42: -813400483
+      Elder Dragon Purple Sprite Sheet_61: -1360271168
+      Elder Dragon Purple Sprite Sheet_7: 1743114178
+      Elder Dragon Purple Sprite Sheet_37: -524605195
+      Elder Dragon Purple Sprite Sheet_30: -1174202555
+      Elder Dragon Purple Sprite Sheet_16: -2077848443
+      Elder Dragon Purple Sprite Sheet_14: 1270982336
+      Elder Dragon Purple Sprite Sheet_12: -395866265
+      Elder Dragon Purple Sprite Sheet_10: 1921698875
+      Elder Dragon Purple Sprite Sheet_31: -605820970
+      Elder Dragon Purple Sprite Sheet_1: -1201689030
+      Elder Dragon Purple Sprite Sheet_19: -2129192978
+      Elder Dragon Purple Sprite Sheet_40: 2134201384
+      Elder Dragon Purple Sprite Sheet_13: 1126069337
+      Elder Dragon Purple Sprite Sheet_5: -1132609306
+      Elder Dragon Purple Sprite Sheet_0: 1571146247
+      Elder Dragon Purple Sprite Sheet_23: -882456419
+      Elder Dragon Purple Sprite Sheet_57: -1210049470
+      Elder Dragon Purple Sprite Sheet_44: -692848591
+      Elder Dragon Purple Sprite Sheet_62: 1410207829
+      Elder Dragon Purple Sprite Sheet_3: -583568755
+      Elder Dragon Purple Sprite Sheet_11: -735660833
+      Elder Dragon Purple Sprite Sheet_17: -777687755
+      Elder Dragon Purple Sprite Sheet_46: -1236467453
+      Elder Dragon Purple Sprite Sheet_6: 237210938
+      Elder Dragon Purple Sprite Sheet_63: -369848867
+      Elder Dragon Purple Sprite Sheet_32: 1609928696
+      Elder Dragon Purple Sprite Sheet_41: -268292094
+      Elder Dragon Purple Sprite Sheet_21: 1229311499
+      Elder Dragon Purple Sprite Sheet_58: 1416086903
+      Elder Dragon Purple Sprite Sheet_47: 1447127264
+      Elder Dragon Purple Sprite Sheet_48: 1519990181
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

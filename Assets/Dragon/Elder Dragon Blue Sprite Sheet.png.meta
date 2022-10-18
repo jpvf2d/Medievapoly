@@ -1,0 +1,1461 @@
+fileFormatVersion: 2
+guid: bd349ab0e036177409bc8df93501a1e5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 663
+        width: 118
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48aca9ada9e2d2047a5b5d7812c3533f
+      internalID: -1455774820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 663
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b2f67a44fb4e54db10300883c4de95
+      internalID: -605719911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 663
+        width: 109
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79782999dfbf9af4d94b36b4dcd0644b
+      internalID: -506698454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 663
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39fe275e9f73bd74eada9ff4e534796d
+      internalID: 273783654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 663
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4d2d4b63fcc314bb151b13741c5719
+      internalID: 884480713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 663
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e079dd8cd77b46c4a8ff592ed0f5298a
+      internalID: -389774836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 667
+        width: 109
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6140012013e1746a931b80217bf2b3
+      internalID: -1874859592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 580
+        width: 135
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033dd4a27f7ad8d4fa288f850eac74e2
+      internalID: 266066308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 663
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11806a8c80f71d148b9a52c06ef00ecf
+      internalID: 1438653491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 573
+        width: 145
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c9407dce4f73f4f908751af1e78957
+      internalID: -992830527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 576
+        width: 124
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffdfcf287b1d48478efb28bb8cc1764
+      internalID: -1671584408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 568
+        width: 123
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc7ce395e6288d4d80e4d1a086da45e
+      internalID: 1158553654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 578
+        width: 120
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224ec3a3290d9a845ae9400748b07287
+      internalID: 507961293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 576
+        width: 116
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b725bf13ce8af8a46822b5ccbec8126a
+      internalID: 318523670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 576
+        width: 116
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9e3b1b5f308974687645078f31ae7a
+      internalID: -2002223567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 590
+        width: 116
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2b3d2ead437584ca8e3ae56a728845
+      internalID: -1717370762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 471
+        width: 118
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03cfcb4aca49fe947ad7ae7302dbf96e
+      internalID: 1739652271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 471
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9dd9d32f9e6c841b8a17acd97e6557
+      internalID: 672575896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 471
+        width: 109
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3a12d38c422f347a1fbe00946e4d27
+      internalID: -747283768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 471
+        width: 123
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdead4b40a7a35045876a4356a2d1941
+      internalID: 36472291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 471
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f82660c0bb48b543ae99505d9ee99ea
+      internalID: -748897371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 467
+        width: 153
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71bace4b36b82c04da3469d38f42395d
+      internalID: -1910488391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 466
+        width: 129
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9cb1d3b37306245a3a8f825bfb8aa9
+      internalID: 361585008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 471
+        width: 131
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261087dc4c11c0845a5472e7b763ae92
+      internalID: 48150876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 375
+        width: 118
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549e890819d19ed489998ce8f571cf94
+      internalID: 1764873335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 375
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e5ef0f2dc2dfb42bd66e456ac5859a
+      internalID: 1909672145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 375
+        width: 109
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e042bd9b3b101ac449a16dc0deb9e534
+      internalID: 1430277948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 375
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09d77ba2217872499602f1d1170876d
+      internalID: -1493872152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 375
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77f98c8aca63074a8b61c2f8506cb7c
+      internalID: -672245582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 375
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a2b8d764220fc4a8109ac6adea0d0b
+      internalID: 1599590400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 375
+        width: 109
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9bba54f186250b4ab89775c1b1f1c2b
+      internalID: 588699942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 375
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b4f777a25a75e4f82df406869aab29
+      internalID: 196900663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 279
+        width: 118
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535a8c9a444316044b84d64f60257f1a
+      internalID: -840008825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 279
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd04d567add01d40825138f0f93f05a
+      internalID: -1587154699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 279
+        width: 109
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d311c3bb4bbc03a42941c00ae1fc1bd7
+      internalID: -397822719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 279
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5220f0524042b4db89a001488a249f
+      internalID: 1141594163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 279
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f784b8dc468356e4383f218ea04d3ffe
+      internalID: -1216255614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 279
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32f8bc061c36414eb5fa73eb3e14a76
+      internalID: 1253822489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 279
+        width: 109
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7341e926c1dd2469892035dbe66348
+      internalID: -1005983690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 279
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac4cf17bddc58a4c9cf06bc9812418f
+      internalID: -58386401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 87
+        width: 118
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd89913d8a7777e4e8c1a00daf8390f9
+      internalID: 1393312519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 183
+        width: 118
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258f5f46fd62bae429c71b612a94bc71
+      internalID: -582581211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 83
+        width: 110
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9fe6d785f39c043b10997e82efd6d6
+      internalID: 1079724119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 183
+        width: 109
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e58bbf6926cb749b6d872fde80bd4a
+      internalID: 1815850154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 79
+        width: 110
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a660797ac4d124880362d441204b32
+      internalID: 1820841156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 183
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfecc2d7af5012468e25055ceb2c1f8
+      internalID: 388007917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 75
+        width: 110
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172628a7fe69a724bafb6b16584e99ad
+      internalID: 1952708616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 183
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e81dfc1d230c34996b843e627db0a8
+      internalID: 427866693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 167
+        width: 110
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf88b9c83eb936499ad4eab2ea5f628
+      internalID: 719564027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 167
+        width: 109
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc52364197c681458af75f279016542
+      internalID: 271255518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 167
+        width: 110
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6989edc0159545f4593196f04e471c51
+      internalID: -1066455686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 167
+        width: 110
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73101e9dff9a5894eb2cca8a998067a8
+      internalID: -1890497973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 132
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb024e4eb1460fc458a4a8bf36f5c893
+      internalID: 488496527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 106
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760ce104e7a844443a1ab43ea8255e35
+      internalID: 1160718640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 128
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2ee7dbd321e9c4d9ff8f3636143c55
+      internalID: 1577500354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 118
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910d9fe66fe8dd44882eda3fe6f2a1cb
+      internalID: -2107877123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 0
+        width: 148
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64873fd7a1753b4c88d1b937e823c10
+      internalID: -763086017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 0
+        width: 144
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97fa7bc42cea38419e57fe6f17875c7
+      internalID: -206521715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 0
+        width: 194
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e833634efb83df4a8d543ae4920c029
+      internalID: 687705233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Blue Sprite Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 0
+        width: 141
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e751018639bd464882376789bbfc18c
+      internalID: -177907971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Elder Dragon Blue Sprite Sheet_61: -554868604
+      Elder Dragon Blue Sprite Sheet_12: 507961293
+      Elder Dragon Blue Sprite Sheet_11: 1158553654
+      Elder Dragon Blue Sprite Sheet_20: -748897371
+      Elder Dragon Blue Sprite Sheet_50: 1952708616
+      Elder Dragon Blue Sprite Sheet_30: -1493872152
+      Elder Dragon Blue Sprite Sheet_53: 271255518
+      Elder Dragon Blue Sprite Sheet_10: -1671584408
+      Elder Dragon Blue Sprite Sheet_58: 187883770
+      Elder Dragon Blue Sprite Sheet_1: -605719911
+      Elder Dragon Blue Sprite Sheet_27: 1764873335
+      Elder Dragon Blue Sprite Sheet_47: 1815850154
+      Elder Dragon Blue Sprite Sheet_63: -206521715
+      Elder Dragon Blue Sprite Sheet_8: 1438653491
+      Elder Dragon Blue Sprite Sheet_38: -397822719
+      Elder Dragon Blue Sprite Sheet_62: -763086017
+      Elder Dragon Blue Sprite Sheet_32: 1599590400
+      Elder Dragon Blue Sprite Sheet_57: 1160718640
+      Elder Dragon Blue Sprite Sheet_16: 1739652271
+      Elder Dragon Blue Sprite Sheet_42: -1005983690
+      Elder Dragon Blue Sprite Sheet_22: 361585008
+      Elder Dragon Blue Sprite Sheet_44: 1393312519
+      Elder Dragon Blue Sprite Sheet_51: 427866693
+      Elder Dragon Blue Sprite Sheet_21: -1910488391
+      Elder Dragon Blue Sprite Sheet_23: 1585557962
+      Elder Dragon Blue Sprite Sheet_4: 884480713
+      Elder Dragon Blue Sprite Sheet_34: 196900663
+      Elder Dragon Blue Sprite Sheet_24: 48150876
+      Elder Dragon Blue Sprite Sheet_17: 672575896
+      Elder Dragon Blue Sprite Sheet_36: -840008825
+      Elder Dragon Blue Sprite Sheet_31: -672245582
+      Elder Dragon Blue Sprite Sheet_54: -1066455686
+      Elder Dragon Blue Sprite Sheet_7: 266066308
+      Elder Dragon Blue Sprite Sheet_9: -992830527
+      Elder Dragon Blue Sprite Sheet_49: 388007917
+      Elder Dragon Blue Sprite Sheet_64: 687705233
+      Elder Dragon Blue Sprite Sheet_18: -747283768
+      Elder Dragon Blue Sprite Sheet_59: 1577500354
+      Elder Dragon Blue Sprite Sheet_2: -506698454
+      Elder Dragon Blue Sprite Sheet_28: 1909672145
+      Elder Dragon Blue Sprite Sheet_39: 1141594163
+      Elder Dragon Blue Sprite Sheet_45: -582581211
+      Elder Dragon Blue Sprite Sheet_13: 318523670
+      Elder Dragon Blue Sprite Sheet_52: 719564027
+      Elder Dragon Blue Sprite Sheet_33: 588699942
+      Elder Dragon Blue Sprite Sheet_3: 273783654
+      Elder Dragon Blue Sprite Sheet_0: -1455774820
+      Elder Dragon Blue Sprite Sheet_26: -1493266666
+      Elder Dragon Blue Sprite Sheet_29: 1430277948
+      Elder Dragon Blue Sprite Sheet_35: -733416583
+      Elder Dragon Blue Sprite Sheet_46: 1079724119
+      Elder Dragon Blue Sprite Sheet_37: -1587154699
+      Elder Dragon Blue Sprite Sheet_40: -1216255614
+      Elder Dragon Blue Sprite Sheet_55: -1890497973
+      Elder Dragon Blue Sprite Sheet_65: -177907971
+      Elder Dragon Blue Sprite Sheet_19: 36472291
+      Elder Dragon Blue Sprite Sheet_6: -1874859592
+      Elder Dragon Blue Sprite Sheet_25: -543730092
+      Elder Dragon Blue Sprite Sheet_14: -2002223567
+      Elder Dragon Blue Sprite Sheet_43: -58386401
+      Elder Dragon Blue Sprite Sheet_56: 488496527
+      Elder Dragon Blue Sprite Sheet_48: 1820841156
+      Elder Dragon Blue Sprite Sheet_5: -389774836
+      Elder Dragon Blue Sprite Sheet_15: -1717370762
+      Elder Dragon Blue Sprite Sheet_60: -2107877123
+      Elder Dragon Blue Sprite Sheet_41: 1253822489
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

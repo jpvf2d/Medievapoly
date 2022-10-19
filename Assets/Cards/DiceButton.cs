@@ -37,10 +37,22 @@ public class DiceButton : MonoBehaviour
 			yield return new WaitForSeconds(0.05f);
 		}
 		
-		GameplaySystem.diceSideThrown = Dice1.DiceNum + Dice2.DiceNum + 2;
+		if(GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().stuckInPlace == true)
+		{
+			JailSpace.waitInJail = true; 
+			Debug.Log("Player: " + GameplaySystem.turn + " is stuck in jail");
+
+			//TODO: Roll doubles allows player to leave jail 
+		}
+
+		else
+		{
+			GameplaySystem.diceSideThrown = Dice1.DiceNum + Dice2.DiceNum + 2;
        		GameplaySystem.MovePlayer();
+		} 
+
 		Dice1.db_coroutine = false; 
-		Dice2.db_coroutine = false; 
+		Dice2.db_coroutine = false;
 		coroutine = true;
 	}
 

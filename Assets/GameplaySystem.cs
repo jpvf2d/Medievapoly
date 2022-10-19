@@ -49,9 +49,11 @@ public class GameplaySystem : MonoBehaviour
         
     }
 
-    //public static void MovePlayer()
     public static void MovePlayer()
     {
+        if(players[turn].GetComponent<Player>().boardSpaceIndex + diceSideThrown > 40)
+            GoSpace.passedGo = true; 
+
         players[turn].GetComponent<Player>().boardSpaceIndex = (players[turn].GetComponent<Player>().boardSpaceIndex + diceSideThrown) % 40;
         players[turn].GetComponent<Player>().move = true;
 		playerIndex = players[turn].GetComponent<Player>().boardSpaceIndex;

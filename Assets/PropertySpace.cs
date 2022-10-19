@@ -6,12 +6,10 @@ using UnityEngine.SceneManagement;
 public class PropertySpace : BoardSpace
 {
 	public int index;
-	public static bool runCoroutine = false;
-	public float purchaseCost;
-	public bool owned = false;
+	[HideInInspector] public bool owned = false;
 	//public float[] rentCosts; //Base rent, w/houses (1,2,3,4), and w/hotel
-	public int indexOfOwner;
-
+	[HideInInspector] public int indexOfOwner;
+	
 	//****TEMPORARY VARIABLES (TMP_*): Delete when Card class is being used ****
 	public float TMP_rent = 0; 
 	public float TMP_purchaseCost = 0;
@@ -77,7 +75,6 @@ public class PropertySpace : BoardSpace
 
 					SpaceLogic.continue_sl = true; 
 			}
-			runCoroutine = false; 
 	}
 	
     public override void stuck()

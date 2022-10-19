@@ -16,15 +16,16 @@ public class SpaceLogic : MonoBehaviour
         //Start "interactWithSpace" coroutine if player has finished moving 
         if(coroutine_sl) 
         {
-            StartCoroutine("interactWithSpace", GameplaySystem.playerIndex);
-        }   coroutine_sl = false; 
+            coroutine_sl = false; 
+            int spaceIndex = GameplaySystem.playerIndex;
+            allBoardSpaces[spaceIndex].land();
+            StartCoroutine("interactWithSpace", spaceIndex);
+        }   
 
     }
 
     private IEnumerator interactWithSpace(int spaceIndex)
     {
-        allBoardSpaces[spaceIndex].land();
-
         //Wait for ".land()" to finish 
         while(!continue_sl)
         {
@@ -48,6 +49,5 @@ public class SpaceLogic : MonoBehaviour
 
         // Last thing to occur in order to continue gameplay (turns)
         cont_changeTurns = true; 
-
     }
 }

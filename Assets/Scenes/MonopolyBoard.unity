@@ -1099,7 +1099,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 5
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -1598,9 +1597,11 @@ MonoBehaviour:
   moveSpeed: 18
   boardSpaceIndex: 0
   move: 0
+  stuckInPlace: 0
   money: 0
   property: 
   name: 
+  playersIndex: 0
 --- !u!61 &123120746
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2050,7 +2051,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 35
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -2153,7 +2153,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 14
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -2759,15 +2758,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 239630542}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1f3ec20df519dc41b2f31bbc27ea929, type: 3}
+  m_Script: {fileID: 11500000, guid: e69a208f06e7a07459f8b8042f4f25b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   index: 10
-  purchaseCost: 0
-  owned: 0
-  indexOfOwner: 0
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!1 &244522456
 GameObject:
   m_ObjectHideFlags: 0
@@ -2866,7 +2860,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 1
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -3203,7 +3196,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 2
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -3474,7 +3466,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 12
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -3775,7 +3766,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 23
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -3962,7 +3952,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 9
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -4416,7 +4405,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 21
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -4519,7 +4507,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 15
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -5892,7 +5879,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 25
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -5995,7 +5981,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 36
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -6220,7 +6205,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 32
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -8989,7 +8973,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 17
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -9689,7 +9672,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 24
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -11112,15 +11094,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1191333361}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1f3ec20df519dc41b2f31bbc27ea929, type: 3}
+  m_Script: {fileID: 11500000, guid: e3dff710f5ad8744f84623f4cfe73f02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   index: 0
-  purchaseCost: 0
-  owned: 0
-  indexOfOwner: 0
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!1 &1192089958
 GameObject:
   m_ObjectHideFlags: 0
@@ -11684,7 +11661,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 34
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -11886,7 +11862,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 16
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -12578,15 +12553,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1299839016}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1f3ec20df519dc41b2f31bbc27ea929, type: 3}
+  m_Script: {fileID: 11500000, guid: 0b412b075d7d0334f91c14edb3eb34ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   index: 30
-  purchaseCost: 0
-  owned: 0
-  indexOfOwner: 0
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!1 &1306886894
 GameObject:
   m_ObjectHideFlags: 0
@@ -12749,9 +12719,11 @@ MonoBehaviour:
   moveSpeed: 18
   boardSpaceIndex: 0
   move: 0
+  stuckInPlace: 0
   money: 0
   property: 
   name: 
+  playersIndex: 0
 --- !u!1 &1314204216
 GameObject:
   m_ObjectHideFlags: 0
@@ -12850,7 +12822,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 3
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -13304,7 +13275,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 38
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -13597,7 +13567,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 19
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -14180,7 +14149,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 20
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -14380,7 +14348,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 37
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -14582,7 +14549,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 4
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -15501,7 +15467,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 13
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -16357,7 +16322,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 21
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -17736,7 +17700,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 11
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -18106,7 +18069,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 39
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -18433,7 +18395,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 18
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -19001,7 +18962,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 33
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -20324,7 +20284,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 6
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -21021,7 +20980,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 28
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -21292,7 +21250,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 7
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -21479,7 +21436,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 8
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -21666,7 +21622,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 26
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -22041,7 +21996,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 27
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -22243,7 +22197,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 22
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0
@@ -22434,7 +22387,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 29
-  purchaseCost: 0
   owned: 0
   indexOfOwner: 0
   TMP_rent: 0

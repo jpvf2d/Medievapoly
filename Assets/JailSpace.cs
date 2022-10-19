@@ -28,7 +28,7 @@ public class JailSpace : BoardSpace
 
     public override void land()
     {
-        Debug.Log("Do nothing, land:JailSpace");
+        StartCoroutine(ActionTextScript.display("Visting jail..."));
         SpaceLogic.continue_sl = true;  
     }
 

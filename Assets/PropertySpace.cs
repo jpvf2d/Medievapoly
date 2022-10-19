@@ -44,7 +44,6 @@ public class PropertySpace : BoardSpace
 	{
 			if(!owned)
 			{
-				Debug.Log("Offer player ability to purchase");
 				DisplayCard.coroutine = true;
 				GameplaySystem.PurchasePropertyMenu.SetActive(true);
 			}
@@ -55,7 +54,7 @@ public class PropertySpace : BoardSpace
 					if(GameplaySystem.turn != indexOfOwner)
 					{
 						//TODO: Display graphic saying how much playerX paid playerY
-						Debug.Log("Player "+ GameplaySystem.turn + "paid Player " + indexOfOwner);
+						StartCoroutine(ActionTextScript.display("Player "+ GameplaySystem.turn + " paid Player " + indexOfOwner + " $" + TMP_rent));
 						GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money -= TMP_rent;
 						GameplaySystem.players[indexOfOwner].GetComponent<Player>().money += TMP_rent;
 
@@ -69,7 +68,7 @@ public class PropertySpace : BoardSpace
 					else
 					{
 						//TODO: Display graphic saying player owns property
-						Debug.Log("Player owns this property");
+						StartCoroutine(ActionTextScript.display("Player "+ GameplaySystem.turn + " owns this property"));
 					}
 				
 

@@ -16,7 +16,7 @@ public class GoToJailSpace : BoardSpace
 
     public override void land()
     {
-        Debug.Log("Player is going to jail!");
+        StartCoroutine(ActionTextScript.display("Player: " + GameplaySystem.turn + " is going to jail!"));
         pIdx = GameplaySystem.turn; //player index (for JailSpace.playersInJail array)
         
         sentToJail = true; // Use in Player.Move to determine if player should interact with space

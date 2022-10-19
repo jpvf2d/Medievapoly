@@ -20,19 +20,19 @@ public class GoSpace : BoardSpace
     public override void passing()
     {
         GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money += 200;
+        StartCoroutine(ActionTextScript.display("Passing go (+$200)"));
     }
 
     public override void land()
     {
         GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money += 200;
         SpaceLogic.continue_sl = true;
+        StartCoroutine(ActionTextScript.display("Landed on go (+$200)"));
     }
 
     public override void stuck()
     {
         Debug.Log("Do nothing, stuck:GoSpace");
     }
-
-
 
 }

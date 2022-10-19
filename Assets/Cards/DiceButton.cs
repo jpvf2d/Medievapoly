@@ -40,8 +40,7 @@ public class DiceButton : MonoBehaviour
 		if(GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().stuckInPlace == true)
 		{
 			JailSpace.waitInJail = true; 
-			Debug.Log("Player: " + GameplaySystem.turn + " is stuck in jail");
-
+			StartCoroutine(ActionTextScript.display("Player: " + GameplaySystem.turn + " is stuck in jail"));
 			//TODO: Roll doubles allows player to leave jail 
 		}
 

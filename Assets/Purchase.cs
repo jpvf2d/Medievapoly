@@ -19,8 +19,7 @@ public class Purchase : MonoBehaviour
 	}
 	private void PurchaseProp()
 	{
-		Debug.Log("Purchase property");
-
+		StartCoroutine(ActionTextScript.display("Purchased property"));
 		purchasedProp = true; 
 		GameplaySystem.PurchasePropertyMenu.SetActive(false);
 		DisplayCard.stopDisplay = true;
@@ -29,8 +28,7 @@ public class Purchase : MonoBehaviour
 	
 	private void NoPurchase()
 	{
-		Debug.Log("Did not purchase");
-
+		StartCoroutine(ActionTextScript.display("Did not purchase"));
 		purchasedProp = false; 
 		GameplaySystem.PurchasePropertyMenu.SetActive(false);
 		DisplayCard.stopDisplay = true;

@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public Transform[] boardSpaces;
-    [SerializeField] private float moveSpeed = 1f;
+    [SerializeField] public float moveSpeed = 1f;
     [HideInInspector] public int boardSpaceIndex = 0;
     public bool move = false;
     public bool stuckInPlace = false; //Determine if player stuck in jail or not 

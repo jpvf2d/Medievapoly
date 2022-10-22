@@ -47,6 +47,11 @@ public class DiceButton : MonoBehaviour
 		else
 		{
 			GameplaySystem.diceSideThrown = Dice1.DiceNum + Dice2.DiceNum + 2;
+			
+			// TEST VAR: to declare what value the player will move
+			// REMOVE FROM PRODUCTION CODE
+			// GameplaySystem.diceSideThrown = 2;
+
        		GameplaySystem.MovePlayer();
 		} 
 

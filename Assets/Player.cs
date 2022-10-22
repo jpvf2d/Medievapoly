@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
     public List<int> property; //Use list to easily add purchaed properties 
     public string name;
     public int playersIndex; 
+    [HideInInspector] public bool jailFreeCard = false;
 
 
     // Start is called before the first frame update

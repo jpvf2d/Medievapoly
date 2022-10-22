@@ -15,6 +15,8 @@ public class GameplaySystem : MonoBehaviour
     public static GameObject dice1,dice2;
 	public static int playerIndex = 0;
 	public static GameObject PurchasePropertyMenu;
+	public static GameObject ChanceCard;
+	public static GameObject ChestCard;
 	
     public class StaticMB: MonoBehaviour { }
     private static StaticMB mb;
@@ -30,7 +32,11 @@ public class GameplaySystem : MonoBehaviour
         dice1 = GameObject.Find("Dice1");
 		dice2 = GameObject.Find("Dice2");
 		PurchasePropertyMenu = GameObject.Find("PurchasePropertyMenu");
+		ChanceCard = GameObject.Find("ChanceCard");
+		ChestCard = GameObject.Find("ChestCard");
 		PurchasePropertyMenu.SetActive(false);
+		ChanceCard.SetActive(false);
+		ChestCard.SetActive(false);
          if (mb == null)
         {
             GameObject gameObject = new GameObject("MyStatic");

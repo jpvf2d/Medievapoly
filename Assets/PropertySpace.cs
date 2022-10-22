@@ -44,8 +44,16 @@ public class PropertySpace : BoardSpace
 	{
 			if(!owned)
 			{
-				DisplayCard.coroutine = true;
-				GameplaySystem.PurchasePropertyMenu.SetActive(true);
+				if(GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money >= TMP_purchaseCost)
+				{
+					DisplayCard.coroutine = true;
+					GameplaySystem.PurchasePropertyMenu.SetActive(true);
+				}
+				else	
+				{
+					StartCoroutine(ActionTextScript.display("You don't have enough money to purchase this"));
+					SpaceLogic.continue_sl = true; 
+				}
 			}
 			
 			else
@@ -53,11 +61,22 @@ public class PropertySpace : BoardSpace
 
 					if(GameplaySystem.turn != indexOfOwner)
 					{
-						//TODO: Display graphic saying how much playerX paid playerY
-						StartCoroutine(ActionTextScript.display("Player "+ GameplaySystem.turn + " paid Player " + indexOfOwner + " $" + TMP_rent));
-						GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money -= TMP_rent;
-						GameplaySystem.players[indexOfOwner].GetComponent<Player>().money += TMP_rent;
+						if(GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money < TMP_rent)
+						{
+							float lastOfMoney = GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money;
+							GameplaySystem.players[indexOfOwner].GetComponent<Player>().money += lastOfMoney;
+							GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money = 0; 
+							StartCoroutine(ActionTextScript.display("Player "+ GameplaySystem.turn + " paid Player " + indexOfOwner + " $" + lastOfMoney + " and is out of funds!"));
+							//TODO: If player runs out of money, their game ends 
+						
+						}
 
+						else
+						{
+							StartCoroutine(ActionTextScript.display("Player "+ GameplaySystem.turn + " paid Player " + indexOfOwner + " $" + TMP_rent));
+							GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money -= TMP_rent;
+							GameplaySystem.players[indexOfOwner].GetComponent<Player>().money += TMP_rent;
+						}
 						/****
 						//TODO: Each PropertySpace needs a PropertyCard object associated with it to pull purchase cost and rent information 
 					

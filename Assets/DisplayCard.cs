@@ -30,7 +30,6 @@ public class DisplayCard : MonoBehaviour
 			{
 				yield return new WaitForSeconds(.5f);
 			}
-			
 			rend.sprite = null;
 	}
 }

@@ -5,7 +5,7 @@ using UnityEngine;
 public class DiceButton : MonoBehaviour
 {
 	private SpriteRenderer rend;
-	private Sprite[] diceSides;
+	private Sprite diceSprite;
 	public Dice Dice1;
 	public Dice Dice2;
 	private int turn = 1; 
@@ -15,8 +15,8 @@ public class DiceButton : MonoBehaviour
     void Start()
     {
 		rend = GetComponent<SpriteRenderer>();
-        diceSides = Resources.LoadAll<Sprite>("DiceButton/");
-        rend.sprite = diceSides[8];
+        diceSprite = Resources.Load<Sprite>("DiceButton/newDiceButton");
+        rend.sprite = diceSprite;
 		
     }
 
@@ -62,7 +62,7 @@ public class DiceButton : MonoBehaviour
 			// TEST VAR: to declare what value the player will move
 			// REMOVE FROM PRODUCTION CODE
 			// GameplaySystem.diceSideThrown = 2;
-			
+
        		GameplaySystem.MovePlayer();
 		} 
 

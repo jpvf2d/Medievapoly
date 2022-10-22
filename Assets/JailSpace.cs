@@ -8,10 +8,17 @@ public class JailSpace : BoardSpace
     public int index;
     [HideInInspector] public static int[] playersInJail = new int[4] {-1,-1,-1,-1}; 
     [HideInInspector] public static bool waitInJail = false; 
-
+    [HideInInspector] public static bool escapeJail = false; 
 
     private void Update()
     {
+
+        if(escapeJail)
+        {
+            escapeJail = false;
+            StartCoroutine("escape");
+            StartCoroutine(GameplaySystem.ChangeTurns());       
+        }
         //If player stuck in jail, determine how much longer player stuck
         if(waitInJail)
         {
@@ -46,6 +53,14 @@ public class JailSpace : BoardSpace
             playersInJail[turn] += 1; 
         }
         SpaceLogic.cont_changeTurns = true; 
+    }
+
+    //Players 'escapes' jail if roll doubles 
+    private void escape()
+    {
+        int turn = GameplaySystem.turn;
+        GameplaySystem.players[turn].GetComponent<Player>().stuckInPlace = false; 
+        playersInJail[turn] = -1; 
     }
 
 }

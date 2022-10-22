@@ -14,7 +14,7 @@ public class DiceButton : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-		 rend = GetComponent<SpriteRenderer>();
+		rend = GetComponent<SpriteRenderer>();
         diceSides = Resources.LoadAll<Sprite>("DiceButton/");
         rend.sprite = diceSides[8];
 		
@@ -39,9 +39,20 @@ public class DiceButton : MonoBehaviour
 		
 		if(GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().stuckInPlace == true)
 		{
-			JailSpace.waitInJail = true; 
-			StartCoroutine(ActionTextScript.display("Player: " + GameplaySystem.turn + " is stuck in jail"));
-			//TODO: Roll doubles allows player to leave jail 
+
+			if(Dice1.DiceNum == Dice2.DiceNum)
+			{
+				StartCoroutine(ActionTextScript.display("Rolled doubles, escaping the gallows"));
+				JailSpace.escapeJail = true; 
+				GameplaySystem.diceSideThrown = Dice1.DiceNum + Dice2.DiceNum + 2;
+				GameplaySystem.MovePlayer();
+			}
+
+			else
+			{
+				JailSpace.waitInJail = true; 
+				StartCoroutine(ActionTextScript.display("Player: " + GameplaySystem.turn + " is stuck at the gallows"));
+			}
 		}
 
 		else
@@ -51,7 +62,7 @@ public class DiceButton : MonoBehaviour
 			// TEST VAR: to declare what value the player will move
 			// REMOVE FROM PRODUCTION CODE
 			// GameplaySystem.diceSideThrown = 2;
-
+			
        		GameplaySystem.MovePlayer();
 		} 
 

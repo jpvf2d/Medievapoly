@@ -17,6 +17,7 @@ public class GameplaySystem : MonoBehaviour
 	public static GameObject PurchasePropertyMenu;
 	public static GameObject ChanceCard;
 	public static GameObject ChestCard;
+    public static GameObject TaxCard;
 	
     public class StaticMB: MonoBehaviour { }
     private static StaticMB mb;
@@ -34,9 +35,11 @@ public class GameplaySystem : MonoBehaviour
 		PurchasePropertyMenu = GameObject.Find("PurchasePropertyMenu");
 		ChanceCard = GameObject.Find("ChanceCard");
 		ChestCard = GameObject.Find("ChestCard");
+        TaxCard = GameObject.Find("TaxCard");
 		PurchasePropertyMenu.SetActive(false);
 		ChanceCard.SetActive(false);
 		ChestCard.SetActive(false);
+        TaxCard.SetActive(false);
          if (mb == null)
         {
             GameObject gameObject = new GameObject("MyStatic");

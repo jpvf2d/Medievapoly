@@ -41,7 +41,14 @@ public class SpaceLogic : MonoBehaviour
             allBoardSpaces[spaceIndex].GetComponent<PropertySpace>().indexOfOwner = turn; 
             GameplaySystem.players[turn].GetComponent<Player>().property.Add(spaceIndex);
 
-            float costToPurchaseProperty = allBoardSpaces[spaceIndex].GetComponent<PropertySpace>().TMP_purchaseCost;
+            //float costToPurchaseProperty = allBoardSpaces[spaceIndex].GetComponent<PropertySpace>().TMP_purchaseCost;
+           float costToPurchaseProperty = 0;
+            if(allBoardSpaces[spaceIndex].GetComponent<PropertySpace>().isUtility)
+                costToPurchaseProperty = allBoardSpaces[spaceIndex].GetComponent<PropertySpace>().TMP_purchaseCost;
+            else if(allBoardSpaces[spaceIndex].GetComponent<PropertySpace>().isRailroad)
+                costToPurchaseProperty = (float) allBoardSpaces[spaceIndex].GetComponent<PropertySpace>().railroadCard.purchaseCost;
+            else
+                costToPurchaseProperty = (float) allBoardSpaces[spaceIndex].GetComponent<PropertySpace>().propertyCard.purchaseCost;
             GameplaySystem.players[turn].GetComponent<Player>().money -= costToPurchaseProperty;
 
             Purchase.purchasedProp = false; 

@@ -6,14 +6,21 @@ using UnityEngine.SceneManagement;
 public class PropertySpace : BoardSpace
 {
 	public int index;
+	public string propertyName; 
 	[HideInInspector] public bool owned = false;
-	//public float[] rentCosts; //Base rent, w/houses (1,2,3,4), and w/hotel
 	[HideInInspector] public int indexOfOwner;
-	
+
+	//TEMPORARY
+	public bool isRailroad;
+	public bool isUtility;
 	//****TEMPORARY VARIABLES (TMP_*): Delete when Card class is being used ****
 	public float TMP_rent = 0; 
 	public float TMP_purchaseCost = 0;
+	public PropertyCard propertyCard; 
+	public RailroadCard railroadCard; 
 
+	public static bool continueAssignCard_cs = false; 
+	public static bool continueAssignCard_rr = false;
 	/****
 	//TODO: Each PropertySpace needs a PropertyCard object associated with it to pull purchase cost and rent information 
 
@@ -32,8 +39,11 @@ public class PropertySpace : BoardSpace
 	}*/
 	void Start()
 	{
-		TMP_rent = 500;
-		TMP_purchaseCost = 100;
+
+			TMP_rent = 500;
+			TMP_purchaseCost = 100;
+			StartCoroutine("AssignCard");
+			
 	}
     public override void passing()
 	{
@@ -46,6 +56,7 @@ public class PropertySpace : BoardSpace
 			{
 				if(GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money >= TMP_purchaseCost)
 				{
+					DisplayCard.cardIdx = index;
 					DisplayCard.coroutine = true;
 					GameplaySystem.PurchasePropertyMenu.SetActive(true);
 				}
@@ -90,7 +101,6 @@ public class PropertySpace : BoardSpace
 						StartCoroutine(ActionTextScript.display("Player "+ GameplaySystem.turn + " owns this property"));
 					}
 				
-
 					SpaceLogic.continue_sl = true; 
 			}
 	}
@@ -98,6 +108,47 @@ public class PropertySpace : BoardSpace
     public override void stuck()
 	{
 		Debug.Log("Do nothing (PropertySpace:stuck");
+	}
+
+	private IEnumerator AssignCard()
+	{
+		while(!continueAssignCard_rr || !continueAssignCard_cs)
+		{
+			yield return new WaitForSeconds(0.05f);
+		}
+
+		if(isRailroad)
+			{
+				for(int i = 0; i < CardRailroad.cardList.Count; i++)
+				{
+					if(CardRailroad.cardList[i].railroadName == this.propertyName)
+					{	
+						this.railroadCard = CardRailroad.cardList[i]; 
+					}
+				}
+
+				Debug.Log("Railroad: " + this.railroadCard.railroadName);
+			}
+
+			else if(isUtility)
+			{
+				TMP_purchaseCost = 100;
+				TMP_rent = 500; 
+			}
+
+			else
+			{
+				for(int i = 0; i < CardSto.cardList.Count; i++)
+				{
+					if(CardSto.cardList[i].propertyName == this.propertyName)
+					{
+						this.propertyCard = CardSto.cardList[i]; 
+					}
+				}
+				Debug.Log("Property: " + this.propertyCard.propertyName);
+
+			}
+
 	}
 	
 }

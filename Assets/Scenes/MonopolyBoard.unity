@@ -1618,8 +1618,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 5
+  propertyName: Railroad 1
   owned: 0
   indexOfOwner: 0
+  isRailroad: 1
+  isUtility: 0
   TMP_rent: 0
   TMP_purchaseCost: 0
 --- !u!1 &104787874
@@ -1849,6 +1852,51 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 1796929760}
   parallaxEffect: 0.7
+--- !u!1 &118978494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 118978496}
+  - component: {fileID: 118978495}
+  m_Layer: 0
+  m_Name: PropertyCards
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &118978495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118978494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 034f5a17ac14c094783929e84b9858f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardData: {fileID: 4900000, guid: 44ea498bd82154cb0ad0869b8e4f26a9, type: 3}
+--- !u!4 &118978496
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118978494}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 97.46315, y: -19.727991, z: 5.9458194}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &120859435
 GameObject:
   m_ObjectHideFlags: 0
@@ -2571,8 +2619,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 35
+  propertyName: Railroad 4
   owned: 0
   indexOfOwner: 0
+  isRailroad: 1
+  isUtility: 0
   TMP_rent: 0
   TMP_purchaseCost: 0
 --- !u!1 &188487398
@@ -2673,8 +2724,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 14
+  propertyName: Pink 3
   owned: 0
   indexOfOwner: 0
+  isRailroad: 0
+  isUtility: 0
   TMP_rent: 0
   TMP_purchaseCost: 0
 --- !u!1 &201291614
@@ -3428,8 +3482,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 1
+  propertyName: Purple 1
   owned: 0
   indexOfOwner: 0
+  isRailroad: 0
+  isUtility: 0
   TMP_rent: 0
   TMP_purchaseCost: 0
 --- !u!1 &247473153
@@ -3765,8 +3822,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 2
+  propertyName: 
   owned: 0
   indexOfOwner: 0
+  isRailroad: 0
+  isUtility: 0
   TMP_rent: 0
   TMP_purchaseCost: 0
 --- !u!114 &274428241
@@ -4285,6 +4345,51 @@ Transform:
   m_Father: {fileID: 1613954591}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &347859807
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 347859809}
+  - component: {fileID: 347859808}
+  m_Layer: 0
+  m_Name: RailroadCards
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &347859808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347859807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 186e04ceada66cc41b8036dbedb26d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardData: {fileID: 4900000, guid: d0f77ffdeb0cd414fbb1643837f4e3d1, type: 3}
+--- !u!4 &347859809
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347859807}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 97.46315, y: -19.727991, z: 5.9458194}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &356349302
 GameObject:
   m_ObjectHideFlags: 0
@@ -4482,8 +4587,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 23
+  propertyName: Red 3
   owned: 0
   indexOfOwner: 0
+  isRailroad: 0
+  isUtility: 0
   TMP_rent: 0
   TMP_purchaseCost: 0
 --- !u!1 &372058490
@@ -4668,8 +4776,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 9
+  propertyName: Light Blue 3
   owned: 0
   indexOfOwner: 0
+  isRailroad: 0
+  isUtility: 0
   TMP_rent: 0
   TMP_purchaseCost: 0
 --- !u!1 &398744893
@@ -5414,9 +5525,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1f3ec20df519dc41b2f31bbc27ea929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 21
+  index: 31
+  propertyName: Dark Green 2
   owned: 0
   indexOfOwner: 0
+  isRailroad: 0
+  isUtility: 0
   TMP_rent: 0
   TMP_purchaseCost: 0
 --- !u!1 &453858195
@@ -5517,8 +5631,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 15
+  propertyName: Railroad 2
   owned: 0
   indexOfOwner: 0
+  isRailroad: 1
+  isUtility: 0
   TMP_rent: 0
   TMP_purchaseCost: 0
 --- !u!1 &453918807
@@ -7342,8 +7459,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 25
+  propertyName: Railroad 3
   owned: 0
   indexOfOwner: 0
+  isRailroad: 1
+  isUtility: 0
   TMP_rent: 0
   TMP_purchaseCost: 0
 --- !u!1 &625054819
@@ -7801,8 +7921,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 32
+  propertyName: Dark Green 3
   owned: 0
   indexOfOwner: 0
+  isRailroad: 0
+  isUtility: 0
   TMP_rent: 0
   TMP_purchaseCost: 0
 --- !u!1 &666451522
@@ -12423,8 +12546,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 24
+  propertyName: Yellow 1
   owned: 0
   indexOfOwner: 0
+  isRailroad: 0
+  isUtility: 0
   TMP_rent: 0
   TMP_purchaseCost: 0
 --- !u!1 &1074181826
@@ -15115,8 +15241,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 34
+  propertyName: Dark Blue 1
   owned: 0
   indexOfOwner: 0
+  isRailroad: 0
+  isUtility: 0
   TMP_rent: 0
   TMP_purchaseCost: 0
 --- !u!1 &1254340870
@@ -15316,8 +15445,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 16
+  propertyName: Orange 1
   owned: 0
   indexOfOwner: 0
+  isRailroad: 0
+  isUtility: 0
   TMP_rent: 0
   TMP_purchaseCost: 0
 --- !u!1 &1258073809
@@ -16361,8 +16493,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 3
+  propertyName: Purple 2
   owned: 0
   indexOfOwner: 0
+  isRailroad: 0
+  isUtility: 0
   TMP_rent: 0
   TMP_purchaseCost: 0
 --- !u!1 &1321055271
@@ -17206,8 +17341,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 19
+  propertyName: Orange 3
   owned: 0
   indexOfOwner: 0
+  isRailroad: 0
+  isUtility: 0
   TMP_rent: 0
   TMP_purchaseCost: 0
 --- !u!1 &1383602007
@@ -17960,8 +18098,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 20
+  propertyName: Red 1
   owned: 0
   indexOfOwner: 0
+  isRailroad: 0
+  isUtility: 0
   TMP_rent: 0
   TMP_purchaseCost: 0
 --- !u!1 &1421800758
@@ -18159,8 +18300,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 37
+  propertyName: Dark Blue 2
   owned: 0
   indexOfOwner: 0
+  isRailroad: 0
+  isUtility: 0
   TMP_rent: 0
   TMP_purchaseCost: 0
 --- !u!1 &1427497725
@@ -19650,8 +19794,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 13
+  propertyName: Pink 2
   owned: 0
   indexOfOwner: 0
+  isRailroad: 0
+  isUtility: 0
   TMP_rent: 0
   TMP_purchaseCost: 0
 --- !u!1 &1530994871
@@ -20505,8 +20652,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 21
+  propertyName: Red 2
   owned: 0
   indexOfOwner: 0
+  isRailroad: 0
+  isUtility: 0
   TMP_rent: 0
   TMP_purchaseCost: 0
 --- !u!1 &1602931886
@@ -22018,8 +22168,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 11
+  propertyName: Pink 1
   owned: 0
   indexOfOwner: 0
+  isRailroad: 0
+  isUtility: 0
   TMP_rent: 0
   TMP_purchaseCost: 0
 --- !u!1 &1701941563
@@ -22383,14 +22536,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1719227841}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1f3ec20df519dc41b2f31bbc27ea929, type: 3}
+  m_Script: {fileID: 11500000, guid: 499f7c9e4d960044f99d1eb08f668db6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   index: 39
-  owned: 0
-  indexOfOwner: 0
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!1 &1719764171
 GameObject:
   m_ObjectHideFlags: 0
@@ -22835,8 +22984,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 18
+  propertyName: Orange 2
   owned: 0
   indexOfOwner: 0
+  isRailroad: 0
+  isUtility: 0
   TMP_rent: 0
   TMP_purchaseCost: 0
 --- !u!1 &1746290221
@@ -25170,8 +25322,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 6
+  propertyName: Light Blue 1
   owned: 0
   indexOfOwner: 0
+  isRailroad: 0
+  isUtility: 0
   TMP_rent: 0
   TMP_purchaseCost: 0
 --- !u!1 &1903780060
@@ -26673,8 +26828,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 8
+  propertyName: Light Blue 2
   owned: 0
   indexOfOwner: 0
+  isRailroad: 0
+  isUtility: 0
   TMP_rent: 0
   TMP_purchaseCost: 0
 --- !u!1 &2031528033
@@ -26859,8 +27017,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 26
+  propertyName: Yellow 2
   owned: 0
   indexOfOwner: 0
+  isRailroad: 0
+  isUtility: 0
   TMP_rent: 0
   TMP_purchaseCost: 0
 --- !u!1 &2041016085
@@ -27234,8 +27395,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 27
+  propertyName: Yellow 3
   owned: 0
   indexOfOwner: 0
+  isRailroad: 0
+  isUtility: 0
   TMP_rent: 0
   TMP_purchaseCost: 0
 --- !u!1 &2071275074
@@ -27758,8 +27922,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 29
+  propertyName: Dark Green 1
   owned: 0
   indexOfOwner: 0
+  isRailroad: 0
+  isUtility: 0
   TMP_rent: 0
   TMP_purchaseCost: 0
 --- !u!1 &2112412263

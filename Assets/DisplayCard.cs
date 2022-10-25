@@ -5,7 +5,8 @@ using UnityEngine;
 public class DisplayCard : MonoBehaviour
 {
 	public static bool coroutine = false;
-	private Sprite cardToDisplay;
+	public static int cardIdx; 
+	private Sprite[] cardsToDisplay;
 	private SpriteRenderer rend;
 	public static bool stopDisplay = false;
     // Update is called once per frame
@@ -13,19 +14,26 @@ public class DisplayCard : MonoBehaviour
 	void Start()
 	{
 		rend = GetComponent<SpriteRenderer>();
-		cardToDisplay = Resources.Load<Sprite>("Properties/testCard");
+		cardsToDisplay = Resources.LoadAll<Sprite>("BoardCards");
 	}
+
     void Update()
     {
         if(coroutine)
+		{
 			StartCoroutine("DisplayACard");
+		}
     }
 	
 	private IEnumerator DisplayACard()
 	{
 			stopDisplay = false;
 			coroutine = false; 
-			rend.sprite = cardToDisplay;
+			//rend.sprite = cardToDisplay;
+			string cardToDisplay = "BoardCards/card" + cardIdx;
+			Debug.Log(cardToDisplay);
+			rend.sprite = Resources.Load<Sprite>(cardToDisplay);
+
 			while(!stopDisplay)
 			{
 				yield return new WaitForSeconds(.5f);

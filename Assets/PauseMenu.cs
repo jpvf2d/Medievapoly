@@ -56,8 +56,14 @@ public class PauseMenu : MonoBehaviour
     }
 
     public void ToggleMusic(){
-        Debug.Log("Toggling Music");
-        StartCoroutine(ActionTextScript.display("Music Toggled"));
+        if(AudioListener.volume == 1){
+            AudioListener.volume = 0;
+            StartCoroutine(ActionTextScript.display("Music Disabled"));
+        }
+        else{
+            AudioListener.volume = 1;
+            StartCoroutine(ActionTextScript.display("Music Enabled"));
+        }        
     }
 
     public void QuiteGame(){

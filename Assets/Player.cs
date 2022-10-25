@@ -19,7 +19,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        money = 3000; //Change to whatever
+        money = 1500; //Change to whatever
         transform.position = boardSpaces[boardSpaceIndex].transform.position;
         List<int> property = new List<int>();
     }

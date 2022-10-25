@@ -37,6 +37,7 @@ public class DiceButton : MonoBehaviour
 			yield return new WaitForSeconds(0.05f);
 		}
 		
+		// Options for player if player is in jail 
 		if(GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().stuckInPlace == true)
 		{
 
@@ -50,8 +51,29 @@ public class DiceButton : MonoBehaviour
 
 			else
 			{
-				JailSpace.waitInJail = true; 
-				StartCoroutine(ActionTextScript.display("Player: " + GameplaySystem.turn + " is stuck at the gallows"));
+				if(GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money > 50)
+					JailFeeDisplay.payJailFee.SetActive(true);
+				else
+					JailFeeDisplay.cont_jailfee = true;
+
+				while(!JailFeeDisplay.cont_jailfee)
+				{
+					yield return new WaitForSeconds(0.01f);
+				}
+				JailFeeDisplay.cont_jailfee = false;
+
+				if(JailFeeDisplay.paidFee)
+				{
+					JailSpace.escapeJail = true;
+					GameplaySystem.diceSideThrown = Dice1.DiceNum + Dice2.DiceNum + 2;
+					GameplaySystem.MovePlayer();
+				}
+
+				else
+				{
+					JailSpace.waitInJail = true; 
+					StartCoroutine(ActionTextScript.display("Player: " + GameplaySystem.turn + " is stuck at the gallows"));	
+				}
 			}
 		}
 

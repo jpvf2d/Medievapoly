@@ -72,7 +72,17 @@ public class PropertySpace : BoardSpace
 
 					if(GameplaySystem.turn != indexOfOwner)
 					{
-						if(GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money < TMP_rent)
+						float rent = 0;
+
+						if(isRailroad)
+						{
+							rent = (float) this.railroadCard.rent1;
+						}
+
+						else
+							rent = (float) this.propertyCard.rent;
+
+						if(GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money < rent)
 						{
 							float lastOfMoney = GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money;
 							GameplaySystem.players[indexOfOwner].GetComponent<Player>().money += lastOfMoney;
@@ -84,9 +94,9 @@ public class PropertySpace : BoardSpace
 
 						else
 						{
-							StartCoroutine(ActionTextScript.display("Player "+ GameplaySystem.turn + " paid Player " + indexOfOwner + " $" + TMP_rent));
-							GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money -= TMP_rent;
-							GameplaySystem.players[indexOfOwner].GetComponent<Player>().money += TMP_rent;
+							StartCoroutine(ActionTextScript.display("Player "+ GameplaySystem.turn + " paid Player " + indexOfOwner + " $" + rent));
+							GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money -= rent;
+							GameplaySystem.players[indexOfOwner].GetComponent<Player>().money += rent;
 						}
 						/****
 						//TODO: Each PropertySpace needs a PropertyCard object associated with it to pull purchase cost and rent information 

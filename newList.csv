@@ -1,0 +1,31 @@
+﻿cName,Name,Rent,1 House,2 Houses,3 Houses,4 Houses,Hotel,Full Set,Purchase Cost
+property,TITLE DEED,Purple 1,2,10,30,90,160,250,12,60
+property,TITLE DEED,Purple 2,4,20,60,180,320,450,14,60
+property,TITLE DEED,Light Blue 1,6,30,90,270,400,550,16,100
+property,TITLE DEED,Light Blue 2,6,30,90,270,400,550,16,100
+property,TITLE DEED,Light Blue 3,8,40,100,300,450,600,18,120
+property,TITLE DEED,Pink 1,10,50,150,450,625,750,25,140
+property,TITLE DEED,Pink 2,10,50,150,450,625,750,25,140
+property,TITLE DEED,Pink 3,12,60,180,500,700,900,27,160
+property,TITLE DEED,Orange 1,14,70,200,550,750,950,28,180
+property,TITLE DEED,Orange 2,14,70,200,550,750,950,28,180
+property,TITLE DEED,Orange 3,16,80,220,600,800,1000,30,200
+property,TITLE DEED,Red 1,18,90,250,700,875,1050,32,220
+property,TITLE DEED,Red 2,18,90,250,700,875,1050,32,220
+property,TITLE DEED,Red 3,20,100,300,750,925,1100,35,240
+property,TITLE DEED,Yellow 1,22,110,330,800,974,1150,37,260
+property,TITLE DEED,Yellow 2,22,110,330,800,974,1150,37,260
+property,TITLE DEED,Yellow 3,24,120,360,850,1025,1200,40,280
+property,TITLE DEED,Dark Green 1,26,130,390,900,1100,1275,43,300
+property,TITLE DEED,Dark Green 2,26,130,390,900,1100,1275,43,300
+property,TITLE DEED,Dark Green 3,28,150,450,1000,1200,1400,45,320
+property,TITLE DEED,Dark Blue 1,35,175,500,1100,1300,1500,50,350
+property,TITLE DEED,Dark Blue 2,50,200,600,1400,1700,2000,60,400
+cName,Name,Rent1,Rent2,value
+utility,Utility 1,If one 'Utility' is owned rent is 4 times amount shown on dice.,If both 'Utility' are owned rent is 10 times amount shown on dice.,150
+utility,Utility 2,If one 'Utility' is owned rent is 4 times amount shown on dice.,If both 'Utility' are owned rent is 10 times amount shown on dice.,150
+cName,Name,Rent,2 railroad,3 railroad,des,value
+railroad,Railroad 1,25,50,100,With TRAIN DEPOT above rents DOUBLE,100
+railroad,Railroad 2,25,50,100,With TRAIN DEPOT above rents DOUBLE,100
+railroad,Railroad 3,25,50,100,With TRAIN DEPOT above rents DOUBLE,100
+railroad,Railroad 4,25,50,100,With TRAIN DEPOT above rents DOUBLE,100

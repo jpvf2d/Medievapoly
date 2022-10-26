@@ -31,7 +31,7 @@ public class ChanceSpace : BoardSpace
     public override void land()
     {
         // display chance card
-        this.cardChoice = Random.Range(0,2);
+        this.cardChoice = Random.Range(0,6);
 
         switch(cardChoice)
         {
@@ -40,6 +40,18 @@ public class ChanceSpace : BoardSpace
                 break;
             case 1:
                 chanceTxt.text = "Pay every player $25";
+                break;
+            case 2:
+                chanceTxt.text = "Pay hospital bill of $100";
+                break;
+            case 3:
+                chanceTxt.text = "Go to Free Parking";
+                break;
+            case 4:
+                chanceTxt.text = "Donate $50 to charity";
+                break;
+            case 5:
+                chanceTxt.text = "Get out of jail free card";
                 break;
         }  
 
@@ -62,11 +74,9 @@ public class ChanceSpace : BoardSpace
             case 0:
                 // this.chanceTxt = "Advance to Go (Collect $200)";
                 GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money += 200;
-                // GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().boardSpaceIndex = 0;
-                // GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().move = true;
-                // GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().Move();
-
-                // GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().relocated = true;
+                GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().boardSpaceIndex = 0;
+                GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().relocated = true;
+                GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().move = true;
                 break;
             
             // Pay every player $25
@@ -79,6 +89,30 @@ public class ChanceSpace : BoardSpace
                 }
                 // take that money to current player
                 GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money -= 25 * (GameplaySystem.numPlayers - 1);
+                break;
+
+            // Pay hospital bill of $100
+            case 2:
+                GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money -= 100;
+                break;
+            
+            // Go to Free Parking
+            case 3:
+                GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().boardSpaceIndex = 39;
+                GameplaySystem.playerIndex = 39;
+                GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().relocated = true;
+                GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().tmpMoveSpeed = 70f;
+                GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().move = true;
+                break;
+
+            // Donate $50 to charity
+            case 4:
+                GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money -= 50;
+                break;
+
+            //Get out of jail free card
+            case 5:
+                GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().jailFreeCard = true;
                 break;
 		}
 

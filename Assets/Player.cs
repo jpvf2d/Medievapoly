@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 {
     public Transform[] boardSpaces;
     [SerializeField] public float moveSpeed = 1f;
+    [HideInInspector] public float tmpMoveSpeed = 0f;
     [HideInInspector] public int boardSpaceIndex = 0;
     public bool move = false;
     public bool stuckInPlace = false; //Determine if player stuck in jail or not 
@@ -14,6 +15,8 @@ public class Player : MonoBehaviour
     public string name;
     public int playersIndex; 
     [HideInInspector] public bool jailFreeCard = false;
+    [HideInInspector] public bool relocated = false;
+    [HideInInspector] public int communityFund = 0;
 
 
     // Start is called before the first frame update
@@ -34,12 +37,19 @@ public class Player : MonoBehaviour
 
     private void Move()
     {
+        float speed = moveSpeed;
+        if(this.tmpMoveSpeed > 1)
+        {
+            speed = tmpMoveSpeed;
+        }
+
         if(boardSpaceIndex <= boardSpaces.Length - 1 && transform.position != boardSpaces[boardSpaceIndex].transform.position)
         {
-            transform.position = Vector3.MoveTowards(transform.position, boardSpaces[boardSpaceIndex].transform.position, moveSpeed * Time.deltaTime);        
+            transform.position = Vector3.MoveTowards(transform.position, boardSpaces[boardSpaceIndex].transform.position, speed * Time.deltaTime);        
         }
         else
         {
+            this.tmpMoveSpeed = 0f;
             move = false;
             //Player finishes moving and interacts with space
             //Do not interact with 'Jail' space if player was sent via landing on 'Go to Jail'

@@ -36,7 +36,7 @@ public class ChestSpace : BoardSpace
         switch(cardChoice)
         {
             case 0:
-                chestTxt.text = "Pay bill of $100";
+                chestTxt.text = "Inherit $100";
                 break;
             case 1:
                 chestTxt.text = "Bank error, collect $200";
@@ -48,10 +48,16 @@ public class ChestSpace : BoardSpace
                 chestTxt.text = "Pay every player $50";
                 break;
             case 4:
-                chestTxt.text = "Inherit $100";
+                chestTxt.text = "$25 to community fund";
                 break;
             case 5:
-                chestTxt.text = "Get out of jail free card";
+                int totalFund = 0;
+                for(int i = 0; i < GameplaySystem.numPlayers; i++) {
+                    if(i != GameplaySystem.turn) {
+                        totalFund += GameplaySystem.players[i].GetComponent<Player>().communityFund;
+                    }
+                }
+                chestTxt.text = "Claim community fund of $" + totalFund;
                 break;
         }  
         
@@ -70,9 +76,9 @@ public class ChestSpace : BoardSpace
 
         switch(cardChoice)
         {
-            // Pay bill of $100
+            // Inherit $100
             case 0:
-                GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money -= 100;
+                GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money += 100;
                 break;
             
             // Bank error, collect $200
@@ -103,17 +109,24 @@ public class ChestSpace : BoardSpace
                 // take that money to current player
                 GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money -= 50 * (GameplaySystem.numPlayers - 1);
                 break;
-
-            // Inherit $100
+            
+            // $25 to community fund
             case 4:
-                GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money += 100;
+                GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money -= 25;
+                GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().communityFund += 25;
                 break;
 
-            //Get out of jail free card
+            // Claim community fund
             case 5:
-                GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().jailFreeCard = true;
+                int totalFund = 0;
+                for(int i = 0; i < GameplaySystem.numPlayers; i++) {
+                    if(i != GameplaySystem.turn) {
+                        totalFund += GameplaySystem.players[i].GetComponent<Player>().communityFund;
+                        GameplaySystem.players[i].GetComponent<Player>().communityFund = 0;
+                    }
+                }
+                GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money += totalFund;
                 break;
-
         }  
 
         GameplaySystem.ChestCard.SetActive(false);

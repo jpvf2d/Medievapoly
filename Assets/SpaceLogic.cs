@@ -18,8 +18,19 @@ public class SpaceLogic : MonoBehaviour
         {
             coroutine_sl = false; 
             int spaceIndex = GameplaySystem.playerIndex;
-            allBoardSpaces[spaceIndex].land();
-            StartCoroutine("interactWithSpace", spaceIndex);
+
+            // don't run land function if player was relocated
+            bool noRelocation = true;
+            for(int i = 0; i < GameplaySystem.numPlayers; i++) {
+                if(GameplaySystem.players[i].GetComponent<Player>().relocated) {
+                    noRelocation = false;
+                    GameplaySystem.players[i].GetComponent<Player>().relocated = false;
+                }
+            }
+            if(noRelocation) {
+                allBoardSpaces[spaceIndex].land();
+                StartCoroutine("interactWithSpace", spaceIndex);
+            }
         }   
 
     }

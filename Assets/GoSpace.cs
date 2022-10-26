@@ -20,6 +20,7 @@ public class GoSpace : BoardSpace
     public override void passing()
     {
         GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money += 200;
+        GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().tmpMoveSpeed = 70f;
         StartCoroutine(ActionTextScript.display("Passing go (+$200)"));
     }
 

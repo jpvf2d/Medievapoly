@@ -120,10 +120,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_0
       rect:
         serializedVersion: 2
-        x: 40
-        y: 663
-        width: 132
-        height: 85
+        x: 0
+        y: 672
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,10 +141,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_1
       rect:
         serializedVersion: 2
-        x: 232
-        y: 660
-        width: 132
-        height: 88
+        x: 192
+        y: 672
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,10 +162,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_2
       rect:
         serializedVersion: 2
-        x: 424
-        y: 660
-        width: 131
-        height: 89
+        x: 384
+        y: 672
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,10 +183,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_3
       rect:
         serializedVersion: 2
-        x: 616
-        y: 660
-        width: 132
-        height: 88
+        x: 576
+        y: 672
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +204,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_4
       rect:
         serializedVersion: 2
-        x: 808
-        y: 660
-        width: 132
-        height: 88
+        x: 768
+        y: 672
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_5
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 660
-        width: 132
-        height: 88
+        x: 960
+        y: 672
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,10 +246,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_6
       rect:
         serializedVersion: 2
-        x: 1192
-        y: 664
-        width: 132
-        height: 85
+        x: 1152
+        y: 672
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,10 +267,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_7
       rect:
         serializedVersion: 2
-        x: 1378
-        y: 577
-        width: 124
-        height: 82
+        x: 1344
+        y: 672
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,10 +288,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_8
       rect:
         serializedVersion: 2
-        x: 1384
-        y: 660
-        width: 110
-        height: 88
+        x: 0
+        y: 576
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,10 +309,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_9
       rect:
         serializedVersion: 2
-        x: 4
-        y: 568
-        width: 176
-        height: 85
+        x: 192
+        y: 576
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,10 +330,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_10
       rect:
         serializedVersion: 2
-        x: 225
+        x: 384
         y: 576
-        width: 147
-        height: 75
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -351,10 +351,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_11
       rect:
         serializedVersion: 2
-        x: 418
-        y: 568
-        width: 123
-        height: 84
+        x: 576
+        y: 576
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -372,10 +372,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_12
       rect:
         serializedVersion: 2
-        x: 612
-        y: 578
-        width: 120
-        height: 75
+        x: 768
+        y: 576
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,10 +393,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_13
       rect:
         serializedVersion: 2
-        x: 808
+        x: 960
         y: 576
-        width: 140
-        height: 79
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -414,10 +414,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_14
       rect:
         serializedVersion: 2
-        x: 1000
+        x: 1152
         y: 576
-        width: 116
-        height: 79
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -435,10 +435,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_15
       rect:
         serializedVersion: 2
-        x: 1192
-        y: 590
-        width: 116
-        height: 70
+        x: 1344
+        y: 576
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -456,10 +456,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_16
       rect:
         serializedVersion: 2
-        x: 40
-        y: 471
-        width: 110
-        height: 85
+        x: 0
+        y: 480
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -477,10 +477,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_17
       rect:
         serializedVersion: 2
-        x: 232
-        y: 468
-        width: 110
-        height: 88
+        x: 192
+        y: 480
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -498,10 +498,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_18
       rect:
         serializedVersion: 2
-        x: 424
-        y: 468
-        width: 110
-        height: 89
+        x: 384
+        y: 480
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -519,10 +519,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_19
       rect:
         serializedVersion: 2
-        x: 616
-        y: 468
-        width: 123
-        height: 88
+        x: 576
+        y: 480
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -540,10 +540,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_20
       rect:
         serializedVersion: 2
-        x: 808
-        y: 468
-        width: 110
-        height: 88
+        x: 768
+        y: 480
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -561,10 +561,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_21
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 467
-        width: 122
-        height: 89
+        x: 960
+        y: 480
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -582,10 +582,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_22
       rect:
         serializedVersion: 2
-        x: 1192
-        y: 467
-        width: 133
-        height: 91
+        x: 1152
+        y: 480
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -603,10 +603,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_24
       rect:
         serializedVersion: 2
-        x: 1385
-        y: 477
-        width: 132
-        height: 87
+        x: 0
+        y: 384
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -624,10 +624,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_30
       rect:
         serializedVersion: 2
-        x: 40
-        y: 375
-        width: 110
-        height: 85
+        x: 1152
+        y: 384
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -645,10 +645,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_31
       rect:
         serializedVersion: 2
-        x: 232
-        y: 372
-        width: 120
-        height: 88
+        x: 1344
+        y: 384
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -666,10 +666,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_32
       rect:
         serializedVersion: 2
-        x: 424
-        y: 372
-        width: 120
-        height: 89
+        x: 0
+        y: 288
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -687,10 +687,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_33
       rect:
         serializedVersion: 2
-        x: 616
-        y: 372
-        width: 110
-        height: 88
+        x: 192
+        y: 288
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -708,10 +708,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_34
       rect:
         serializedVersion: 2
-        x: 808
-        y: 372
-        width: 110
-        height: 88
+        x: 384
+        y: 288
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -729,10 +729,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_35
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 372
-        width: 110
-        height: 88
+        x: 576
+        y: 288
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -750,10 +750,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_36
       rect:
         serializedVersion: 2
-        x: 1192
-        y: 372
-        width: 132
-        height: 89
+        x: 768
+        y: 288
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -771,10 +771,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_37
       rect:
         serializedVersion: 2
-        x: 1384
-        y: 372
-        width: 110
-        height: 88
+        x: 960
+        y: 288
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -792,10 +792,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_38
       rect:
         serializedVersion: 2
-        x: 40
-        y: 279
-        width: 110
-        height: 85
+        x: 1152
+        y: 288
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -813,10 +813,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_39
       rect:
         serializedVersion: 2
-        x: 232
-        y: 276
-        width: 110
-        height: 88
+        x: 1344
+        y: 288
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -834,10 +834,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_40
       rect:
         serializedVersion: 2
-        x: 424
-        y: 276
-        width: 110
-        height: 89
+        x: 0
+        y: 192
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -855,10 +855,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_41
       rect:
         serializedVersion: 2
-        x: 616
-        y: 276
-        width: 110
-        height: 88
+        x: 192
+        y: 192
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -876,10 +876,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_42
       rect:
         serializedVersion: 2
-        x: 808
-        y: 276
-        width: 110
-        height: 88
+        x: 384
+        y: 192
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -897,10 +897,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_43
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 276
-        width: 110
-        height: 88
+        x: 576
+        y: 192
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -918,10 +918,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_44
       rect:
         serializedVersion: 2
-        x: 1192
-        y: 276
-        width: 110
-        height: 89
+        x: 768
+        y: 192
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -939,10 +939,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_45
       rect:
         serializedVersion: 2
-        x: 1384
-        y: 276
-        width: 110
-        height: 88
+        x: 960
+        y: 192
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -960,10 +960,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_46
       rect:
         serializedVersion: 2
-        x: 40
-        y: 87
-        width: 110
-        height: 85
+        x: 1152
+        y: 192
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -981,10 +981,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_47
       rect:
         serializedVersion: 2
-        x: 40
-        y: 183
-        width: 110
-        height: 85
+        x: 1344
+        y: 192
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1002,10 +1002,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_48
       rect:
         serializedVersion: 2
-        x: 232
-        y: 80
-        width: 120
-        height: 91
+        x: 0
+        y: 96
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1023,10 +1023,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_49
       rect:
         serializedVersion: 2
-        x: 232
-        y: 180
-        width: 110
-        height: 89
+        x: 192
+        y: 96
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1044,10 +1044,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_50
       rect:
         serializedVersion: 2
-        x: 424
-        y: 89
-        width: 117
-        height: 83
+        x: 384
+        y: 96
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1065,10 +1065,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_51
       rect:
         serializedVersion: 2
-        x: 424
-        y: 180
-        width: 120
-        height: 88
+        x: 576
+        y: 96
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1086,10 +1086,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_52
       rect:
         serializedVersion: 2
-        x: 616
-        y: 90
-        width: 122
-        height: 82
+        x: 768
+        y: 96
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1107,10 +1107,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_53
       rect:
         serializedVersion: 2
-        x: 616
-        y: 180
-        width: 110
-        height: 88
+        x: 960
+        y: 96
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1128,10 +1128,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_54
       rect:
         serializedVersion: 2
-        x: 808
-        y: 164
-        width: 110
-        height: 104
+        x: 1152
+        y: 96
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1149,10 +1149,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_55
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 164
-        width: 120
-        height: 105
+        x: 1344
+        y: 96
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1170,10 +1170,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_56
       rect:
         serializedVersion: 2
-        x: 1192
-        y: 164
-        width: 120
-        height: 104
+        x: 0
+        y: 0
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1191,10 +1191,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_57
       rect:
         serializedVersion: 2
-        x: 1384
-        y: 164
-        width: 110
-        height: 104
+        x: 192
+        y: 0
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1212,10 +1212,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_58
       rect:
         serializedVersion: 2
-        x: 40
+        x: 384
         y: 0
-        width: 124
-        height: 76
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1233,10 +1233,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_59
       rect:
         serializedVersion: 2
-        x: 224
+        x: 576
         y: 0
-        width: 128
-        height: 70
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1254,10 +1254,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_60
       rect:
         serializedVersion: 2
-        x: 416
+        x: 768
         y: 0
-        width: 128
-        height: 77
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1275,10 +1275,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_61
       rect:
         serializedVersion: 2
-        x: 600
+        x: 960
         y: 0
-        width: 136
-        height: 73
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1296,10 +1296,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_62
       rect:
         serializedVersion: 2
-        x: 784
+        x: 1152
         y: 0
-        width: 152
-        height: 88
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1317,10 +1317,10 @@ TextureImporter:
       name: Elder Dragon Purple Sprite Sheet_63
       rect:
         serializedVersion: 2
-        x: 972
+        x: 1344
         y: 0
-        width: 194
-        height: 80
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1335,13 +1335,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elder Dragon Purple Sprite Sheet_64
+      name: Elder Dragon Purple Sprite Sheet_23
       rect:
         serializedVersion: 2
-        x: 1196
-        y: 0
-        width: 162
-        height: 39
+        x: 1344
+        y: 480
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1349,20 +1349,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 489ebd734ea87974ea32ef652e788e02
-      internalID: 293177668
+      spriteID: 851c040b11061054ebcd25e397d78db1
+      internalID: -882456419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elder Dragon Purple Sprite Sheet_65
+      name: Elder Dragon Purple Sprite Sheet_25
       rect:
         serializedVersion: 2
-        x: 1388
-        y: 0
-        width: 141
-        height: 34
+        x: 192
+        y: 384
+        width: 192
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1370,8 +1370,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7468d046451c408408d8cf114e8ebc4f
-      internalID: -1321131453
+      spriteID: 017bb4806c4005e44aebd8e5629c985b
+      internalID: -1302050002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 192
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ea42cf6e9d45a43bfecb97f1f70406
+      internalID: -2120868405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 192
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b29740c5a8b034fb121d3506fe6ad7
+      internalID: 1304340874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 192
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8b8fa8624f92f47992f7d250cf07e9
+      internalID: -1871087806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Purple Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 384
+        width: 192
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5103903d0195b9c4f81c26f425ea060b
+      internalID: -432933915
       vertices: []
       indices: 
       edges: []
@@ -1405,7 +1489,6 @@ TextureImporter:
       Elder Dragon Purple Sprite Sheet_4: -1667043450
       Elder Dragon Purple Sprite Sheet_59: -1518670523
       Elder Dragon Purple Sprite Sheet_24: 1492172931
-      Elder Dragon Purple Sprite Sheet_64: 293177668
       Elder Dragon Purple Sprite Sheet_9: 375407174
       Elder Dragon Purple Sprite Sheet_18: -656645168
       Elder Dragon Purple Sprite Sheet_53: -1213611992
@@ -1414,7 +1497,6 @@ TextureImporter:
       Elder Dragon Purple Sprite Sheet_33: -1645561207
       Elder Dragon Purple Sprite Sheet_54: -1650946636
       Elder Dragon Purple Sprite Sheet_20: -1911550904
-      Elder Dragon Purple Sprite Sheet_65: -1321131453
       Elder Dragon Purple Sprite Sheet_15: 2084295187
       Elder Dragon Purple Sprite Sheet_36: -127960743
       Elder Dragon Purple Sprite Sheet_43: 87217440

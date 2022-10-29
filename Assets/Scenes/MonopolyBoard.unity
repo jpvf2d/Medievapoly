@@ -1565,7 +1565,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 97836611}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -611.3089, y: 113.04143, z: -469.91}
+  m_LocalPosition: {x: -550.3089, y: 113.04143, z: -469.91}
   m_LocalScale: {x: 205.44084, y: 205.44084, z: 205.44084}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5807,7 +5807,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -496, y: 360}
+  m_AnchoredPosition: {x: -435, y: 360}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &436374088
@@ -8782,7 +8782,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -742, y: 354}
+  m_AnchoredPosition: {x: -681, y: 354}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &686962962
@@ -8894,7 +8894,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 706755777}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.940002, y: -5.908697, z: -1094}
+  m_LocalPosition: {x: 71.94, y: -5.908697, z: -1094}
   m_LocalScale: {x: 82.7922, y: 82.7922, z: 82.7922}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9024,6 +9024,7 @@ GameObject:
   m_Component:
   - component: {fileID: 756670339}
   - component: {fileID: 756670338}
+  - component: {fileID: 756670340}
   m_Layer: 0
   m_Name: Elder Dragon Green Sprite Sheet_0
   m_TagString: Untagged
@@ -9091,13 +9092,33 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 756670337}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 57.672337, y: -1.889826, z: -2}
+  m_LocalPosition: {x: 59.93, y: -1.24, z: -2}
   m_LocalScale: {x: 6.1354, y: 6.1354, z: 6.1354}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1154165074}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &756670340
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756670337}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ed0521f5472990148a207960fa8f310d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &768452469
 GameObject:
   m_ObjectHideFlags: 0
@@ -9962,7 +9983,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 828616003}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -610, y: 110, z: -514.42}
+  m_LocalPosition: {x: -549, y: 110, z: -514.42}
   m_LocalScale: {x: 206.9805, y: 206.9805, z: 206.9805}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16746,7 +16767,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1264374135}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.41, y: 3.02, z: 3}
+  m_LocalPosition: {x: 0.01, y: 3.02, z: 3}
   m_LocalScale: {x: 1.7869756, y: 2.2800326, z: 0.7600109}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17139,7 +17160,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1291953504}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -610, y: 112, z: 0}
+  m_LocalPosition: {x: -549, y: 112, z: 0}
   m_LocalScale: {x: 204.58714, y: 204.58714, z: 204.58714}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18149,7 +18170,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1358052551}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5, y: -2, z: -387.73}
+  m_LocalPosition: {x: 66, y: -2, z: -387.73}
   m_LocalScale: {x: 82.17634, y: 82.17634, z: 82.17634}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -19672,6 +19693,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1452828519}
   - component: {fileID: 1452828518}
+  - component: {fileID: 1452828520}
   m_Layer: 0
   m_Name: Elder Dragon Blue Sprite Sheet_0
   m_TagString: Untagged
@@ -19746,6 +19768,26 @@ Transform:
   m_Father: {fileID: 1154165074}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1452828520
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452828517}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d016c32a527db6841a316ed275a9f7d9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1457326957
 GameObject:
   m_ObjectHideFlags: 0
@@ -20696,6 +20738,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1497433409}
   - component: {fileID: 1497433408}
+  - component: {fileID: 1497433410}
   m_Layer: 0
   m_Name: Elder Dragon Purple Sprite Sheet_0
   m_TagString: Untagged
@@ -20770,6 +20813,26 @@ Transform:
   m_Father: {fileID: 1154165074}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1497433410
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497433407}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5c6a2b8782686b447a7d9edb4b3e2787, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1519082188
 GameObject:
   m_ObjectHideFlags: 0
@@ -23518,6 +23581,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1719074224}
   - component: {fileID: 1719074223}
+  - component: {fileID: 1719074225}
   m_Layer: 0
   m_Name: Elder Dragon Yellow Sprite Sheet_1
   m_TagString: Untagged
@@ -23592,6 +23656,26 @@ Transform:
   m_Father: {fileID: 1154165074}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1719074225
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719074222}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1f5e42ad5c3ad5b49afae756b781bdea, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1719227841
 GameObject:
   m_ObjectHideFlags: 0
@@ -24398,7 +24482,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -24406,7 +24490,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1747221502
@@ -29451,7 +29535,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2051294949}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.0000067, y: -104.721306, z: -1045.1}
+  m_LocalPosition: {x: 66.00001, y: -104.721306, z: -1045.1}
   m_LocalScale: {x: 82.17634, y: 82.17634, z: 82.17634}
   m_ConstrainProportionsScale: 0
   m_Children:

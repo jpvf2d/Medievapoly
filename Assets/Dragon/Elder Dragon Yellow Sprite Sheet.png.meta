@@ -120,12 +120,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_1
       rect:
         serializedVersion: 2
-        x: 40
-        y: 660
-        width: 110
-        height: 88
+        x: 192
+        y: 672
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -141,12 +141,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_2
       rect:
         serializedVersion: 2
-        x: 232
-        y: 663
-        width: 111
-        height: 85
+        x: 384
+        y: 672
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -162,12 +162,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_3
       rect:
         serializedVersion: 2
-        x: 425
-        y: 663
-        width: 109
-        height: 86
+        x: 576
+        y: 672
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -183,12 +183,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_4
       rect:
         serializedVersion: 2
-        x: 616
-        y: 663
-        width: 110
-        height: 85
+        x: 768
+        y: 672
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -204,12 +204,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_5
       rect:
         serializedVersion: 2
-        x: 808
-        y: 663
-        width: 110
-        height: 85
+        x: 960
+        y: 672
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -225,12 +225,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_6
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 663
-        width: 110
-        height: 85
+        x: 1152
+        y: 672
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -246,12 +246,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_7
       rect:
         serializedVersion: 2
-        x: 1193
-        y: 667
-        width: 109
-        height: 82
+        x: 1344
+        y: 672
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -267,12 +267,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_8
       rect:
         serializedVersion: 2
-        x: 1384
-        y: 669
-        width: 113
-        height: 79
+        x: 0
+        y: 576
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -288,12 +288,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_9
       rect:
         serializedVersion: 2
-        x: 4
-        y: 568
-        width: 152
-        height: 85
+        x: 192
+        y: 576
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -309,12 +309,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_10
       rect:
         serializedVersion: 2
-        x: 225
+        x: 384
         y: 576
-        width: 134
-        height: 83
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -330,12 +330,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_11
       rect:
         serializedVersion: 2
-        x: 418
-        y: 568
-        width: 123
-        height: 84
+        x: 576
+        y: 576
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -351,12 +351,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_12
       rect:
         serializedVersion: 2
-        x: 612
-        y: 578
-        width: 120
-        height: 75
+        x: 768
+        y: 576
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -372,12 +372,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_13
       rect:
         serializedVersion: 2
-        x: 808
+        x: 960
         y: 576
-        width: 127
-        height: 87
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -393,12 +393,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_14
       rect:
         serializedVersion: 2
-        x: 1000
+        x: 1152
         y: 576
-        width: 116
-        height: 79
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -414,12 +414,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_15
       rect:
         serializedVersion: 2
-        x: 1192
-        y: 590
-        width: 116
-        height: 70
+        x: 1344
+        y: 576
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -435,12 +435,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_16
       rect:
         serializedVersion: 2
-        x: 1378
-        y: 581
-        width: 150
-        height: 76
+        x: 0
+        y: 480
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -456,12 +456,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_18
       rect:
         serializedVersion: 2
-        x: 40
-        y: 468
-        width: 110
-        height: 88
+        x: 384
+        y: 480
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -477,12 +477,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_19
       rect:
         serializedVersion: 2
-        x: 232
-        y: 471
-        width: 110
-        height: 85
+        x: 576
+        y: 480
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -498,12 +498,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_20
       rect:
         serializedVersion: 2
-        x: 425
-        y: 471
-        width: 109
-        height: 86
+        x: 768
+        y: 480
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -519,12 +519,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_21
       rect:
         serializedVersion: 2
-        x: 616
-        y: 471
-        width: 123
-        height: 85
+        x: 960
+        y: 480
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -540,12 +540,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_22
       rect:
         serializedVersion: 2
-        x: 808
-        y: 471
-        width: 110
-        height: 85
+        x: 1152
+        y: 480
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -561,12 +561,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_23
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 467
-        width: 132
-        height: 89
+        x: 1344
+        y: 480
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -582,12 +582,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_24
       rect:
         serializedVersion: 2
-        x: 1193
-        y: 479
-        width: 131
-        height: 78
+        x: 0
+        y: 384
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -603,12 +603,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_25
       rect:
         serializedVersion: 2
-        x: 1384
-        y: 476
-        width: 134
-        height: 83
+        x: 192
+        y: 384
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -624,12 +624,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_30
       rect:
         serializedVersion: 2
-        x: 40
-        y: 372
-        width: 110
-        height: 88
+        x: 1152
+        y: 384
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -645,12 +645,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_31
       rect:
         serializedVersion: 2
-        x: 232
-        y: 375
-        width: 110
-        height: 85
+        x: 1344
+        y: 384
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -666,12 +666,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_32
       rect:
         serializedVersion: 2
-        x: 425
-        y: 375
-        width: 109
-        height: 86
+        x: 0
+        y: 288
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -687,12 +687,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_33
       rect:
         serializedVersion: 2
-        x: 616
-        y: 375
-        width: 110
-        height: 85
+        x: 192
+        y: 288
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -708,12 +708,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_34
       rect:
         serializedVersion: 2
-        x: 808
-        y: 375
-        width: 110
-        height: 85
+        x: 384
+        y: 288
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -729,12 +729,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_35
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 375
-        width: 110
-        height: 85
+        x: 576
+        y: 288
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -750,12 +750,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_36
       rect:
         serializedVersion: 2
-        x: 1193
-        y: 375
-        width: 109
-        height: 86
+        x: 768
+        y: 288
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -771,12 +771,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_37
       rect:
         serializedVersion: 2
-        x: 1384
-        y: 375
-        width: 110
-        height: 85
+        x: 960
+        y: 288
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -792,12 +792,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_39
       rect:
         serializedVersion: 2
-        x: 40
-        y: 276
-        width: 110
-        height: 88
+        x: 1344
+        y: 288
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -813,12 +813,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_40
       rect:
         serializedVersion: 2
-        x: 232
-        y: 279
-        width: 110
-        height: 85
+        x: 0
+        y: 192
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -834,12 +834,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_41
       rect:
         serializedVersion: 2
-        x: 425
-        y: 279
-        width: 109
-        height: 86
+        x: 192
+        y: 192
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -855,12 +855,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_42
       rect:
         serializedVersion: 2
-        x: 616
-        y: 279
-        width: 110
-        height: 85
+        x: 384
+        y: 192
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -876,12 +876,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_43
       rect:
         serializedVersion: 2
-        x: 808
-        y: 279
-        width: 110
-        height: 85
+        x: 576
+        y: 192
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -897,12 +897,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_44
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 279
-        width: 110
-        height: 85
+        x: 768
+        y: 192
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -918,12 +918,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_45
       rect:
         serializedVersion: 2
-        x: 1193
-        y: 279
-        width: 109
-        height: 86
+        x: 960
+        y: 192
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -939,12 +939,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_46
       rect:
         serializedVersion: 2
-        x: 1384
-        y: 280
-        width: 114
-        height: 84
+        x: 1152
+        y: 192
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -960,12 +960,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_47
       rect:
         serializedVersion: 2
-        x: 35
-        y: 189
-        width: 115
-        height: 79
+        x: 1344
+        y: 192
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -981,12 +981,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_49
       rect:
         serializedVersion: 2
-        x: 233
-        y: 183
-        width: 109
-        height: 86
+        x: 192
+        y: 96
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1002,12 +1002,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_50
       rect:
         serializedVersion: 2
-        x: 424
-        y: 183
-        width: 110
-        height: 85
+        x: 384
+        y: 96
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1023,12 +1023,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_51
       rect:
         serializedVersion: 2
-        x: 616
-        y: 183
-        width: 110
-        height: 85
+        x: 576
+        y: 96
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1044,12 +1044,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_52
       rect:
         serializedVersion: 2
-        x: 808
-        y: 167
-        width: 110
-        height: 101
+        x: 768
+        y: 96
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1065,12 +1065,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_53
       rect:
         serializedVersion: 2
-        x: 1001
-        y: 167
-        width: 109
-        height: 102
+        x: 960
+        y: 96
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1086,12 +1086,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_54
       rect:
         serializedVersion: 2
-        x: 1192
-        y: 167
-        width: 110
-        height: 101
+        x: 1152
+        y: 96
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1107,12 +1107,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_55
       rect:
         serializedVersion: 2
-        x: 1384
-        y: 167
-        width: 110
-        height: 101
+        x: 1344
+        y: 96
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1128,12 +1128,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_57
       rect:
         serializedVersion: 2
-        x: 40
-        y: 84
-        width: 110
-        height: 88
+        x: 192
+        y: 0
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1149,12 +1149,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_58
       rect:
         serializedVersion: 2
-        x: 232
-        y: 83
-        width: 110
-        height: 88
+        x: 384
+        y: 0
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1170,12 +1170,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_59
       rect:
         serializedVersion: 2
-        x: 424
-        y: 79
-        width: 110
-        height: 93
+        x: 576
+        y: 0
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1191,12 +1191,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_60
       rect:
         serializedVersion: 2
-        x: 616
-        y: 75
-        width: 110
-        height: 97
+        x: 768
+        y: 0
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1212,12 +1212,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_62
       rect:
         serializedVersion: 2
-        x: 40
+        x: 1152
         y: 0
-        width: 124
-        height: 76
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1233,12 +1233,12 @@ TextureImporter:
       name: Elder Dragon Yellow Sprite Sheet_63
       rect:
         serializedVersion: 2
-        x: 231
+        x: 1344
         y: 0
-        width: 99
-        height: 70
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1251,127 +1251,211 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elder Dragon Yellow Sprite Sheet_64
+      name: Elder Dragon Yellow Sprite Sheet_0
       rect:
         serializedVersion: 2
-        x: 429
-        y: 0
-        width: 93
-        height: 76
+        x: 0
+        y: 672
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01c2ddbfb638ef74287f5c0dc55dbec8
-      internalID: -1295755899
+      spriteID: 53cb0bf9f540465449a1635586650acc
+      internalID: -232386036
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elder Dragon Yellow Sprite Sheet_65
+      name: Elder Dragon Yellow Sprite Sheet_17
       rect:
         serializedVersion: 2
-        x: 623
-        y: 0
-        width: 95
-        height: 72
+        x: 192
+        y: 480
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f51a44be19179544c95e57416b64d7f2
-      internalID: -1380413896
+      spriteID: 9010b8162a7cc5d40b277b969830ed1b
+      internalID: -747701534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elder Dragon Yellow Sprite Sheet_66
+      name: Elder Dragon Yellow Sprite Sheet_26
       rect:
         serializedVersion: 2
-        x: 784
-        y: 0
-        width: 148
-        height: 65
+        x: 384
+        y: 384
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0687cb5bca801a440a1366b9ab08ae24
-      internalID: 624875766
+      spriteID: a5f80d9598a7e0b4c8811ac122871023
+      internalID: 824332949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elder Dragon Yellow Sprite Sheet_69
+      name: Elder Dragon Yellow Sprite Sheet_27
       rect:
         serializedVersion: 2
-        x: 972
-        y: 0
-        width: 144
-        height: 57
+        x: 576
+        y: 384
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e03921fc8085e240b929fde25f17802
-      internalID: 553025891
+      spriteID: aa868eb088ad1324d9d73e1e8e7ab1f3
+      internalID: 344995800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elder Dragon Yellow Sprite Sheet_70
+      name: Elder Dragon Yellow Sprite Sheet_28
       rect:
         serializedVersion: 2
-        x: 1164
-        y: 0
-        width: 163
-        height: 39
+        x: 768
+        y: 384
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8db71a771e495834e98b5177ffbf3337
-      internalID: -179028000
+      spriteID: 325ad90f67c9da34592c991cb52c7efc
+      internalID: 1770209330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elder Dragon Yellow Sprite Sheet_72
+      name: Elder Dragon Yellow Sprite Sheet_29
       rect:
         serializedVersion: 2
-        x: 1388
-        y: 0
-        width: 141
-        height: 48
+        x: 960
+        y: 384
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a648d091066aa64daf7be7e29238a9d
-      internalID: 1281843256
+      spriteID: 61f92bc1b233b7c46a9c9ca2d4170d65
+      internalID: -1186204298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 288
+        width: 192
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc5ff9032b7d294ab5025a465c2c9f5
+      internalID: 525854451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 192
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613ee254deec8d34ab156b41efb5954b
+      internalID: 923894816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 192
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70891d229fb85d54f98b4fa4c1456b65
+      internalID: -733511297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Yellow Sprite Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 192
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b27840155ae7c44b499fc74f8a83b8
+      internalID: 1403139518
       vertices: []
       indices: 
       edges: []
@@ -1396,18 +1480,14 @@ TextureImporter:
       Elder Dragon Yellow Sprite Sheet_16: 1563985123
       Elder Dragon Yellow Sprite Sheet_47: 1366651813
       Elder Dragon Yellow Sprite Sheet_41: -1363529139
-      Elder Dragon Yellow Sprite Sheet_72: 1281843256
-      Elder Dragon Yellow Sprite Sheet_65: -1380413896
       Elder Dragon Yellow Sprite Sheet_10: -785122424
       Elder Dragon Yellow Sprite Sheet_58: -556534700
       Elder Dragon Yellow Sprite Sheet_26: 824332949
       Elder Dragon Yellow Sprite Sheet_62: -1647839814
       Elder Dragon Yellow Sprite Sheet_63: 1237271173
-      Elder Dragon Yellow Sprite Sheet_69: 553025891
       Elder Dragon Yellow Sprite Sheet_27: 344995800
       Elder Dragon Yellow Sprite Sheet_42: -1483574049
       Elder Dragon Yellow Sprite Sheet_55: -1078230495
-      Elder Dragon Yellow Sprite Sheet_71: -1059693316
       Elder Dragon Yellow Sprite Sheet_35: -1441317942
       Elder Dragon Yellow Sprite Sheet_48: 923894816
       Elder Dragon Yellow Sprite Sheet_5: 195734291
@@ -1420,7 +1500,6 @@ TextureImporter:
       Elder Dragon Yellow Sprite Sheet_32: 1244651989
       Elder Dragon Yellow Sprite Sheet_59: 1988292448
       Elder Dragon Yellow Sprite Sheet_44: -1619581311
-      Elder Dragon Yellow Sprite Sheet_70: -179028000
       Elder Dragon Yellow Sprite Sheet_38: 525854451
       Elder Dragon Yellow Sprite Sheet_51: -2001367286
       Elder Dragon Yellow Sprite Sheet_0: -232386036
@@ -1441,18 +1520,14 @@ TextureImporter:
       Elder Dragon Yellow Sprite Sheet_1: 472861625
       Elder Dragon Yellow Sprite Sheet_6: 719672682
       Elder Dragon Yellow Sprite Sheet_33: 1491981247
-      Elder Dragon Yellow Sprite Sheet_68: 525524608
       Elder Dragon Yellow Sprite Sheet_11: -1289819036
-      Elder Dragon Yellow Sprite Sheet_66: 624875766
       Elder Dragon Yellow Sprite Sheet_57: -470603937
       Elder Dragon Yellow Sprite Sheet_21: 14543664
       Elder Dragon Yellow Sprite Sheet_2: 1376313304
-      Elder Dragon Yellow Sprite Sheet_67: 1422414238
       Elder Dragon Yellow Sprite Sheet_46: 955500635
       Elder Dragon Yellow Sprite Sheet_29: -1186204298
       Elder Dragon Yellow Sprite Sheet_3: -1743656166
       Elder Dragon Yellow Sprite Sheet_25: -1709236320
-      Elder Dragon Yellow Sprite Sheet_64: -1295755899
       Elder Dragon Yellow Sprite Sheet_23: -1968680831
       Elder Dragon Yellow Sprite Sheet_40: -1590410864
       Elder Dragon Yellow Sprite Sheet_9: -1013013355

@@ -120,12 +120,12 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_0
       rect:
         serializedVersion: 2
-        x: 32
-        y: 668
-        width: 118
-        height: 80
+        x: 0
+        y: 672
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -141,12 +141,12 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_2
       rect:
         serializedVersion: 2
-        x: 230
-        y: 667
-        width: 122
-        height: 81
+        x: 384
+        y: 672
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -162,12 +162,12 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_3
       rect:
         serializedVersion: 2
-        x: 423
-        y: 669
-        width: 119
-        height: 80
+        x: 576
+        y: 672
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -183,12 +183,12 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_4
       rect:
         serializedVersion: 2
-        x: 612
-        y: 668
-        width: 114
-        height: 80
+        x: 768
+        y: 672
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -204,12 +204,12 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_6
       rect:
         serializedVersion: 2
-        x: 804
-        y: 668
-        width: 114
-        height: 80
+        x: 1152
+        y: 672
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -225,12 +225,12 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_8
       rect:
         serializedVersion: 2
-        x: 993
-        y: 671
-        width: 127
-        height: 77
+        x: 0
+        y: 576
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -246,12 +246,12 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_9
       rect:
         serializedVersion: 2
-        x: 1191
-        y: 671
-        width: 121
-        height: 78
+        x: 192
+        y: 576
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -267,12 +267,12 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_10
       rect:
         serializedVersion: 2
-        x: 1383
-        y: 670
-        width: 117
-        height: 78
+        x: 384
+        y: 576
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -288,12 +288,12 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_11
       rect:
         serializedVersion: 2
-        x: 4
-        y: 568
-        width: 176
-        height: 85
+        x: 576
+        y: 576
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -309,12 +309,12 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_12
       rect:
         serializedVersion: 2
-        x: 225
+        x: 768
         y: 576
-        width: 147
-        height: 75
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -330,12 +330,12 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_13
       rect:
         serializedVersion: 2
-        x: 418
-        y: 568
-        width: 123
-        height: 84
+        x: 960
+        y: 576
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -351,12 +351,12 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_14
       rect:
         serializedVersion: 2
-        x: 612
-        y: 578
-        width: 120
-        height: 75
+        x: 1152
+        y: 576
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -372,12 +372,12 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_15
       rect:
         serializedVersion: 2
-        x: 808
+        x: 1344
         y: 576
-        width: 140
-        height: 79
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -393,12 +393,12 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_16
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 576
-        width: 116
-        height: 79
+        x: 0
+        y: 480
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -414,12 +414,12 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_17
       rect:
         serializedVersion: 2
-        x: 1192
-        y: 590
-        width: 116
-        height: 70
+        x: 192
+        y: 480
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -435,12 +435,12 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_18
       rect:
         serializedVersion: 2
-        x: 1378
-        y: 581
-        width: 122
-        height: 76
+        x: 384
+        y: 480
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -456,12 +456,12 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_19
       rect:
         serializedVersion: 2
-        x: 32
-        y: 476
-        width: 118
-        height: 80
+        x: 576
+        y: 480
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -477,12 +477,12 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_21
       rect:
         serializedVersion: 2
-        x: 232
+        x: 960
         y: 480
-        width: 110
-        height: 76
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -498,12 +498,12 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_22
       rect:
         serializedVersion: 2
-        x: 425
+        x: 1152
         y: 480
-        width: 109
-        height: 77
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -519,12 +519,12 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_23
       rect:
         serializedVersion: 2
-        x: 616
+        x: 1344
         y: 480
-        width: 123
-        height: 76
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -540,12 +540,12 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_24
       rect:
         serializedVersion: 2
-        x: 808
-        y: 480
-        width: 110
-        height: 76
+        x: 0
+        y: 384
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -561,12 +561,12 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_25
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 480
-        width: 122
-        height: 76
+        x: 192
+        y: 384
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -582,12 +582,12 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_26
       rect:
         serializedVersion: 2
-        x: 1193
-        y: 479
-        width: 131
-        height: 78
+        x: 384
+        y: 384
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -603,12 +603,12 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_28
       rect:
         serializedVersion: 2
-        x: 1384
-        y: 479
-        width: 133
-        height: 77
+        x: 768
+        y: 384
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -624,12 +624,12 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_30
       rect:
         serializedVersion: 2
-        x: 32
-        y: 380
-        width: 118
-        height: 80
+        x: 1152
+        y: 384
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -645,12 +645,12 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_32
       rect:
         serializedVersion: 2
-        x: 232
-        y: 384
-        width: 120
-        height: 76
+        x: 0
+        y: 288
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -666,12 +666,12 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_33
       rect:
         serializedVersion: 2
-        x: 425
-        y: 384
-        width: 119
-        height: 77
+        x: 192
+        y: 288
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -687,12 +687,12 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_34
       rect:
         serializedVersion: 2
-        x: 616
-        y: 384
-        width: 110
-        height: 76
+        x: 384
+        y: 288
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -705,22 +705,211 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elder Dragon Green Sprite Sheet_36
+      name: Elder Dragon Green Sprite Sheet_1
       rect:
         serializedVersion: 2
-        x: 808
-        y: 384
-        width: 110
-        height: 76
+        x: 192
+        y: 672
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e888bc9d899b1d40a0c736ecf681dd1
+      spriteID: 8e50e48a66ff18c4e8de919294e10ff8
+      internalID: -578057372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Green Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 672
+        width: 192
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b247267a00e7c41b1fdf71a2fa9771
+      internalID: 2080934632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Green Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 672
+        width: 192
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9acb8401f642054dac33b39c0c58501
+      internalID: -1384015767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Green Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 480
+        width: 192
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464c2363160e82c46bdb5ba16b57fcc2
+      internalID: 1445510740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Green Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 192
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe2aaafa29883241bd0a910077d2d92
+      internalID: 1137740407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Green Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 384
+        width: 192
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c11c8278a46eba4391e15126c2223b1
+      internalID: -2061481653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Green Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 384
+        width: 192
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd8eafaa7b7ed04180e485e47266edc
+      internalID: 1189353892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Green Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 288
+        width: 192
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12418018f161c148ac0221b4ded0807
+      internalID: 291579051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Green Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 288
+        width: 192
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052d922377c357a4390944b503b0717b
       internalID: 1494892676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Green Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 288
+        width: 192
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf49fea893bf0b4aad843bf6f63e3ea
+      internalID: -515727474
       vertices: []
       indices: 
       edges: []
@@ -729,18 +918,18 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_38
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 384
-        width: 119
-        height: 84
+        x: 1152
+        y: 288
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43005c60d5f7d63419cf9de7f409cee6
+      spriteID: b8a14ce75bee0a64a9ff64720fcf6559
       internalID: 1164823659
       vertices: []
       indices: 
@@ -750,18 +939,18 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_39
       rect:
         serializedVersion: 2
-        x: 1193
-        y: 384
-        width: 131
-        height: 88
+        x: 1344
+        y: 288
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90d098620d4d46d4bb148b679a5621f0
+      spriteID: 1f22c9b37386bf14a9ca5064521f3f23
       internalID: -1696990789
       vertices: []
       indices: 
@@ -771,18 +960,18 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_40
       rect:
         serializedVersion: 2
-        x: 1384
-        y: 384
-        width: 110
-        height: 76
+        x: 0
+        y: 192
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 050c7448b42e63b4b8cdae830bd76a47
+      spriteID: da54a3b5394ae964d844af1c9eba607c
       internalID: -1497410252
       vertices: []
       indices: 
@@ -792,18 +981,18 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_41
       rect:
         serializedVersion: 2
-        x: 32
-        y: 188
-        width: 118
-        height: 80
+        x: 192
+        y: 192
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf0b42a588c03724daa3f90cc6c1815f
+      spriteID: da197e9dd2d8ea74ba9638a99e186014
       internalID: 917916738
       vertices: []
       indices: 
@@ -813,18 +1002,18 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_42
       rect:
         serializedVersion: 2
-        x: 32
-        y: 284
-        width: 118
-        height: 80
+        x: 384
+        y: 192
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8704645b6483bf542bad3a69e0f4fd5d
+      spriteID: 9c6d0ed3d1c18c842a86148340bfd6bf
       internalID: 1282441194
       vertices: []
       indices: 
@@ -834,18 +1023,18 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_43
       rect:
         serializedVersion: 2
-        x: 232
-        y: 288
-        width: 110
-        height: 76
+        x: 576
+        y: 192
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b66c4c0ec82df1e4998261852be4d2b0
+      spriteID: 9ea13fe65d1322c48941c496a3fdb554
       internalID: -1899902412
       vertices: []
       indices: 
@@ -855,18 +1044,18 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_44
       rect:
         serializedVersion: 2
-        x: 233
+        x: 768
         y: 192
-        width: 109
-        height: 77
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 410a325348aece54b82158599be60e79
+      spriteID: e7d83d67a0e06fe4a956064d80e7c40a
       internalID: 688045238
       vertices: []
       indices: 
@@ -876,18 +1065,18 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_45
       rect:
         serializedVersion: 2
-        x: 424
+        x: 960
         y: 192
-        width: 120
-        height: 76
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 051920ea2b3fd464a8ff3aaf9b6b42f9
+      spriteID: 5518bb022d56b4e4f8b01d4a8418fc17
       internalID: 949926985
       vertices: []
       indices: 
@@ -897,18 +1086,18 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_46
       rect:
         serializedVersion: 2
-        x: 425
-        y: 288
-        width: 109
-        height: 77
+        x: 1152
+        y: 192
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19a8d36c577cd5a4ba5e16af8e0bf7a9
+      spriteID: b880bbd5f8e6d5b4bb0b0f0ce4a5e471
       internalID: 282592943
       vertices: []
       indices: 
@@ -918,18 +1107,18 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_47
       rect:
         serializedVersion: 2
-        x: 616
+        x: 1344
         y: 192
-        width: 110
-        height: 76
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11410de33d60d63419beeba0546f85c7
+      spriteID: b3c1239e4d6186f44b2052eeb7e4627c
       internalID: 2053800894
       vertices: []
       indices: 
@@ -939,18 +1128,18 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_48
       rect:
         serializedVersion: 2
-        x: 616
-        y: 288
-        width: 110
-        height: 76
+        x: 0
+        y: 96
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0670fb11572188b4e844dcb9873bd884
+      spriteID: dc7260845ab9dc04e9aa04deebde175e
       internalID: -2009392661
       vertices: []
       indices: 
@@ -960,18 +1149,18 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_49
       rect:
         serializedVersion: 2
-        x: 808
-        y: 192
-        width: 110
-        height: 76
+        x: 192
+        y: 96
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6669c4c596dea6f419ef2913af4bebc5
+      spriteID: 729ae4a5bd6678d4e96bb0b2b8965639
       internalID: 106558456
       vertices: []
       indices: 
@@ -981,18 +1170,18 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_50
       rect:
         serializedVersion: 2
-        x: 808
-        y: 288
-        width: 110
-        height: 76
+        x: 384
+        y: 96
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 293ee8cb4a600de489c4b9abafa9f34a
+      spriteID: 34804db55dac1294580cf465cde97681
       internalID: 48160236
       vertices: []
       indices: 
@@ -1002,18 +1191,18 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_51
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 288
-        width: 110
-        height: 76
+        x: 576
+        y: 96
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 675e99213d1cfb644986e9c1d838d16d
+      spriteID: 8305086ac1f6e33499af15e2ca657cbb
       internalID: 1742019764
       vertices: []
       indices: 
@@ -1023,18 +1212,18 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_52
       rect:
         serializedVersion: 2
-        x: 1001
-        y: 192
-        width: 119
-        height: 77
+        x: 1344
+        y: 96
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 608eccc4a10e54e49972713dfb95ae75
+      spriteID: f13105a1dd857f049be424493eeed4ef
       internalID: 190355206
       vertices: []
       indices: 
@@ -1044,18 +1233,18 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_53
       rect:
         serializedVersion: 2
-        x: 1192
-        y: 192
-        width: 120
-        height: 76
+        x: 0
+        y: 0
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcd63dcdc30793543a7a630588b9fd59
+      spriteID: 9b87943a110455e4198c8ab5677c825a
       internalID: 1079109464
       vertices: []
       indices: 
@@ -1065,18 +1254,18 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_54
       rect:
         serializedVersion: 2
-        x: 1193
-        y: 288
-        width: 109
-        height: 77
+        x: 192
+        y: 0
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9d0a77bae7fd2a409ebcf0e63a72041
+      spriteID: 9b8264261d4360f4b95215f506e43558
       internalID: -472142434
       vertices: []
       indices: 
@@ -1086,18 +1275,18 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_55
       rect:
         serializedVersion: 2
-        x: 1384
-        y: 176
-        width: 110
-        height: 92
+        x: 384
+        y: 0
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c506a2a3489cfd479c18a9832a1cf29
+      spriteID: 8032f4ebcb41dc547a2bf3a7054d36c6
       internalID: -174043634
       vertices: []
       indices: 
@@ -1107,19 +1296,61 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_56
       rect:
         serializedVersion: 2
-        x: 1384
-        y: 256
-        width: 144
-        height: 108
+        x: 576
+        y: 0
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b244eab3c476ed54baa0305ad968c544
+      spriteID: a5cf30b7ed66b3941adc5165bdf47ce5
       internalID: -672525535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Green Sprite Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 192
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26dbfd5d70001a343bb8bb75cf34ed27
+      internalID: -657606981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elder Dragon Green Sprite Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 192
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71345ee6460c8834c861b4700f11258d
+      internalID: 1770264190
       vertices: []
       indices: 
       edges: []
@@ -1128,250 +1359,40 @@ TextureImporter:
       name: Elder Dragon Green Sprite Sheet_59
       rect:
         serializedVersion: 2
-        x: 32
-        y: 92
-        width: 118
-        height: 80
+        x: 1152
+        y: 0
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84fef5a21afce1d4f863131957b806f9
+      spriteID: b0affc415f1c68c4ba73452c3ad2b939
       internalID: -754489785
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elder Dragon Green Sprite Sheet_61
+      name: Elder Dragon Green Sprite Sheet_60
       rect:
         serializedVersion: 2
-        x: 232
-        y: 96
-        width: 120
-        height: 75
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aa1493a38b8aa934d8ad6b793f838e16
-      internalID: 752162592
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elder Dragon Green Sprite Sheet_62
-      rect:
-        serializedVersion: 2
-        x: 424
-        y: 96
-        width: 110
-        height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cab9a9bb895da6e41b5803e69a31b85a
-      internalID: -463587064
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elder Dragon Green Sprite Sheet_64
-      rect:
-        serializedVersion: 2
-        x: 616
-        y: 96
-        width: 120
-        height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43912c912197e7a4a91d8a559189b860
-      internalID: -250773171
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elder Dragon Green Sprite Sheet_65
-      rect:
-        serializedVersion: 2
-        x: 19
+        x: 1344
         y: 0
-        width: 132
-        height: 76
+        width: 192
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9aa6d63973be1e04797a9094a18889bc
-      internalID: 305830355
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elder Dragon Green Sprite Sheet_67
-      rect:
-        serializedVersion: 2
-        x: 231
-        y: 0
-        width: 121
-        height: 70
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9c780c605c009bc44b7da150a0bf89f2
-      internalID: 1636384062
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elder Dragon Green Sprite Sheet_68
-      rect:
-        serializedVersion: 2
-        x: 429
-        y: 0
-        width: 115
-        height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 57ab8dee9ba9ff542b1c93cafa94384b
-      internalID: -991597187
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elder Dragon Green Sprite Sheet_69
-      rect:
-        serializedVersion: 2
-        x: 600
-        y: 0
-        width: 136
-        height: 71
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 78aebb2b2b7a26a4990ae96e49a1667c
-      internalID: -1757724728
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elder Dragon Green Sprite Sheet_70
-      rect:
-        serializedVersion: 2
-        x: 784
-        y: 0
-        width: 152
-        height: 88
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ca84541446fd57d42b9b136e1bd6a859
-      internalID: -996219533
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elder Dragon Green Sprite Sheet_71
-      rect:
-        serializedVersion: 2
-        x: 972
-        y: 0
-        width: 194
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1337dd260f9289b47bb429553f90facb
-      internalID: -656689931
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elder Dragon Green Sprite Sheet_72
-      rect:
-        serializedVersion: 2
-        x: 1196
-        y: 0
-        width: 162
-        height: 39
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd6a0f856255fb04f852c7c8d0c4af5e
-      internalID: 497135652
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Elder Dragon Green Sprite Sheet_73
-      rect:
-        serializedVersion: 2
-        x: 1388
-        y: 0
-        width: 141
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2d5a1db6a2413db46975637fd6321ada
-      internalID: -1573462413
+      spriteID: 407bd61fab5ad0b4c94d940201ab8901
+      internalID: 86499678
       vertices: []
       indices: 
       edges: []
@@ -1390,7 +1411,6 @@ TextureImporter:
       Elder Dragon Green Sprite Sheet_48: -2009392661
       Elder Dragon Green Sprite Sheet_42: 1282441194
       Elder Dragon Green Sprite Sheet_43: -1899902412
-      Elder Dragon Green Sprite Sheet_63: 57669028
       Elder Dragon Green Sprite Sheet_40: -1497410252
       Elder Dragon Green Sprite Sheet_30: 1631463086
       Elder Dragon Green Sprite Sheet_45: 949926985
@@ -1415,17 +1435,14 @@ TextureImporter:
       Elder Dragon Green Sprite Sheet_7: -1384015767
       Elder Dragon Green Sprite Sheet_51: 1742019764
       Elder Dragon Green Sprite Sheet_8: 1897463310
-      Elder Dragon Green Sprite Sheet_70: -996219533
       Elder Dragon Green Sprite Sheet_25: 319427825
       Elder Dragon Green Sprite Sheet_16: 752758148
       Elder Dragon Green Sprite Sheet_19: 514372175
-      Elder Dragon Green Sprite Sheet_69: -1757724728
       Elder Dragon Green Sprite Sheet_9: -1852135898
       Elder Dragon Green Sprite Sheet_12: 542467230
       Elder Dragon Green Sprite Sheet_21: 555942401
       Elder Dragon Green Sprite Sheet_58: 1770264190
       Elder Dragon Green Sprite Sheet_20: 1445510740
-      Elder Dragon Green Sprite Sheet_62: -463587064
       Elder Dragon Green Sprite Sheet_31: 1189353892
       Elder Dragon Green Sprite Sheet_28: 1333902543
       Elder Dragon Green Sprite Sheet_38: 1164823659
@@ -1433,14 +1450,11 @@ TextureImporter:
       Elder Dragon Green Sprite Sheet_1: -578057372
       Elder Dragon Green Sprite Sheet_50: 48160236
       Elder Dragon Green Sprite Sheet_46: 282592943
-      Elder Dragon Green Sprite Sheet_64: -250773171
       Elder Dragon Green Sprite Sheet_15: 2000514951
-      Elder Dragon Green Sprite Sheet_71: -656689931
       Elder Dragon Green Sprite Sheet_55: -174043634
       Elder Dragon Green Sprite Sheet_52: 190355206
       Elder Dragon Green Sprite Sheet_0: -15891161
       Elder Dragon Green Sprite Sheet_41: 917916738
-      Elder Dragon Green Sprite Sheet_67: 1636384062
       Elder Dragon Green Sprite Sheet_11: 1389830836
       Elder Dragon Green Sprite Sheet_22: -1127814772
       Elder Dragon Green Sprite Sheet_37: -515727474
@@ -1449,18 +1463,12 @@ TextureImporter:
       Elder Dragon Green Sprite Sheet_13: 794962459
       Elder Dragon Green Sprite Sheet_32: -692296897
       Elder Dragon Green Sprite Sheet_18: 2099091912
-      Elder Dragon Green Sprite Sheet_72: 497135652
       Elder Dragon Green Sprite Sheet_26: -2102317706
       Elder Dragon Green Sprite Sheet_10: -379024176
       Elder Dragon Green Sprite Sheet_54: -472142434
       Elder Dragon Green Sprite Sheet_2: -733125032
-      Elder Dragon Green Sprite Sheet_66: 1959170248
-      Elder Dragon Green Sprite Sheet_68: -991597187
-      Elder Dragon Green Sprite Sheet_65: 305830355
       Elder Dragon Green Sprite Sheet_17: -1528343955
       Elder Dragon Green Sprite Sheet_59: -754489785
-      Elder Dragon Green Sprite Sheet_61: 752162592
-      Elder Dragon Green Sprite Sheet_73: -1573462413
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

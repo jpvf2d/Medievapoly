@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     [HideInInspector] public bool jailFreeCard = false;
     [HideInInspector] public bool relocated = false;
     [HideInInspector] public int communityFund = 0;
+    private Animator anim;
 
 
     // Start is called before the first frame update
@@ -25,6 +26,7 @@ public class Player : MonoBehaviour
         money = 1500; //Change to whatever
         transform.position = boardSpaces[boardSpaceIndex].transform.position;
         List<int> property = new List<int>();
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -37,6 +39,7 @@ public class Player : MonoBehaviour
 
     private void Move()
     {
+        anim.SetBool("Walk", true);
         float speed = moveSpeed;
         if(this.tmpMoveSpeed > 1)
         {
@@ -57,7 +60,8 @@ public class Player : MonoBehaviour
                 SpaceLogic.coroutine_sl = true; 
            
             else
-                GoToJailSpace.sentToJail = false; 
+                GoToJailSpace.sentToJail = false;
+            anim.SetBool("Walk", false);
         }
     }
 }

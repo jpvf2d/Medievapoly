@@ -16,7 +16,7 @@ public class OwnedPanel : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        players = new GameObject[] {GameObject.Find("Player1"), GameObject.Find("Player2")};
+        players = new GameObject[] {GameObject.Find("Player1"), GameObject.Find("Player2"), GameObject.Find("Player3"), GameObject.Find("Player4")};
         SetStats();
     }
 

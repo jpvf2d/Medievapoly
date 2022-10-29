@@ -7,7 +7,7 @@ public class GameplaySystem : MonoBehaviour
 {
     
     public static GameObject[] players;
-    public static int numPlayers = 2;
+    public static int numPlayers = 4;
     public static int diceSideThrown = 0;
     public static int[] playersStartSpace = {0, 0, 0, 0};
     public static bool gameOver = false;
@@ -32,8 +32,8 @@ public class GameplaySystem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        players = new GameObject[] {GameObject.Find("Player1"), GameObject.Find("Player2")};
-        cams = new GameObject[] {GameObject.Find("CM vcam1"), GameObject.Find("CM vcam2")};
+        players = new GameObject[] {GameObject.Find("Player1"), GameObject.Find("Player2"), GameObject.Find("Player3"), GameObject.Find("Player4")};
+        cams = new GameObject[] {GameObject.Find("CM vcam1"), GameObject.Find("CM vcam2"), GameObject.Find("CM vcam3"), GameObject.Find("CM vcam4")};
         activeCam = cams[0];
         followMe = GameObject.Find("FollowMe");
         freeCamText = GameObject.Find("FreeCamText");

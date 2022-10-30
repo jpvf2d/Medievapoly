@@ -16,6 +16,8 @@ public class PropertySpace : BoardSpace
 	//****TEMPORARY VARIABLES (TMP_*): Delete when Card class is being used ****
 	public float TMP_rent = 0; 
 	public float TMP_purchaseCost = 0;
+
+	private float purchaseCost = 0; 
 	public Card propertyCard = null; 
 	//public RailroadCard railroadCard; 
 
@@ -48,7 +50,7 @@ public class PropertySpace : BoardSpace
 	{
 			if(!owned)
 			{
-				if(GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money >= TMP_purchaseCost)
+				if(GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money >= this.purchaseCost)
 				{
 					DisplayCard.cardIdx = index;
 					DisplayCard.coroutine = true;
@@ -57,6 +59,7 @@ public class PropertySpace : BoardSpace
 				else	
 				{
 					StartCoroutine(ActionTextScript.display("You don't have enough money to purchase this"));
+					Debug.Log("Price: " + this.purchaseCost + " Money: " + GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money);
 					SpaceLogic.continue_sl = true; 
 				}
 			}
@@ -93,11 +96,6 @@ public class PropertySpace : BoardSpace
 							GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money -= rent;
 							GameplaySystem.players[indexOfOwner].GetComponent<Player>().money += rent;
 						}
-						/****
-						//TODO: Each PropertySpace needs a PropertyCard object associated with it to pull purchase cost and rent information 
-					
-						GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money += propertyCard.rent;
-						****/
 					}
 
 					else
@@ -132,6 +130,7 @@ public class PropertySpace : BoardSpace
 						if((CardSto.newCardList[i] as RailroadCard).railroadName == this.propertyName)
 						{	
 							this.propertyCard = CardSto.newCardList[i]; 
+							this.purchaseCost = (float) (this.propertyCard as RailroadCard).value; 
 						}
 					}
 				}
@@ -155,6 +154,7 @@ public class PropertySpace : BoardSpace
 						if((CardSto.newCardList[i] as PropertyCard).propertyName == this.propertyName)
 						{
 							this.propertyCard = CardSto.newCardList[i]; 
+							this.purchaseCost = (float) (this.propertyCard as PropertyCard).purchaseCost; 
 						}
 					}
 				}

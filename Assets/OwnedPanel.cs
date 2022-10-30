@@ -9,6 +9,8 @@ public class OwnedPanel : MonoBehaviour
     public SpriteRenderer spriteRenderer;
     public Sprite sprite1;
     public Sprite sprite2;
+    public Sprite sprite3;
+    public Sprite sprite4;
 
     [SerializeField] public TextMeshPro locationL, locationM, locationR, money, location;
     public static GameObject[] players;
@@ -30,6 +32,14 @@ public class OwnedPanel : MonoBehaviour
             case 1:
                 spriteRenderer.sprite = sprite2;
                 break;
+            case 2:
+                spriteRenderer.sprite = sprite3;
+                break;
+            case 3:
+                spriteRenderer.sprite = sprite4;
+                break;
+            
+
         }  
     }
 

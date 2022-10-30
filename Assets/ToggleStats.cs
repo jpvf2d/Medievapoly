@@ -25,23 +25,19 @@ public class ToggleStats : MonoBehaviour
 
     private void Toggle()
 	{
-        StatsPanel.SetActive(false);
         OwnedPanel.SetActive(false);
+        StatsPanel.SetActive(false);
 
         switch(index){
             case 0:
                 OwnedPanel.SetActive(true);
-                StatsPanel.SetActive(false);
                 displayStatus.text = "Current Player";
                 break;
             case 1:
                 StatsPanel.SetActive(true);
-                OwnedPanel.SetActive(false);
                 displayStatus.text = "All Players";
                 break;
             default:
-                OwnedPanel.SetActive(false);
-                StatsPanel.SetActive(false);
                 displayStatus.text = "";
                 break;
         }

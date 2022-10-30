@@ -2112,6 +2112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cardData: {fileID: 4900000, guid: 44ea498bd82154cb0ad0869b8e4f26a9, type: 3}
+  i: 0
 --- !u!4 &118978496
 Transform:
   m_ObjectHideFlags: 0
@@ -2125,7 +2126,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &120859435
 GameObject:
@@ -3864,7 +3865,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 1
-  propertyName: Purple 1
+  propertyName: Brown 1
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -4727,51 +4728,6 @@ Transform:
   m_Father: {fileID: 1613954591}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &347859807
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 347859809}
-  - component: {fileID: 347859808}
-  m_Layer: 0
-  m_Name: RailroadCards
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &347859808
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 347859807}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 186e04ceada66cc41b8036dbedb26d18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cardData: {fileID: 4900000, guid: d0f77ffdeb0cd414fbb1643837f4e3d1, type: 3}
---- !u!4 &347859809
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 347859807}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 97.46315, y: -19.727991, z: 5.9458194}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 20
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &356349302
 GameObject:
   m_ObjectHideFlags: 0
@@ -4969,7 +4925,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 23
-  propertyName: Red 3
+  propertyName: Yellow 2
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -5158,7 +5114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 9
-  propertyName: Light Blue 3
+  propertyName: Red 3
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -5908,7 +5864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 31
-  propertyName: Dark Green 2
+  propertyName: Dark Green 1
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -7204,7 +7160,7 @@ RectTransform:
   - {fileID: 223175963}
   - {fileID: 939988381}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -8407,7 +8363,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 32
-  propertyName: Dark Green 3
+  propertyName: Dark Green 2
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -9754,7 +9710,7 @@ Transform:
   m_Children:
   - {fileID: 39616378}
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &805205629
 GameObject:
@@ -13430,7 +13386,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 24
-  propertyName: Yellow 1
+  propertyName: Yellow 3
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -16331,7 +16287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 34
-  propertyName: Dark Blue 1
+  propertyName: Dark Green 3
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -16535,7 +16491,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 16
-  propertyName: Orange 1
+  propertyName: Purple 1
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -17586,7 +17542,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 3
-  propertyName: Purple 2
+  propertyName: Brown 2
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -18434,7 +18390,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 19
-  propertyName: Orange 3
+  propertyName: Purple 3
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -19191,7 +19147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 20
-  propertyName: Red 1
+  propertyName: Blue 1
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -19393,7 +19349,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 37
-  propertyName: Dark Blue 2
+  propertyName: Blue 2
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -21789,7 +21745,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 21
-  propertyName: Red 2
+  propertyName: Yellow 1
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -24289,7 +24245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 18
-  propertyName: Orange 2
+  propertyName: Purple 2
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -24426,7 +24382,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1746673259
 MonoBehaviour:
@@ -27093,7 +27049,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 6
-  propertyName: Light Blue 1
+  propertyName: Red 1
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -28382,7 +28338,7 @@ RectTransform:
   m_Children:
   - {fileID: 78015610}
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -28876,7 +28832,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 8
-  propertyName: Light Blue 2
+  propertyName: Red 2
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -29065,7 +29021,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 26
-  propertyName: Yellow 2
+  propertyName: White 1
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -29644,7 +29600,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2064871616
 GameObject:
@@ -29744,7 +29700,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 27
-  propertyName: Yellow 3
+  propertyName: White 2
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -30271,7 +30227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 29
-  propertyName: Dark Green 1
+  propertyName: White 3
   owned: 0
   indexOfOwner: 0
   isRailroad: 0

@@ -16,16 +16,10 @@ public class PropertySpace : BoardSpace
 	//****TEMPORARY VARIABLES (TMP_*): Delete when Card class is being used ****
 	public float TMP_rent = 0; 
 	public float TMP_purchaseCost = 0;
-	public PropertyCard propertyCard; 
-	public RailroadCard railroadCard; 
+	public Card propertyCard = null; 
+	//public RailroadCard railroadCard; 
 
-	public static bool continueAssignCard_cs = false; 
-	public static bool continueAssignCard_rr = false;
-	/****
-	//TODO: Each PropertySpace needs a PropertyCard object associated with it to pull purchase cost and rent information 
-
-	private PropertyCard propertyCard;
-	****/
+	public static bool continueAssignCard = false;
 
 	/*void Update()
 	{
@@ -72,15 +66,16 @@ public class PropertySpace : BoardSpace
 
 					if(GameplaySystem.turn != indexOfOwner)
 					{
-						float rent = 0;
-
+						float rent = 0; 
+						
 						if(isRailroad)
 						{
-							rent = (float) this.railroadCard.rent1;
+							rent = (float) (this.propertyCard as RailroadCard).rent1;
 						}
 
 						else
-							rent = (float) this.propertyCard.rent;
+							rent = (float) (this.propertyCard as PropertyCard).rent;
+
 
 						if(GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money < rent)
 						{
@@ -122,23 +117,28 @@ public class PropertySpace : BoardSpace
 
 	private IEnumerator AssignCard()
 	{
-		while(!continueAssignCard_rr || !continueAssignCard_cs)
+		while(!continueAssignCard)
 		{
 			yield return new WaitForSeconds(0.05f);
 		}
 
+	
 		if(isRailroad)
 			{
-				for(int i = 0; i < CardRailroad.cardList.Count; i++)
+				for(int i = 0; i < CardSto.newCardList.Count; i++)
 				{
-					if(CardRailroad.cardList[i].railroadName == this.propertyName)
-					{	
-						this.railroadCard = CardRailroad.cardList[i]; 
+					if (CardSto.newCardList[i] is RailroadCard)
+					{
+						if((CardSto.newCardList[i] as RailroadCard).railroadName == this.propertyName)
+						{	
+							this.propertyCard = CardSto.newCardList[i]; 
+						}
 					}
 				}
 
-				Debug.Log("Railroad: " + this.railroadCard.railroadName);
+				Debug.Log("Railroad: " + (this.propertyCard as RailroadCard).railroadName);
 			}
+	
 
 			else if(isUtility)
 			{
@@ -148,15 +148,17 @@ public class PropertySpace : BoardSpace
 
 			else
 			{
-				for(int i = 0; i < CardSto.cardList.Count; i++)
+				for(int i = 0; i < CardSto.newCardList.Count; i++)
 				{
-					if(CardSto.cardList[i].propertyName == this.propertyName)
+					if(CardSto.newCardList[i] is PropertyCard)
 					{
-						this.propertyCard = CardSto.cardList[i]; 
+						if((CardSto.newCardList[i] as PropertyCard).propertyName == this.propertyName)
+						{
+							this.propertyCard = CardSto.newCardList[i]; 
+						}
 					}
 				}
-				Debug.Log("Property: " + this.propertyCard.propertyName);
-
+				Debug.Log("Property: " + (this.propertyCard as PropertyCard).propertyName);
 			}
 
 	}

@@ -13,6 +13,7 @@ public class Card  //base class
 
 public class PropertyCard: Card
 {
+  public string cardN;
   public string propertyName;
   public double rent;
   public double one;
@@ -23,8 +24,9 @@ public class PropertyCard: Card
   public double fullSet;
   public double purchaseCost;
 
-   public PropertyCard(string CardName, string PropertyName, double Rent, double One, double Two, double Three, double Four, double Hotel, double FullSet, double PurchaseCost) : base(CardName)
+   public PropertyCard(string CardName,string cName, string PropertyName, double Rent, double One, double Two, double Three, double Four, double Hotel, double FullSet, double PurchaseCost) : base(CardName)
    {
+     cardN = cName;
      propertyName = PropertyName;
      rent = Rent;
      one = One;
@@ -72,20 +74,5 @@ public class UtilitiesCard: Card
     value = val;
   }
 }
-//public class ChanceCard: Card
-//{
-  //public string des;
-  //public ChanceCard(string CardName, string Description) : base(CardName)
-  //{
-    //des = Description;
-  //}
-//}
 
-//public class CommunityChestCard: Card
-//{
-  //public string des;
-  //public CommunityChestCard(string CardName, string Description) : base(CardName)
-  //{
-    //des = Description;
-  //}
 //}

@@ -18,15 +18,19 @@ public class Player : MonoBehaviour
     [HideInInspector] public bool relocated = false;
     [HideInInspector] public int communityFund = 0;
     private Animator anim;
+    public bool justLost = false;
+    public bool isDead = false;
+    public bool justWon = false;
+
 
 
     // Start is called before the first frame update
     private void Start()
     {
-        money = 1500; //Change to whatever
+        money = 1500;
         transform.position = boardSpaces[boardSpaceIndex].transform.position;
         List<int> property = new List<int>();
-        anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>();        
     }
 
     // Update is called once per frame
@@ -35,6 +39,18 @@ public class Player : MonoBehaviour
         if(move)
             Move();
 
+        if(money < 0 && isDead == false){
+            justLost = true;
+        }
+
+        if(justLost)
+        {
+            KillPlayer();
+        }
+
+        if(justWon){
+            DeclareWinner();
+        }
     }
 
     private void Move()
@@ -63,5 +79,26 @@ public class Player : MonoBehaviour
                 GoToJailSpace.sentToJail = false;
             anim.SetBool("Walk", false);
         }
+    }
+
+    private void KillPlayer(){
+        isDead = true;
+        money = 0;
+        GameplaySystem.alivePlayers -= 1;
+
+        // Makes cards available again
+        GameObject boardSpacesIndexed = GameObject.Find("BoardSpaces");
+        BoardSpace[] boardSpacesArray = boardSpacesIndexed.GetComponent<SpaceLogic>().allBoardSpaces;
+        foreach (int index in property){
+            boardSpacesArray[index].GetComponent<PropertySpace>().owned = false;
+        }
+
+        justLost = false;
+        Debug.Log("Player has been killed!");
+    }
+
+    private void DeclareWinner(){
+        Debug.Log("WINNNAAAA!!!");
+        justWon = false;
     }
 }

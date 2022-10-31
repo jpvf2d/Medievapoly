@@ -81,10 +81,11 @@ public class PropertySpace : BoardSpace
 						{
 							float lastOfMoney = GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money;
 							GameplaySystem.players[indexOfOwner].GetComponent<Player>().money += lastOfMoney;
-							GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money = 0; 
+							GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money = -1; 
 							StartCoroutine(ActionTextScript.display("Player "+ GameplaySystem.turn + " paid Player " + indexOfOwner + " $" + lastOfMoney + ". You're out of funds!"));
 							//TODO: If player runs out of money, their game ends 
-						
+							// The below isn't needed because it's already handled in the player file
+							// GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().justLost = true;
 						}
 
 						else

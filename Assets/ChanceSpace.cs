@@ -83,12 +83,12 @@ public class ChanceSpace : BoardSpace
             case 1:
                 // give $25 to every player
                 for(int i = 0; i < GameplaySystem.numPlayers; i++) {
-                    if(i != GameplaySystem.turn) {
+                    if(i != GameplaySystem.turn && !GameplaySystem.players[i].GetComponent<Player>().isDead) {
                         GameplaySystem.players[i].GetComponent<Player>().money += 25;
                     }
                 }
                 // take that money to current player
-                GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money -= 25 * (GameplaySystem.numPlayers - 1);
+                GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money -= 25 * (GameplaySystem.alivePlayers - 1);
                 break;
 
             // Pay hospital bill of $100

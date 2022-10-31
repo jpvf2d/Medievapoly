@@ -12,8 +12,9 @@ public class OwnedPanel : MonoBehaviour
     public Sprite sprite3;
     public Sprite sprite4;
 
-    [SerializeField] public TextMeshPro locationL, locationM, locationR, money, location;
+    [SerializeField] public TextMeshPro locationL, locationR, money, location;
     public static GameObject[] players;
+    private Player playerStats;
 
     // Start is called before the first frame update
     void Start()
@@ -38,35 +39,76 @@ public class OwnedPanel : MonoBehaviour
             case 3:
                 spriteRenderer.sprite = sprite4;
                 break;
-            
-
         }  
     }
 
     void SetStats()
     {
         int turn = GameplaySystem.turn;
+        playerStats = GameplaySystem.players[turn].GetComponent<Player>();
+        string placeHolder = "";
         string displayL = "";
-        string displayM = "";
         string displayR = "";
         List<int> properties = GameplaySystem.players[turn].GetComponent<Player>().property;
         money.text = "$" + players[turn].GetComponent<Player>().money.ToString();
-        location.text = players[turn].GetComponent<Player>().boardSpaceIndex.ToString(); // Change to names once cards are in game
 
-        // Displays indexs of owned properties in 3 rows (change to names later)
-        for(int i = 0; i < properties.Count; i++){
-            if(i % 3 == 0){
-                displayL += properties[i] + "\n";
+        GameObject boardSpacesIndexed = GameObject.Find("BoardSpaces");
+        BoardSpace[] boardSpacesArray = boardSpacesIndexed.GetComponent<SpaceLogic>().allBoardSpaces;
+        
+        // Displays location
+        if(boardSpacesArray[playerStats.boardSpaceIndex] is GoSpace){
+            location.text = "Go Space";
+        }
+        else if(boardSpacesArray[playerStats.boardSpaceIndex] is ChanceSpace){
+            location.text = "Chance Space";
+        }
+        else if(boardSpacesArray[playerStats.boardSpaceIndex] is ChestSpace){
+            location.text = "Community Chest";
+        }
+        else if(boardSpacesArray[playerStats.boardSpaceIndex] is JailSpace){
+            location.text = "Gallows";
+        }
+        else if(boardSpacesArray[playerStats.boardSpaceIndex] is LuxTaxSpace){
+            location.text = "Luxury Tax";
+        }
+        else if(boardSpacesArray[playerStats.boardSpaceIndex] is TaxSpace){
+            location.text = "Tax";
+        }
+        else if(boardSpacesArray[playerStats.boardSpaceIndex] is FreeParking){
+            location.text = "Free Parking";
+        }
+        else if(boardSpacesArray[playerStats.boardSpaceIndex] is PropertySpace){
+            if(boardSpacesArray[playerStats.boardSpaceIndex].GetComponent<PropertySpace>().isUtility){
+                location.text = (boardSpacesArray[playerStats.boardSpaceIndex].GetComponent<PropertySpace>().propertyCard as UtilitiesCard).utilitiesName;
             }
-            else if (i % 3 == 1){
-                displayM += properties[i] + "\n";
+            else if(boardSpacesArray[playerStats.boardSpaceIndex].GetComponent<PropertySpace>().isRailroad){
+                location.text = (boardSpacesArray[playerStats.boardSpaceIndex].GetComponent<PropertySpace>().propertyCard as RailroadCard).railroadName;
             }
             else{
-                displayR += properties[i] + "\n";
+                location.text = (boardSpacesArray[playerStats.boardSpaceIndex].GetComponent<PropertySpace>().propertyCard as PropertyCard).propertyName;
+            }
+        }
+
+        // Displays indexs of owned properties in 3 rows (change to names later)        
+        for(int i = 0; i < properties.Count; i++){
+            if(boardSpacesArray[properties[i]].GetComponent<PropertySpace>().isUtility){
+                placeHolder = (boardSpacesArray[properties[i]].GetComponent<PropertySpace>().propertyCard as UtilitiesCard).utilitiesName;
+            }
+            else if(boardSpacesArray[properties[i]].GetComponent<PropertySpace>().isRailroad){
+                placeHolder = (boardSpacesArray[properties[i]].GetComponent<PropertySpace>().propertyCard as RailroadCard).railroadName;
+            }
+            else{
+                placeHolder = (boardSpacesArray[properties[i]].GetComponent<PropertySpace>().propertyCard as PropertyCard).propertyName;
+            }
+            
+            if(i % 2 == 0){
+                displayL += placeHolder + "\n";
+            }
+            else{
+                displayR += placeHolder + "\n";
             }
         }
         locationL.text = displayL;
-        locationM.text = displayM;
         locationR.text = displayR;
     }
 

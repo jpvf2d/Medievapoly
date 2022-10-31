@@ -8,6 +8,7 @@ public class GameplaySystem : MonoBehaviour
     
     public static GameObject[] players;
     public static int numPlayers = 4;
+    public static int alivePlayers = 4;
     public static int diceSideThrown = 0;
     public static int[] playersStartSpace = {0, 0, 0, 0};
     public static bool gameOver = false;
@@ -118,9 +119,21 @@ public class GameplaySystem : MonoBehaviour
             yield return new WaitForSeconds(0.01f);
         }
 
-        turn += 1;
-        if(turn >= numPlayers)
-            turn = 0;
+
+        // Skips dead players
+        do{
+            turn += 1;
+
+            if(turn >= numPlayers)
+                turn = 0;
+        }
+        while(players[turn].GetComponent<Player>().isDead);
+
+        // Declared winner
+        if(GameplaySystem.alivePlayers == 1){
+            players[turn].GetComponent<Player>().justWon = true;
+        }
+
         SpaceLogic.cont_changeTurns = false; 
         mb.StartCoroutine(SwitchCamera(cams[turn]));
       

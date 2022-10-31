@@ -53,7 +53,7 @@ public class ChestSpace : BoardSpace
             case 5:
                 int totalFund = 0;
                 for(int i = 0; i < GameplaySystem.numPlayers; i++) {
-                    if(i != GameplaySystem.turn) {
+                    if(i != GameplaySystem.turn && !GameplaySystem.players[i].GetComponent<Player>().isDead) {
                         totalFund += GameplaySystem.players[i].GetComponent<Player>().communityFund;
                     }
                 }
@@ -90,24 +90,24 @@ public class ChestSpace : BoardSpace
             case 2:
                 // take $50 from every player
                 for(int i = 0; i < GameplaySystem.numPlayers; i++) {
-                    if(i != GameplaySystem.turn) {
+                    if(i != GameplaySystem.turn && !GameplaySystem.players[i].GetComponent<Player>().isDead) {
                         GameplaySystem.players[i].GetComponent<Player>().money -= 50;
                     }
                 }
                 // give that money to current player
-                GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money += 50 * (GameplaySystem.numPlayers - 1);
+                GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money += 50 * (GameplaySystem.alivePlayers - 1);
                 break;
             
             // Pay every player $50
             case 3:
                 // give $50 to every player
                 for(int i = 0; i < GameplaySystem.numPlayers; i++) {
-                    if(i != GameplaySystem.turn) {
+                    if(i != GameplaySystem.turn && !GameplaySystem.players[i].GetComponent<Player>().isDead) {
                         GameplaySystem.players[i].GetComponent<Player>().money += 50;
                     }
                 }
                 // take that money to current player
-                GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money -= 50 * (GameplaySystem.numPlayers - 1);
+                GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money -= 50 * (GameplaySystem.alivePlayers - 1);
                 break;
             
             // $25 to community fund
@@ -120,7 +120,7 @@ public class ChestSpace : BoardSpace
             case 5:
                 int totalFund = 0;
                 for(int i = 0; i < GameplaySystem.numPlayers; i++) {
-                    if(i != GameplaySystem.turn) {
+                    if(i != GameplaySystem.turn && !GameplaySystem.players[i].GetComponent<Player>().isDead) {
                         totalFund += GameplaySystem.players[i].GetComponent<Player>().communityFund;
                         GameplaySystem.players[i].GetComponent<Player>().communityFund = 0;
                     }

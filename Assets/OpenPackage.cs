@@ -1,16 +1,20 @@
-using System.Collections;
+/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-/*
-public class OpenPackage : MonoBehaviour
+using static Card;
+using static CardDisplay;
+public class open : MonoBehaviour
 {
-    public GameObject cardPrefab;
-    public GameObject CardShow;
-    CardRailroad CardRailroad;
+    public GameObject cPrefabs;
+    public GameObject cardPull;
+    CardSto CardSto;
+    List<GameObject> cards = new List<GameObject>();
+    public Card card;
     // Start is called before the first frame update
     void Start()
     {
-        CardRailroad = GetComponent<CardRailroad>();
+        CardSto = GetComponent<CardSto>();
+
     }
 
     // Update is called once per frame
@@ -18,18 +22,26 @@ public class OpenPackage : MonoBehaviour
     {
 
     }
-    public void clickOpen()
+
+    public void onClickOpen()
     {
-      //clearCard();
 
-      for (int i = 0; i < 4; i++)
-      {
-        GameObject newCard = GameObject.Instantiate(cardPrefab, CardShow.transform);
-        newCard.GetComponent<CardDisplay>().card = CardRailroad.rCard(i);
-        //cards.Add(newCard);
-      }
+      clearCard();
+      for (int i = 0; i < 28; i++)
+        {
+          GameObject newCard = GameObject.Instantiate(cPrefabs, cardPull.transform);
+          newCard.GetComponent<CardDisplay>().card = CardSto.rCard(i);
+          cards.Add(newCard);
+        }
     }
-
+    //clear the cards
+    public void clearCard()
+    {
+      foreach (var card in cards)
+      {
+        Destroy(card);
+      }
+      cards.Clear();
+    }
 }
-
 */

@@ -55,10 +55,10 @@ public class CardSto : MonoBehaviour
         }
         else if(rowArray[0] == "utility")
         {
-          string propertyName = rowArray[2];
-          string rent1 = rowArray[3];
-          string rent2 = rowArray[4];
-          double three = double.Parse(rowArray[5]);
+          string propertyName = rowArray[1];
+          string rent1 = rowArray[2];
+          string rent2 = rowArray[3];
+          double three = double.Parse(rowArray[4]);
           string cardName = "utility";
           UtilitiesCard utilitiesCard = new UtilitiesCard(cardName, propertyName, rent1, rent2, three);
           newCardList.Add(utilitiesCard);
@@ -66,12 +66,12 @@ public class CardSto : MonoBehaviour
         }
         else if(rowArray[0] == "railroad")
         {
-          string railroadName = rowArray[2];
-          double rent1 = double.Parse(rowArray[3]);
-          double twoRailroad = double.Parse(rowArray[4]);
-          double threeRailroad = double.Parse(rowArray[5]);
-          string des = rowArray[6];
-          double value = double.Parse(rowArray[7]);
+          string railroadName = rowArray[1];
+          double rent1 = double.Parse(rowArray[2]);
+          double twoRailroad = double.Parse(rowArray[3]);
+          double threeRailroad = double.Parse(rowArray[4]);
+          string des = rowArray[5];
+          double value = double.Parse(rowArray[6]);
           string cardName = "railroad";
           RailroadCard railCard = new RailroadCard(cardName, railroadName, rent1, twoRailroad, threeRailroad, des, value);
           newCardList.Add(railCard);

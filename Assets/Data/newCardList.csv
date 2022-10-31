@@ -21,11 +21,11 @@ property,TITLE DEED,Kōchi Castle,260,130,390,900,1100,1275,43,300
 property,TITLE DEED,Kilkenny Castle,280,150,450,1000,1200,1400,45,320
 property,TITLE DEED,Sakura Castle,350,175,500,1100,1300,1500,50,350
 property,TITLE DEED,Shibata Castle,500,200,600,1400,1700,2000,60,400
-cName,Name,Rent1,Rent2,value
-utility,Utility 1,If one 'Utility' is owned rent is 4 times amount shown on dice.,If both 'Utility' are owned rent is 10 times amount shown on dice.,150,,,,,
-utility,Utility 2,If one 'Utility' is owned rent is 4 times amount shown on dice.,If both 'Utility' are owned rent is 10 times amount shown on dice.,150,,,,,
-cName,Name,Rent,2 railroad,3 railroad,des,value
-railroad,Railroad 1,25,50,100,With TRAIN DEPOT above rents DOUBLE,200
-railroad,Railroad 2,25,50,100,With TRAIN DEPOT above rents DOUBLE,200
-railroad,Railroad 3,25,50,100,With TRAIN DEPOT above rents DOUBLE,200
-railroad,Railroad 4,25,50,100,With TRAIN DEPOT above rents DOUBLE,200
+cName,Name,Rent1,Rent2,value,,,,,,
+utility,Utility 1,If one 'Utility' is owned rent is 4 times amount shown on dice.,If both 'Utility' are owned rent is 10 times amount shown on dice.,150,,,,,,
+utility,Utility 2,If one 'Utility' is owned rent is 4 times amount shown on dice.,If both 'Utility' are owned rent is 10 times amount shown on dice.,150,,,,,,
+cName,Name,Rent,2 railroad,3 railroad,des,value,,,,
+railroad,Spring Dragon,25,50,100,With TRAIN DEPOT above rents DOUBLE,200,,,,
+railroad,Shadow Dragon,25,50,100,With TRAIN DEPOT above rents DOUBLE,200,,,,
+railroad,Sun Dragon,25,50,100,With TRAIN DEPOT above rents DOUBLE,200,,,,
+railroad,Sky Dragon,25,50,100,With TRAIN DEPOT above rents DOUBLE,200,,,,

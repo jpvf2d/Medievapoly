@@ -1869,7 +1869,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 5
-  propertyName: Railroad 1
+  propertyName: Spring Dragon
   owned: 0
   indexOfOwner: 0
   isRailroad: 1
@@ -2129,10 +2129,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 118978494}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 034f5a17ac14c094783929e84b9858f6, type: 3}
+  m_Script: {fileID: 11500000, guid: 3a7fce36804e64fafba796c37f9a7044, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardData: {fileID: 4900000, guid: 44ea498bd82154cb0ad0869b8e4f26a9, type: 3}
+  cardData: {fileID: 4900000, guid: 5ad9b762aa1544d889584e05f98bc772, type: 3}
   i: 0
 --- !u!4 &118978496
 Transform:
@@ -2877,7 +2877,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 35
-  propertyName: Railroad 4
+  propertyName: Sky Dragon
   owned: 0
   indexOfOwner: 0
   isRailroad: 1
@@ -2982,7 +2982,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 14
-  propertyName: Pink 3
+  propertyName: Haarton Hold
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -4061,7 +4061,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 1
-  propertyName: Brown 1
+  propertyName: Ueda Castle
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -5121,7 +5121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 23
-  propertyName: Yellow 2
+  propertyName: Stirling Castle
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -5310,7 +5310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 9
-  propertyName: Red 3
+  propertyName: Nartley Castle
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -6113,7 +6113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 31
-  propertyName: Dark Green 1
+  propertyName: Komine Castle
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -6218,7 +6218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 15
-  propertyName: Railroad 2
+  propertyName: Shadow Dragon
   owned: 0
   indexOfOwner: 0
   isRailroad: 1
@@ -8150,7 +8150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 25
-  propertyName: Railroad 3
+  propertyName: Sun Dragon
   owned: 0
   indexOfOwner: 0
   isRailroad: 1
@@ -8696,7 +8696,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 32
-  propertyName: Dark Green 2
+  propertyName: "K\u014Dchi Castle"
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -13036,7 +13036,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -220.02002, y: -50.218994}
+  m_AnchoredPosition: {x: -220.01996, y: -50.218994}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1016157229
@@ -13859,7 +13859,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 24
-  propertyName: Yellow 3
+  propertyName: Tintagel Castle
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -16932,7 +16932,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 34
-  propertyName: Dark Green 3
+  propertyName: Kilkenny Castle
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -17136,7 +17136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 16
-  propertyName: Purple 1
+  propertyName: The Hightower
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -18190,7 +18190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 3
-  propertyName: Brown 2
+  propertyName: Yamagata
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -19038,7 +19038,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 19
-  propertyName: Purple 3
+  propertyName: The Eyrie
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -19795,7 +19795,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 20
-  propertyName: Blue 1
+  propertyName: Sakura Castle
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -19997,7 +19997,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 37
-  propertyName: Blue 2
+  propertyName: Shibata Castle
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -21724,7 +21724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 13
-  propertyName: Pink 2
+  propertyName: Hewgill Hold
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -22582,7 +22582,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 21
-  propertyName: Yellow 1
+  propertyName: Leeds Castle
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -24430,7 +24430,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 11
-  propertyName: Pink 1
+  propertyName: Carneath Hold
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -25338,7 +25338,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 18
-  propertyName: Purple 2
+  propertyName: The Hornburg
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -28144,7 +28144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 6
-  propertyName: Red 1
+  propertyName: Avolire Castle
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -29927,7 +29927,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 8
-  propertyName: Red 2
+  propertyName: Minbury Castle
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -30116,7 +30116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 26
-  propertyName: White 1
+  propertyName: Bodiam Castle
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -30882,7 +30882,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 27
-  propertyName: White 2
+  propertyName: Bojnice Castle
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -31409,7 +31409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 29
-  propertyName: White 3
+  propertyName: Bran Castle
   owned: 0
   indexOfOwner: 0
   isRailroad: 0

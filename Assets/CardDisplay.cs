@@ -61,35 +61,35 @@ public class CardDisplay : MonoBehaviour
         hotelP.text = "With HOTEL:        $" + property.hotel.ToString();
         fullsetP.text = "Fullset: $" + property.fullSet.ToString();
         purchaseP.text = "Purchase Cost: $" + property.purchaseCost.ToString();
-        if (propertyText.text == "Light Blue 1" || propertyText.text == "Light Blue 2" || propertyText.text == "Light Blue 3")
+        if (propertyText.text == "The Eyrie" || propertyText.text == "The Hornburg" || propertyText.text == "The Hightower")
         {
           titleImage.GetComponent<Image>().color = new Color32(153,204,255,255);
         }
-        else if (propertyText.text == "Yellow 1" || propertyText.text == "Yellow 2" || propertyText.text == "Yellow 3")
+        else if (propertyText.text == "Leeds Castle" || propertyText.text == "Stirling Castle" || propertyText.text == "Tintagel Castle")
         {
           titleImage.GetComponent<Image>().color = new Color32(255,204,104,255);
         }
-        else if (propertyText.text == "Pink 1" || propertyText.text == "Pink 2" || propertyText.text == "Pink 3")
+        else if (propertyText.text == "Carneath Hold" || propertyText.text == "Hewgill Hold" || propertyText.text == "Haarton Hold")
         {
           titleImage.GetComponent<Image>().color = new Color32(234,90,179,255);
         }
-        else if (propertyText.text == "Orange 1" || propertyText.text == "Orange 2" || propertyText.text == "Orange 3")
+        else if (propertyText.text == "Bodiam Castle" || propertyText.text == "Bojnice Castle" || propertyText.text == "Bran Castle")
         {
           titleImage.GetComponent<Image>().color = new Color32(240,115,64,255);
         }
-        else if (propertyText.text == "Red 1" || propertyText.text == "Red 2" || propertyText.text == "Red 3")
+        else if (propertyText.text == "Avolire Castle" || propertyText.text == "Minbury Castle" || propertyText.text == "Nartley Castle")
         {
           titleImage.GetComponent<Image>().color = new Color32(255,63,77,255);
         }
-        else if (propertyText.text == "Dark Green 1" || propertyText.text == "Dark Green 2" || propertyText.text == "Dark Green 3")
+        else if (propertyText.text == "Kilkenny Castle" || propertyText.text == "Kōchi Castle" || propertyText.text == "Komine Castle")
         {
           titleImage.GetComponent<Image>().color = new Color32(0,153,51,255);
         }
-        else if (propertyText.text == "Purple 1" || propertyText.text == "Purple 2")
+        else if (propertyText.text == "Yamagata" || propertyText.text == "Ueda Castle")
         {
           titleImage.GetComponent<Image>().color = new Color32(120,0,210,100);
         }
-        else if (propertyText.text == "Dark Blue 1" || propertyText.text == "Dark Blue 2")
+        else if (propertyText.text == "Shibata Castle" || propertyText.text == "Sakura Castle")
         {
           titleImage.GetComponent<Image>().color = new Color32(33,81,195,200);
         }
@@ -178,4 +178,5 @@ public class CardDisplay : MonoBehaviour
 
     }
 }
+
 */

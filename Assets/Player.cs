@@ -21,6 +21,8 @@ public class Player : MonoBehaviour
     public bool justLost = false;
     public bool isDead = false;
     public bool justWon = false;
+    public SpriteRenderer spriteRenderer;
+    public Sprite burnt;
 
 
 
@@ -93,8 +95,16 @@ public class Player : MonoBehaviour
             boardSpacesArray[index].GetComponent<PropertySpace>().owned = false;
         }
 
+        // Kill visual
+        anim.enabled = false;
+        spriteRenderer.sprite = burnt;
+        Invoke("Rotate", 1);
         justLost = false;
         Debug.Log("Player has been killed!");
+    }
+
+    private void Rotate(){
+        transform.Rotate (Vector3.forward * -90);
     }
 
     private void DeclareWinner(){

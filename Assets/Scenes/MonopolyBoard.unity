@@ -2428,6 +2428,8 @@ MonoBehaviour:
   justLost: 0
   isDead: 0
   justWon: 0
+  spriteRenderer: {fileID: 123120743}
+  burnt: {fileID: 21300000, guid: 7e66e06d23d7f6a44a695678d447055a, type: 3}
 --- !u!61 &123120746
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9548,6 +9550,8 @@ MonoBehaviour:
   justLost: 0
   isDead: 0
   justWon: 0
+  spriteRenderer: {fileID: 768452472}
+  burnt: {fileID: 21300000, guid: 7e66e06d23d7f6a44a695678d447055a, type: 3}
 --- !u!95 &768452471
 Animator:
   serializedVersion: 4
@@ -18092,6 +18096,8 @@ MonoBehaviour:
   justLost: 0
   isDead: 0
   justWon: 0
+  spriteRenderer: {fileID: 1306886896}
+  burnt: {fileID: 21300000, guid: 7e66e06d23d7f6a44a695678d447055a, type: 3}
 --- !u!1 &1314204216
 GameObject:
   m_ObjectHideFlags: 0
@@ -28119,7 +28125,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: e8ee6d6b894fad94ab8bb765ea79c5b3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -30294,6 +30300,8 @@ MonoBehaviour:
   justLost: 0
   isDead: 0
   justWon: 0
+  spriteRenderer: {fileID: 2041721156}
+  burnt: {fileID: 21300000, guid: 7e66e06d23d7f6a44a695678d447055a, type: 3}
 --- !u!95 &2041721155
 Animator:
   serializedVersion: 4

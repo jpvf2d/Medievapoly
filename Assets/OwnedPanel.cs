@@ -56,7 +56,10 @@ public class OwnedPanel : MonoBehaviour
         BoardSpace[] boardSpacesArray = boardSpacesIndexed.GetComponent<SpaceLogic>().allBoardSpaces;
         
         // Displays location
-        if(boardSpacesArray[playerStats.boardSpaceIndex] is GoSpace){
+        if(playerStats.isDead){
+            location.text = "Dead";
+        }
+        else if(boardSpacesArray[playerStats.boardSpaceIndex] is GoSpace){
             location.text = "Go Space";
         }
         else if(boardSpacesArray[playerStats.boardSpaceIndex] is ChanceSpace){

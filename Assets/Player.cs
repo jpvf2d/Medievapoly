@@ -21,8 +21,10 @@ public class Player : MonoBehaviour
     public bool justLost = false;
     public bool isDead = false;
     public bool justWon = false;
+    public bool isWinner = false;
     public SpriteRenderer spriteRenderer;
     public Sprite burnt;
+    public GameObject WinPanel;
 
 
 
@@ -33,6 +35,8 @@ public class Player : MonoBehaviour
         transform.position = boardSpaces[boardSpaceIndex].transform.position;
         List<int> property = new List<int>();
         anim = GetComponent<Animator>();        
+        //WinPanel = GameObject.Find("WinPanel");
+        WinPanel.SetActive(false);
     }
 
     // Update is called once per frame
@@ -108,7 +112,8 @@ public class Player : MonoBehaviour
     }
 
     private void DeclareWinner(){
-        Debug.Log("WINNNAAAA!!!");
+        isWinner = true;
+        WinPanel.SetActive(true);
         justWon = false;
     }
 }

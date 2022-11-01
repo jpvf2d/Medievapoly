@@ -66,7 +66,7 @@ public class PauseMenu : MonoBehaviour
         }        
     }
 
-    public void QuiteGame(){
+    public void QuitGame(){
         Debug.Log("Quitting Game (Only Works Outside Unity)");
         Application.Quit();
     }

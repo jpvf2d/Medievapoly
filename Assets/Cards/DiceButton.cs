@@ -36,7 +36,7 @@ public class DiceButton : MonoBehaviour
 		{
 			yield return new WaitForSeconds(0.05f);
 		}
-		
+		GameplaySystem.diceSideThrown = Dice1.DiceNum + Dice2.DiceNum + 2;
 		// Options for player if player is in jail 
 		if(GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().stuckInPlace == true)
 		{
@@ -45,7 +45,6 @@ public class DiceButton : MonoBehaviour
 			{
 				StartCoroutine(ActionTextScript.display("Rolled doubles, escaping the gallows"));
 				JailSpace.escapeJail = true; 
-				GameplaySystem.diceSideThrown = Dice1.DiceNum + Dice2.DiceNum + 2;
 				GameplaySystem.MovePlayer();
 			}
 
@@ -65,26 +64,18 @@ public class DiceButton : MonoBehaviour
 				if(JailFeeDisplay.paidFee)
 				{
 					JailSpace.escapeJail = true;
-					GameplaySystem.diceSideThrown = Dice1.DiceNum + Dice2.DiceNum + 2;
 					GameplaySystem.MovePlayer();
 				}
 
 				else
 				{
 					JailSpace.waitInJail = true; 
-					StartCoroutine(ActionTextScript.display("Player: " + GameplaySystem.turn + " is stuck at the gallows"));	
 				}
 			}
 		}
 
 		else
 		{
-			GameplaySystem.diceSideThrown = Dice1.DiceNum + Dice2.DiceNum + 2;
-			
-			// TEST VAR: to declare what value the player will move
-			// REMOVE FROM PRODUCTION CODE
-			// GameplaySystem.diceSideThrown = 2;
-
        		GameplaySystem.MovePlayer();
 		} 
 

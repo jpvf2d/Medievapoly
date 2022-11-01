@@ -34,6 +34,6 @@ public class Dice : MonoBehaviour
 
     private void OnMouseDown() 
     {
-        GameplaySystem.roll();
+        //GameplaySystem.roll();
     }
 }

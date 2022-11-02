@@ -51,6 +51,9 @@ public class SpaceLogic : MonoBehaviour
             allBoardSpaces[spaceIndex].GetComponent<PropertySpace>().owned = true; 
             allBoardSpaces[spaceIndex].GetComponent<PropertySpace>().indexOfOwner = turn; 
             GameplaySystem.players[turn].GetComponent<Player>().property.Add(spaceIndex);
+ 
+            if(allBoardSpaces[spaceIndex].GetComponent<PropertySpace>().isUtility)
+                GameplaySystem.players[turn].GetComponent<Player>().numUtilities += 1;
 
             //float costToPurchaseProperty = allBoardSpaces[spaceIndex].GetComponent<PropertySpace>().TMP_purchaseCost;
            float costToPurchaseProperty = 0;

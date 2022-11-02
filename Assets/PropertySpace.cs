@@ -76,6 +76,20 @@ public class PropertySpace : BoardSpace
 							rent = (float) (this.propertyCard as RailroadCard).rent1;
 						}
 
+						else if(isUtility)
+						{
+							GameObject dice1, dice2;
+							dice1 = GameObject.Find("Dice1");
+							dice2 = GameObject.Find("Dice2");
+							int diceVal = dice1.GetComponent<Dice>().DiceNum + dice2.GetComponent<Dice>().DiceNum + 2;
+							int multiplyer = 4;
+							if(GameplaySystem.players[indexOfOwner].GetComponent<Player>().numUtilities == 2)
+							{
+								multiplyer = 10;
+							}
+							rent = (float) diceVal * multiplyer;
+						}
+
 						else
 							rent = (float) (this.propertyCard as PropertyCard).rent;
 
@@ -123,44 +137,44 @@ public class PropertySpace : BoardSpace
 
 	
 		if(isRailroad)
+		{
+			for(int i = 0; i < CardSto.newCardList.Count; i++)
 			{
-				for(int i = 0; i < CardSto.newCardList.Count; i++)
+				if (CardSto.newCardList[i] is RailroadCard)
 				{
-					if (CardSto.newCardList[i] is RailroadCard)
-					{
-						if((CardSto.newCardList[i] as RailroadCard).railroadName == this.propertyName)
-						{	
-							this.propertyCard = CardSto.newCardList[i]; 
-							this.purchaseCost = (float) (this.propertyCard as RailroadCard).value; 
-						}
+					if((CardSto.newCardList[i] as RailroadCard).railroadName == this.propertyName)
+					{	
+						this.propertyCard = CardSto.newCardList[i]; 
+						this.purchaseCost = (float) (this.propertyCard as RailroadCard).value; 
 					}
 				}
-
-				Debug.Log("Railroad: " + (this.propertyCard as RailroadCard).railroadName);
-			}
-	
-
-			else if(isUtility)
-			{
-				TMP_purchaseCost = 100;
-				TMP_rent = 500; 
 			}
 
-			else
+			Debug.Log("Railroad: " + (this.propertyCard as RailroadCard).railroadName);
+		}
+
+
+		else if(isUtility)
+		{
+			TMP_purchaseCost = 100;
+			TMP_rent = 500; 
+		}
+
+		else
+		{
+			for(int i = 0; i < CardSto.newCardList.Count; i++)
 			{
-				for(int i = 0; i < CardSto.newCardList.Count; i++)
+				if(CardSto.newCardList[i] is PropertyCard)
 				{
-					if(CardSto.newCardList[i] is PropertyCard)
+					if((CardSto.newCardList[i] as PropertyCard).propertyName == this.propertyName)
 					{
-						if((CardSto.newCardList[i] as PropertyCard).propertyName == this.propertyName)
-						{
-							this.propertyCard = CardSto.newCardList[i]; 
-							this.purchaseCost = (float) (this.propertyCard as PropertyCard).purchaseCost; 
-						}
+						this.propertyCard = CardSto.newCardList[i]; 
+						this.purchaseCost = (float) (this.propertyCard as PropertyCard).purchaseCost; 
 					}
 				}
-				Debug.Log("Property: " + (this.propertyCard as PropertyCard).propertyName);
 			}
+			Debug.Log("Property: " + (this.propertyCard as PropertyCard).propertyName);
+		}
 
 	}
 	

@@ -95,12 +95,6 @@ public class GameplaySystem : MonoBehaviour
         players[turn].GetComponent<Player>().move = true;
 		playerIndex = players[turn].GetComponent<Player>().boardSpaceIndex;
         mb.StartCoroutine(ChangeTurns());
-        /*
-        turn += 1;
-        if(turn >= numPlayers)
-            turn = 0;
-        mb.StartCoroutine(SwitchCamera(cams[turn]));
-        */
     }
 
     public static void roll()

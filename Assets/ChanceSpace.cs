@@ -113,6 +113,7 @@ public class ChanceSpace : BoardSpace
             //Get out of jail free card
             case 5:
                 GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().jailFreeCard = true;
+                JailSpace.availableJailCards[GameplaySystem.turn] = 1; 
                 break;
 		}
 

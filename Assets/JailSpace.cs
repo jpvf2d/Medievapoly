@@ -9,6 +9,7 @@ public class JailSpace : BoardSpace
     [HideInInspector] public static int[] playersInJail = new int[4] {-1,-1,-1,-1}; 
     [HideInInspector] public static bool waitInJail = false; 
     [HideInInspector] public static bool escapeJail = false; 
+    public static int[] availableJailCards = new int[4] {0,0,0,0}; //Keeps track of players with Get Out cards
 
     private void Update()
     {

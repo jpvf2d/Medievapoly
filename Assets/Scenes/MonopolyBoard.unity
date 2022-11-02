@@ -2509,6 +2509,7 @@ MonoBehaviour:
   jailFreeCard: 0
   relocated: 0
   communityFund: 0
+  numUtilities: 0
   justLost: 0
   isDead: 0
   justWon: 0
@@ -4823,7 +4824,7 @@ GameObject:
   m_Component:
   - component: {fileID: 340300155}
   - component: {fileID: 340300156}
-  - component: {fileID: 340300157}
+  - component: {fileID: 340300158}
   m_Layer: 0
   m_Name: Space (12)
   m_TagString: Untagged
@@ -4898,7 +4899,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &340300157
+--- !u!114 &340300158
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4907,12 +4908,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 340300154}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c031ba7c437df4a49988a8b48ae95bb5, type: 3}
+  m_Script: {fileID: 11500000, guid: b1f3ec20df519dc41b2f31bbc27ea929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   index: 12
-  okBtn: {fileID: 1141945073}
-  taxTxt: {fileID: 503963647}
+  propertyName: 
+  owned: 0
+  indexOfOwner: 0
+  isRailroad: 0
+  isUtility: 1
+  TMP_rent: 0
+  TMP_purchaseCost: 0
 --- !u!1 &340372487
 GameObject:
   m_ObjectHideFlags: 0
@@ -9940,6 +9946,7 @@ MonoBehaviour:
   jailFreeCard: 0
   relocated: 0
   communityFund: 0
+  numUtilities: 0
   justLost: 0
   isDead: 0
   justWon: 0
@@ -18975,6 +18982,7 @@ MonoBehaviour:
   jailFreeCard: 0
   relocated: 0
   communityFund: 0
+  numUtilities: 0
   justLost: 0
   isDead: 0
   justWon: 0
@@ -19549,7 +19557,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1345459967}
   - component: {fileID: 1345459968}
-  - component: {fileID: 1345459970}
+  - component: {fileID: 1345459969}
   m_Layer: 0
   m_Name: Space (38)
   m_TagString: Untagged
@@ -19624,7 +19632,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1345459970
+--- !u!114 &1345459969
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -19633,12 +19641,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1345459966}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c031ba7c437df4a49988a8b48ae95bb5, type: 3}
+  m_Script: {fileID: 11500000, guid: b1f3ec20df519dc41b2f31bbc27ea929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   index: 38
-  okBtn: {fileID: 1141945073}
-  taxTxt: {fileID: 503963647}
+  propertyName: 
+  owned: 0
+  indexOfOwner: 0
+  isRailroad: 0
+  isUtility: 1
+  TMP_rent: 0
+  TMP_purchaseCost: 0
 --- !u!1 &1347913815
 GameObject:
   m_ObjectHideFlags: 0
@@ -26092,7 +26105,7 @@ MonoBehaviour:
   - {fileID: 378289593}
   - {fileID: 239630545}
   - {fileID: 1697175982}
-  - {fileID: 340300157}
+  - {fileID: 340300158}
   - {fileID: 1519082191}
   - {fileID: 188487401}
   - {fileID: 453858198}
@@ -26118,7 +26131,7 @@ MonoBehaviour:
   - {fileID: 180799408}
   - {fileID: 641550841}
   - {fileID: 1423872202}
-  - {fileID: 1345459970}
+  - {fileID: 1345459969}
   - {fileID: 1719227844}
 --- !u!1 &1730226425
 GameObject:
@@ -31489,6 +31502,7 @@ MonoBehaviour:
   jailFreeCard: 0
   relocated: 0
   communityFund: 0
+  numUtilities: 0
   justLost: 0
   isDead: 0
   justWon: 0

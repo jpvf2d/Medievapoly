@@ -10,37 +10,21 @@ public class PropertySpace : BoardSpace
 	[HideInInspector] public bool owned = false;
 	[HideInInspector] public int indexOfOwner;
 
-	//TEMPORARY
+	//Special property cards 
 	public bool isRailroad;
 	public bool isUtility;
-	//****TEMPORARY VARIABLES (TMP_*): Delete when Card class is being used ****
-	public float TMP_rent = 0; 
-	public float TMP_purchaseCost = 0;
+
 
 	private float purchaseCost = 0; 
 	public Card propertyCard = null; 
-	//public RailroadCard railroadCard; 
 
 	public static bool continueAssignCard = false;
 
-	/*void Update()
-	{
-		if(runCoroutine)
-		{
-			if(index == GameplaySystem.playerIndex)
-			{
-				StartCoroutine("land");
-			}
-		}
-	}*/
 	void Start()
 	{
-
-			TMP_rent = 500;
-			TMP_purchaseCost = 100;
-			StartCoroutine("AssignCard");
-			
+		StartCoroutine("AssignCard");		
 	}
+	
     public override void passing()
 	{
 		Debug.Log("Do nothing (PropertySpace:passing)");

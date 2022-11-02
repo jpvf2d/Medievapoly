@@ -156,8 +156,19 @@ public class PropertySpace : BoardSpace
 
 		else if(isUtility)
 		{
-			TMP_purchaseCost = 100;
-			TMP_rent = 500; 
+			for(int i = 0; i < CardSto.newCardList.Count; i++)
+			{
+				if (CardSto.newCardList[i] is UtilitiesCard)
+				{
+					if((CardSto.newCardList[i] as UtilitiesCard).utilitiesName == this.propertyName)
+					{	
+						this.propertyCard = CardSto.newCardList[i]; 
+						this.purchaseCost = (float) (this.propertyCard as UtilitiesCard).value; 
+					}
+				}
+			}
+
+			Debug.Log("Utility: " + (this.propertyCard as UtilitiesCard).utilitiesName); 
 		}
 
 		else

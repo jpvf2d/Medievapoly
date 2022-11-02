@@ -5034,7 +5034,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 12
-  propertyName: 
+  propertyName: Utility 1
   owned: 0
   indexOfOwner: 0
   isRailroad: 0
@@ -21425,7 +21425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 38
-  propertyName: 
+  propertyName: Utility 2
   owned: 0
   indexOfOwner: 0
   isRailroad: 0

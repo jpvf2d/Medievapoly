@@ -57,7 +57,22 @@ public class PropertySpace : BoardSpace
 						
 						if(isRailroad)
 						{
-							rent = (float) (this.propertyCard as RailroadCard).rent1;
+							//Rent increases based on how many railroads are owned by owner 
+							switch(GameplaySystem.players[indexOfOwner].GetComponent<Player>().numRailroads)
+							{
+							case 1:
+								rent = (float) (this.propertyCard as RailroadCard).rent1;
+								break;
+							case 2:
+								rent = (float) (this.propertyCard as RailroadCard).twoRailroad;
+								break;
+							case 3:		
+								rent = (float) (this.propertyCard as RailroadCard).threeRailroad;
+								break;
+							case 4:
+								rent = (float) (this.propertyCard as RailroadCard).value;
+								break;
+							}
 						}
 
 						else if(isUtility)
@@ -99,7 +114,6 @@ public class PropertySpace : BoardSpace
 
 					else
 					{
-						//TODO: Display graphic saying player owns property
 						StartCoroutine(ActionTextScript.display("Player "+ GameplaySystem.turn + " owns this property"));
 					}
 				

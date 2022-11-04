@@ -18,6 +18,7 @@ public class Player : MonoBehaviour
     [HideInInspector] public bool relocated = false;
     [HideInInspector] public int communityFund = 0;
     [HideInInspector] public int numUtilities = 0;
+    [HideInInspector] public int numRailroads = 0;
     private Animator anim;
     public bool justLost = false;
     public bool isDead = false;

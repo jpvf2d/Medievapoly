@@ -60,8 +60,12 @@ public class ChestSpace : BoardSpace
                 chestTxt.text = "Claim community fund of $" + totalFund;
                 break;
         }  
-        
-        GameplaySystem.ChestCard.SetActive(true);
+        if(GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().autoPlayEnabled == false){
+            GameplaySystem.ChestCard.SetActive(true);
+        }
+        else{
+            chestActions();
+        }
     }
 
     public override void stuck()

@@ -1958,8 +1958,6 @@ MonoBehaviour:
   indexOfOwner: 0
   isRailroad: 1
   isUtility: 0
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!1 &104787874
 GameObject:
   m_ObjectHideFlags: 0
@@ -2510,6 +2508,7 @@ MonoBehaviour:
   relocated: 0
   communityFund: 0
   numUtilities: 0
+  numRailroads: 0
   justLost: 0
   isDead: 0
   justWon: 0
@@ -2517,6 +2516,7 @@ MonoBehaviour:
   spriteRenderer: {fileID: 123120743}
   burnt: {fileID: 21300000, guid: 7e66e06d23d7f6a44a695678d447055a, type: 3}
   WinPanel: {fileID: 1322216802}
+  autoPlayEnabled: 1
 --- !u!61 &123120746
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2971,8 +2971,6 @@ MonoBehaviour:
   indexOfOwner: 0
   isRailroad: 1
   isUtility: 0
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!1 &188487398
 GameObject:
   m_ObjectHideFlags: 0
@@ -3076,8 +3074,6 @@ MonoBehaviour:
   indexOfOwner: 0
   isRailroad: 0
   isUtility: 0
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!1 &201291614
 GameObject:
   m_ObjectHideFlags: 0
@@ -4155,8 +4151,6 @@ MonoBehaviour:
   indexOfOwner: 0
   isRailroad: 0
   isUtility: 0
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!1 &247473153
 GameObject:
   m_ObjectHideFlags: 0
@@ -4617,8 +4611,6 @@ MonoBehaviour:
   indexOfOwner: 0
   isRailroad: 0
   isUtility: 0
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!114 &274428241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5039,8 +5031,6 @@ MonoBehaviour:
   indexOfOwner: 0
   isRailroad: 0
   isUtility: 1
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!1 &340372487
 GameObject:
   m_ObjectHideFlags: 0
@@ -5342,8 +5332,6 @@ MonoBehaviour:
   indexOfOwner: 0
   isRailroad: 0
   isUtility: 0
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!1 &362773582
 GameObject:
   m_ObjectHideFlags: 0
@@ -5801,8 +5789,6 @@ MonoBehaviour:
   indexOfOwner: 0
   isRailroad: 0
   isUtility: 0
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!1 &394649175
 GameObject:
   m_ObjectHideFlags: 0
@@ -5828,8 +5814,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 394649175}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 27.7, y: -209, z: -113.77}
-  m_LocalScale: {x: 51.68684, y: 51.68684, z: 51.68684}
+  m_LocalPosition: {x: -82.608406, y: -183.261, z: -114.05}
+  m_LocalScale: {x: 40.46757, y: 40.46757, z: 40.46757}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 70899413}
@@ -6488,8 +6474,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 419833258}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.81030667, y: 0.81030667, z: 0.81030667}
+  m_LocalPosition: {x: 0, y: 0, z: -24.975}
+  m_LocalScale: {x: 0.6344196, y: 0.6344196, z: 0.6344196}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1693974877}
@@ -6498,7 +6484,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -282.7, y: 220.3}
+  m_AnchoredPosition: {x: -325.63562, y: 152.85901}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &436374088
@@ -6604,8 +6590,6 @@ MonoBehaviour:
   indexOfOwner: 0
   isRailroad: 0
   isUtility: 0
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!1 &453858195
 GameObject:
   m_ObjectHideFlags: 0
@@ -6709,8 +6693,6 @@ MonoBehaviour:
   indexOfOwner: 0
   isRailroad: 1
   isUtility: 0
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!1 &453918807
 GameObject:
   m_ObjectHideFlags: 0
@@ -9340,8 +9322,6 @@ MonoBehaviour:
   indexOfOwner: 0
   isRailroad: 1
   isUtility: 0
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!1 &625054819
 GameObject:
   m_ObjectHideFlags: 0
@@ -9886,8 +9866,6 @@ MonoBehaviour:
   indexOfOwner: 0
   isRailroad: 0
   isUtility: 0
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!1 &663780882
 GameObject:
   m_ObjectHideFlags: 0
@@ -9913,8 +9891,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 663780882}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 27.2, y: -139.6, z: -1045.1}
-  m_LocalScale: {x: 51.68684, y: 51.68684, z: 51.68684}
+  m_LocalPosition: {x: -83.00001, y: -128.927, z: -843.26}
+  m_LocalScale: {x: 40.46757, y: 40.46757, z: 40.46757}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1487610454}
@@ -10300,8 +10278,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 686957053}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 25}
-  m_LocalScale: {x: 6.5319695, y: 6.5319695, z: 6.5319695}
+  m_LocalPosition: {x: 0, y: 0, z: -5.4014}
+  m_LocalScale: {x: 5.114125, y: 5.114125, z: 5.114125}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 805205630}
@@ -10309,7 +10287,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -446.7, y: 220.3}
+  m_AnchoredPosition: {x: -454.03558, y: 152.85901}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &686962962
@@ -10556,8 +10534,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 706755777}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 38, y: -8.4, z: -649.95}
-  m_LocalScale: {x: 52.789135, y: 52.789135, z: 52.789135}
+  m_LocalPosition: {x: -74.54391, y: -26.203003, z: -533.85}
+  m_LocalScale: {x: 41.3306, y: 41.3306, z: 41.3306}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1491495803}
@@ -10988,6 +10966,7 @@ MonoBehaviour:
   relocated: 0
   communityFund: 0
   numUtilities: 0
+  numRailroads: 0
   justLost: 0
   isDead: 0
   justWon: 0
@@ -10995,6 +10974,7 @@ MonoBehaviour:
   spriteRenderer: {fileID: 768452472}
   burnt: {fileID: 21300000, guid: 7e66e06d23d7f6a44a695678d447055a, type: 3}
   WinPanel: {fileID: 1322216802}
+  autoPlayEnabled: 1
 --- !u!95 &768452471
 Animator:
   serializedVersion: 4
@@ -11859,8 +11839,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 828616003}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -358, y: 58, z: -514.42}
-  m_LocalScale: {x: 135.63225, y: 135.63225, z: 135.63225}
+  m_LocalPosition: {x: -384.58563, y: 25.785, z: -427.74}
+  m_LocalScale: {x: 106.1916, y: 106.1916, z: 106.1916}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 242401807}
@@ -16146,8 +16126,6 @@ MonoBehaviour:
   indexOfOwner: 0
   isRailroad: 0
   isUtility: 0
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!1 &1074181826
 GameObject:
   m_ObjectHideFlags: 0
@@ -19610,8 +19588,6 @@ MonoBehaviour:
   indexOfOwner: 0
   isRailroad: 0
   isUtility: 0
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!1 &1254340870
 GameObject:
   m_ObjectHideFlags: 0
@@ -19814,8 +19790,6 @@ MonoBehaviour:
   indexOfOwner: 0
   isRailroad: 0
   isUtility: 0
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!1 &1258073809
 GameObject:
   m_ObjectHideFlags: 0
@@ -20434,8 +20408,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1291953504}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -357.6, y: 56.2, z: 0}
-  m_LocalScale: {x: 136.13803, y: 136.13803, z: 136.13803}
+  m_LocalPosition: {x: -384.27618, y: 24.374996, z: -24.975}
+  m_LocalScale: {x: 106.5876, y: 106.5876, z: 106.5876}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 805205630}
@@ -20763,6 +20737,7 @@ MonoBehaviour:
   relocated: 0
   communityFund: 0
   numUtilities: 0
+  numRailroads: 0
   justLost: 0
   isDead: 0
   justWon: 0
@@ -20770,6 +20745,7 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1306886896}
   burnt: {fileID: 21300000, guid: 7e66e06d23d7f6a44a695678d447055a, type: 3}
   WinPanel: {fileID: 1322216802}
+  autoPlayEnabled: 1
 --- !u!1 &1314204216
 GameObject:
   m_ObjectHideFlags: 0
@@ -20873,8 +20849,6 @@ MonoBehaviour:
   indexOfOwner: 0
   isRailroad: 0
   isUtility: 0
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!1 &1321055271
 GameObject:
   m_ObjectHideFlags: 0
@@ -21430,8 +21404,6 @@ MonoBehaviour:
   indexOfOwner: 0
   isRailroad: 0
   isUtility: 1
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!1 &1347913815
 GameObject:
   m_ObjectHideFlags: 0
@@ -21558,8 +21530,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1358052551}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 27.7, y: -8.6, z: -113.77}
-  m_LocalScale: {x: 51.68684, y: 51.68684, z: 51.68684}
+  m_LocalPosition: {x: -82.608406, y: -26.360003, z: -114.05}
+  m_LocalScale: {x: 40.46757, y: 40.46757, z: 40.46757}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 150357958}
@@ -21827,8 +21799,6 @@ MonoBehaviour:
   indexOfOwner: 0
   isRailroad: 0
   isUtility: 0
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!1 &1383602007
 GameObject:
   m_ObjectHideFlags: 0
@@ -22584,8 +22554,6 @@ MonoBehaviour:
   indexOfOwner: 0
   isRailroad: 0
   isUtility: 0
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!1 &1421800758
 GameObject:
   m_ObjectHideFlags: 0
@@ -22786,8 +22754,6 @@ MonoBehaviour:
   indexOfOwner: 0
   isRailroad: 0
   isUtility: 0
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!1 &1427497725
 GameObject:
   m_ObjectHideFlags: 0
@@ -24671,8 +24637,6 @@ MonoBehaviour:
   indexOfOwner: 0
   isRailroad: 0
   isUtility: 0
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!1 &1530994871
 GameObject:
   m_ObjectHideFlags: 0
@@ -25529,8 +25493,6 @@ MonoBehaviour:
   indexOfOwner: 0
   isRailroad: 0
   isUtility: 0
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!1 &1602931886
 GameObject:
   m_ObjectHideFlags: 0
@@ -27696,8 +27658,6 @@ MonoBehaviour:
   indexOfOwner: 0
   isRailroad: 0
   isUtility: 0
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!1 &1701941563
 GameObject:
   m_ObjectHideFlags: 0
@@ -28604,8 +28564,6 @@ MonoBehaviour:
   indexOfOwner: 0
   isRailroad: 0
   isUtility: 0
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!1 &1746290221
 GameObject:
   m_ObjectHideFlags: 0
@@ -31490,8 +31448,6 @@ MonoBehaviour:
   indexOfOwner: 0
   isRailroad: 0
   isUtility: 0
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!1 &1903780060
 GameObject:
   m_ObjectHideFlags: 0
@@ -33474,8 +33430,6 @@ MonoBehaviour:
   indexOfOwner: 0
   isRailroad: 0
   isUtility: 0
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!1 &2031528033
 GameObject:
   m_ObjectHideFlags: 0
@@ -33663,8 +33617,6 @@ MonoBehaviour:
   indexOfOwner: 0
   isRailroad: 0
   isUtility: 0
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!1 &2041016085
 GameObject:
   m_ObjectHideFlags: 0
@@ -33834,6 +33786,7 @@ MonoBehaviour:
   relocated: 0
   communityFund: 0
   numUtilities: 0
+  numRailroads: 0
   justLost: 0
   isDead: 0
   justWon: 0
@@ -33841,6 +33794,7 @@ MonoBehaviour:
   spriteRenderer: {fileID: 2041721156}
   burnt: {fileID: 21300000, guid: 7e66e06d23d7f6a44a695678d447055a, type: 3}
   WinPanel: {fileID: 1322216802}
+  autoPlayEnabled: 1
 --- !u!95 &2041721155
 Animator:
   serializedVersion: 4
@@ -34136,8 +34090,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2051294949}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 27.2, y: -72, z: -1045.1}
-  m_LocalScale: {x: 51.68684, y: 51.68684, z: 51.68684}
+  m_LocalPosition: {x: -83, y: -76, z: -843.26}
+  m_LocalScale: {x: 40.46757, y: 40.46757, z: 40.46757}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 203389341}
@@ -34189,8 +34143,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2055831717}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -357.99997, y: 58, z: -514.42004}
-  m_LocalScale: {x: 135.6321, y: 135.6321, z: 135.6321}
+  m_LocalPosition: {x: -384.58563, y: 25.785, z: -427.74}
+  m_LocalScale: {x: 106.191475, y: 106.191475, z: 106.191475}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1840324476}
@@ -34434,8 +34388,6 @@ MonoBehaviour:
   indexOfOwner: 0
   isRailroad: 0
   isUtility: 0
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!1 &2071275074
 GameObject:
   m_ObjectHideFlags: 0
@@ -35096,8 +35048,6 @@ MonoBehaviour:
   indexOfOwner: 0
   isRailroad: 0
   isUtility: 0
-  TMP_rent: 0
-  TMP_purchaseCost: 0
 --- !u!1 &2112412263
 GameObject:
   m_ObjectHideFlags: 0

@@ -31,7 +31,12 @@ public class TaxSpace : BoardSpace
     public override void land()
     {
         taxTxt.text = "Pay income text (Lose $150)";
-        GameplaySystem.TaxCard.SetActive(true);  
+        if(GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().autoPlayEnabled == false){
+            GameplaySystem.TaxCard.SetActive(true);
+        }
+        else{
+            taxActions();
+        }  
     }
 
     private void taxActions()

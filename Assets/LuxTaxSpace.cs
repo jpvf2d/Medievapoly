@@ -31,7 +31,12 @@ public class LuxTaxSpace : BoardSpace
     public override void land()
     {            
         taxTxt.text = "Pay luxury tax (Lose $300)";
-        GameplaySystem.TaxCard.SetActive(true);  
+        if(GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().autoPlayEnabled == false){
+            GameplaySystem.TaxCard.SetActive(true);
+        }
+        else{
+            taxActions();
+        }
     }
 
     private void taxActions()

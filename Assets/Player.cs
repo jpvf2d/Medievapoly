@@ -21,18 +21,20 @@ public class Player : MonoBehaviour
     [HideInInspector] public int numRailroads = 0;
     private Animator anim;
     public bool justLost = false;
-    public bool isDead = false;
-    public bool justWon = false;
-    public bool isWinner = false;
+    [HideInInspector] public bool isDead = false;
+    [HideInInspector] public bool justWon = false;
+    [HideInInspector] public bool isWinner = false;
     public SpriteRenderer spriteRenderer;
     public Sprite burnt;
     public GameObject WinPanel;
+    [SerializeField] public bool autoPlayEnabled = false;
 
 
 
     // Start is called before the first frame update
     private void Start()
     {
+        // moveSpeed = 40f; //Remove after testing
         money = 1500;
         transform.position = boardSpaces[boardSpaceIndex].transform.position;
         List<int> property = new List<int>();

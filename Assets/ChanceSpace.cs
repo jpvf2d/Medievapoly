@@ -55,7 +55,12 @@ public class ChanceSpace : BoardSpace
                 break;
         }  
 
-        GameplaySystem.ChanceCard.SetActive(true);
+        if(GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().autoPlayEnabled == false){
+            GameplaySystem.ChanceCard.SetActive(true);
+        }
+        else{
+            chanceActions();
+        }
     }
 
     public override void stuck()

@@ -32,13 +32,21 @@ public class PropertySpace : BoardSpace
 	
     public override void land()
 	{
+			//Purchase purchase = new Purchase();
+
 			if(!owned)
 			{
 				if(GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money >= this.purchaseCost)
 				{
 					DisplayCard.cardIdx = index;
-					DisplayCard.coroutine = true;
-					GameplaySystem.PurchasePropertyMenu.SetActive(true);
+					if(GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().autoPlayEnabled == false){
+						DisplayCard.coroutine = true;
+						GameplaySystem.PurchasePropertyMenu.SetActive(true);
+					}
+					else{
+						Purchase.AutoPurchaseProp();
+						Debug.Log("Automatically Purchased Property");
+					}
 				}
 				else	
 				{
@@ -148,7 +156,7 @@ public class PropertySpace : BoardSpace
 				}
 			}
 
-			Debug.Log("Railroad: " + (this.propertyCard as RailroadCard).railroadName);
+			//Debug.Log("Railroad: " + (this.propertyCard as RailroadCard).railroadName);
 		}
 
 
@@ -166,7 +174,7 @@ public class PropertySpace : BoardSpace
 				}
 			}
 
-			Debug.Log("Utility: " + (this.propertyCard as UtilitiesCard).utilitiesName); 
+			//Debug.Log("Utility: " + (this.propertyCard as UtilitiesCard).utilitiesName); 
 		}
 
 		else
@@ -182,7 +190,7 @@ public class PropertySpace : BoardSpace
 					}
 				}
 			}
-			Debug.Log("Property: " + (this.propertyCard as PropertyCard).propertyName);
+			//Debug.Log("Property: " + (this.propertyCard as PropertyCard).propertyName);
 		}
 
 	}

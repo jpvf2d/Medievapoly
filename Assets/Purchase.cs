@@ -34,5 +34,14 @@ public class Purchase : MonoBehaviour
 		DisplayCard.stopDisplay = true;
 		SpaceLogic.continue_sl = true; 
 	}
+
+	// Weird workaround for autoplay (public static)
+	public static void AutoPurchaseProp()
+	{
+		purchasedProp = true; 
+		GameplaySystem.PurchasePropertyMenu.SetActive(false);
+		DisplayCard.stopDisplay = true;
+		SpaceLogic.continue_sl = true; 
+	}
 	
 }

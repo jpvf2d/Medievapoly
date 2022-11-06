@@ -98,8 +98,19 @@ public class PropertySpace : BoardSpace
 						}
 
 						else
-							rent = (float) (this.propertyCard as PropertyCard).rent;
+						{
+							string color = (this.propertyCard as PropertyCard).colorCategory.Trim();
+							int multiplier = GameplaySystem.players[indexOfOwner].GetComponent<Player>().fullSetTracker[color];
+						
+							if(multiplier == 3)
+								multiplier = 2;
+							else if(multiplier == 2 && (color == "Blue"|| color == "Brown"))
+								multiplier = 2; 
+							else
+								multiplier = 1; 
 
+							rent = (float) (this.propertyCard as PropertyCard).rent * multiplier;
+						} 
 
 						if(GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money < rent)
 						{
@@ -107,9 +118,6 @@ public class PropertySpace : BoardSpace
 							GameplaySystem.players[indexOfOwner].GetComponent<Player>().money += lastOfMoney;
 							GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money = -1; 
 							StartCoroutine(ActionTextScript.display("Player "+ GameplaySystem.turn + " paid Player " + indexOfOwner + " $" + lastOfMoney + ". You're out of funds!"));
-							//TODO: If player runs out of money, their game ends 
-							// The below isn't needed because it's already handled in the player file
-							// GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().justLost = true;
 						}
 
 						else

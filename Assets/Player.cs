@@ -19,6 +19,7 @@ public class Player : MonoBehaviour
     [HideInInspector] public int communityFund = 0;
     [HideInInspector] public int numUtilities = 0;
     [HideInInspector] public int numRailroads = 0;
+    public Dictionary<string, int> fullSetTracker = new Dictionary<string, int>(); // see 'LoadFSTDictionary'
     private Animator anim;
     public bool justLost = false;
     [HideInInspector] public bool isDead = false;
@@ -41,6 +42,7 @@ public class Player : MonoBehaviour
         anim = GetComponent<Animator>();        
         //WinPanel = GameObject.Find("WinPanel");
         WinPanel.SetActive(false);
+        LoadFSTDictionary(); 
     }
 
     // Update is called once per frame
@@ -119,5 +121,17 @@ public class Player : MonoBehaviour
         isWinner = true;
         WinPanel.SetActive(true);
         justWon = false;
+    }
+
+    private void LoadFSTDictionary()
+    {
+        this.fullSetTracker.Add("Brown", 0);
+        this.fullSetTracker.Add("Red", 0);
+        this.fullSetTracker.Add("Pink", 0);
+        this.fullSetTracker.Add("Purple", 0);
+        this.fullSetTracker.Add("Yellow", 0);
+        this.fullSetTracker.Add("White", 0);
+        this.fullSetTracker.Add("Green", 0);
+        this.fullSetTracker.Add("Blue", 0);
     }
 }

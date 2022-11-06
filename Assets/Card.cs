@@ -23,8 +23,9 @@ public class PropertyCard: Card
   public double hotel;
   public double fullSet;
   public double purchaseCost;
+  public string colorCategory; 
 
-   public PropertyCard(string CardName,string cName, string PropertyName, double Rent, double One, double Two, double Three, double Four, double Hotel, double FullSet, double PurchaseCost) : base(CardName)
+   public PropertyCard(string CardName,string cName, string PropertyName, double Rent, double One, double Two, double Three, double Four, double Hotel, double FullSet, double PurchaseCost, string colorCat) : base(CardName)
    {
      cardN = cName;
      propertyName = PropertyName;
@@ -36,6 +37,7 @@ public class PropertyCard: Card
      hotel = Hotel;
      fullSet= FullSet;
      purchaseCost = PurchaseCost;
+     colorCategory = colorCat; 
    }
 
 }
@@ -74,5 +76,3 @@ public class UtilitiesCard: Card
     value = val;
   }
 }
-
-//}

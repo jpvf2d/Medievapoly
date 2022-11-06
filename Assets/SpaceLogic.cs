@@ -47,6 +47,7 @@ public class SpaceLogic : MonoBehaviour
 
         if(Purchase.purchasedProp)
         {
+            Purchase.purchasedProp = false; 
             int turn = GameplaySystem.turn;
             allBoardSpaces[spaceIndex].GetComponent<PropertySpace>().owned = true; 
             allBoardSpaces[spaceIndex].GetComponent<PropertySpace>().indexOfOwner = turn; 
@@ -68,9 +69,12 @@ public class SpaceLogic : MonoBehaviour
             }
 
             else
+            {
+                string color = (allBoardSpaces[spaceIndex].GetComponent<PropertySpace>().propertyCard as PropertyCard).colorCategory.Trim();
+                GameplaySystem.players[turn].GetComponent<Player>().fullSetTracker[color]++;  
                 costToPurchaseProperty = (float) (allBoardSpaces[spaceIndex].GetComponent<PropertySpace>().propertyCard as PropertyCard).purchaseCost;
+            }
             GameplaySystem.players[turn].GetComponent<Player>().money -= costToPurchaseProperty;
-            Purchase.purchasedProp = false; 
         }
 
         // Last thing to occur in order to continue gameplay (turns)

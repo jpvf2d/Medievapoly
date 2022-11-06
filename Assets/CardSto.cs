@@ -45,8 +45,9 @@ public class CardSto : MonoBehaviour
           double hotel = double.Parse(rowArray[8]);
           double fullSet = double.Parse(rowArray[9]);
           double purchaseCost = double.Parse(rowArray[10]);
+          string colorCat = rowArray[11]; 
           string CardName = "property";
-          PropertyCard propertyCard = new PropertyCard(CardName, cardN, propertyName, rent, one, two, three, four, hotel, fullSet, purchaseCost);
+          PropertyCard propertyCard = new PropertyCard(CardName, cardN, propertyName, rent, one, two, three, four, hotel, fullSet, purchaseCost, colorCat);
           newCardList.Add(propertyCard);
           //Debug.Log(newCardList.Count);
           //Debug.Log(cardN + propertyName + purchaseCost);

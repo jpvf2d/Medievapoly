@@ -21,7 +21,7 @@ public class DiceButton : MonoBehaviour
 		
     }
 
-       private void OnMouseDown() 
+    private void OnMouseDown() 
     {
 		if(coroutine)
 		{
@@ -30,6 +30,13 @@ public class DiceButton : MonoBehaviour
 			StartCoroutine(MoveThePlayers());
 		}
     }
+
+	public void Roll()
+	{
+		coroutine = false;
+		GameplaySystem.roll();
+		StartCoroutine(MoveThePlayers());
+	}
 	
 	private IEnumerator MoveThePlayers()
 	{
@@ -38,7 +45,7 @@ public class DiceButton : MonoBehaviour
 			yield return new WaitForSeconds(0.05f);
 		}
 		GameplaySystem.diceSideThrown = Dice1.DiceNum + Dice2.DiceNum + 2;
-		int turn = GameplaySystem.turn; 
+		int turn = GameplaySystem.turn;
 
 		// Options for player if player is in jail 
 		if(GameplaySystem.players[turn].GetComponent<Player>().stuckInPlace == true)
@@ -126,7 +133,8 @@ public class DiceButton : MonoBehaviour
 	//Pay $50 to escape jail 
 	private IEnumerator payToEscape()
 	{
-		if(GameplaySystem.players[turn].GetComponent<Player>().money > 50)
+		if(GameplaySystem.players[turn].GetComponent<Player>().money > 50
+		   && !GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().autoPlayEnabled)
 			JailFeeDisplay.payJailFee.SetActive(true);
 		else
 			JailFeeDisplay.cont_jailfee = true;

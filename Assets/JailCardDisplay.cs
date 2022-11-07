@@ -61,9 +61,15 @@ public class JailCardDisplay : MonoBehaviour
     {
         if(activateJailCardDisplay)
         {
-            activateJailCardDisplay = false; 
-            jailCardDisplay.SetActive(true); 
-            JailCardPlayer.GetComponent<TMP_Text>().text = "Player " +  jailCardOwner.ToString();
+            activateJailCardDisplay = false;
+            if (!GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().autoPlayEnabled) { 
+                jailCardDisplay.SetActive(true); 
+                JailCardPlayer.GetComponent<TMP_Text>().text = "Player " +  jailCardOwner.ToString();
+            }
+            else {
+                Debug.Log("Player" + GameplaySystem.turn + " staying in jail");
+                No();
+            }
         }
     }
     private void Purchase() //Player chooses to purchase/negotiate cards from other players 
@@ -95,12 +101,22 @@ public class JailCardDisplay : MonoBehaviour
             jailCardNegotiate.SetActive(false);
             jailCardAccept.SetActive(true); 
         }
+
+        if(GameplaySystem.players[jailCardOwner].GetComponent<Player>().autoPlayEnabled) {
+            if(negotiatedPrice > 99) {
+                AcceptYes();
+            }
+            else {
+                AcceptNo();
+            }
+        }
     }
 
     private void AcceptYes() //Card owner accepts player's offer 
     {
         GameplaySystem.players[GameplaySystem.turn].GetComponent<Player>().money -= negotiatedPrice; 
         GameplaySystem.players[jailCardOwner].GetComponent<Player>().money += negotiatedPrice;
+        GameplaySystem.players[jailCardOwner].GetComponent<Player>().jailFreeCard = false;
         JailSpace.availableJailCards[jailCardOwner] = 0; 
         jailCardAccept.SetActive(false); 
         cont_jcd = true; 

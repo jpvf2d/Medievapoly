@@ -70,4 +70,18 @@ public class PauseMenu : MonoBehaviour
         Debug.Log("Quitting Game (Only Works Outside Unity)");
         Application.Quit();
     }
+
+    public void AutoPlay() {
+        int turn = GameplaySystem.turn;
+        currentPlayer = GameplaySystem.players[turn].GetComponent<Player>();
+
+        if (currentPlayer.autoPlayEnabled) {
+            currentPlayer.autoPlayEnabled = false;
+            StartCoroutine(ActionTextScript.display("Autoplay disabled"));
+        }
+        else {
+            currentPlayer.autoPlayEnabled = true;
+            StartCoroutine(ActionTextScript.display("Autoplay enabled"));
+        }
+    }
 }

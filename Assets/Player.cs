@@ -14,7 +14,7 @@ public class Player : MonoBehaviour
     public List<int> property; //Use list to easily add purchaed properties 
     public string name;
     public int playersIndex; 
-    [HideInInspector] public bool jailFreeCard = false;
+    public bool jailFreeCard = false;
     [HideInInspector] public bool relocated = false;
     [HideInInspector] public int communityFund = 0;
     [HideInInspector] public int numUtilities = 0;

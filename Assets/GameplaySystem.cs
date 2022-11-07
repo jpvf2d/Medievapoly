@@ -30,6 +30,10 @@ public class GameplaySystem : MonoBehaviour
     public static GameObject activeCam = null;
     public static GameObject followMe;
 
+    public bool needRoll;
+    public int lastPlayer = -1;
+    public static GameObject rollButton;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -42,6 +46,7 @@ public class GameplaySystem : MonoBehaviour
         freeCam = GameObject.Find("CM vcam free");
         dice1 = GameObject.Find("Dice1");
 		dice2 = GameObject.Find("Dice2");
+        rollButton = GameObject.Find("DiceButton");
 		PurchasePropertyMenu = GameObject.Find("PurchasePropertyMenu");
 		ChanceCard = GameObject.Find("ChanceCard");
 		ChestCard = GameObject.Find("ChestCard");
@@ -78,6 +83,20 @@ public class GameplaySystem : MonoBehaviour
                 freeCamText.gameObject.SetActive(true);
             }
         }
+
+        if(lastPlayer != turn) {
+            needRoll = true;
+            lastPlayer = turn;
+        }
+
+        if(players[turn].GetComponent<Player>().autoPlayEnabled && this.needRoll) {
+            this.needRoll = false;
+            AutoRoll();
+        }
+    }
+
+    public void AutoRoll() {
+        rollButton.GetComponent<DiceButton>().Roll();
     }
 
     public static void PlayerTurn()

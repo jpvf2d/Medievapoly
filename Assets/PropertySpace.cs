@@ -104,7 +104,7 @@ public class PropertySpace : BoardSpace
 						
 							if(multiplier == 3)
 								multiplier = 2;
-							else if(multiplier == 2 && (color == "Blue"|| color == "Brown"))
+							else if(multiplier == 2 && (color == "Blue"|| color == "Purple"))
 								multiplier = 2; 
 							else
 								multiplier = 1; 

@@ -1,21 +1,21 @@
 ﻿cName,Title,Name,Rent,1 House,2 Houses,3 Houses,4 Houses,Hotel,Full Set,Purchase Cost,Color Category
-property,TITLE DEED,Ueda Castle,50,10,30,90,160,250,12,60,Brown
-property,TITLE DEED,Yamagata,55,20,60,180,320,450,14,60,Brown
+property,TITLE DEED,Ueda Castle,50,10,30,90,160,250,12,60,Purple
+property,TITLE DEED,Yamagata,55,20,60,180,320,450,14,60,Purple
 property,TITLE DEED,Avolire Castle,70,30,90,270,400,550,16,100,Red
 property,TITLE DEED,Minbury Castle,70,30,90,270,400,550,16,100,Red
 property,TITLE DEED,Nartley Castle,80,40,100,300,450,600,18,120,Red
 property,TITLE DEED,Carneath Hold,100,50,150,450,625,750,25,140,Pink
 property,TITLE DEED,Hewgill Hold,100,50,150,450,625,750,25,140,Pink
 property,TITLE DEED,Haarton Hold,130,60,180,500,700,900,27,160,Pink
-property,TITLE DEED,The Hightower,145,70,200,550,750,950,28,180,Purple
-property,TITLE DEED,The Hornburg,145,70,200,550,750,950,28,180,Purple
-property,TITLE DEED,The Eyrie,160,80,220,600,800,1000,30,200,Purple
+property,TITLE DEED,The Hightower,145,70,200,550,750,950,28,180,LightB
+property,TITLE DEED,The Hornburg,145,70,200,550,750,950,28,180,LightB
+property,TITLE DEED,The Eyrie,160,80,220,600,800,1000,30,200,LightB
 property,TITLE DEED,Leeds Castle,180,90,250,700,875,1050,32,220,Yellow
 property,TITLE DEED,Stirling Castle,180,90,250,700,875,1050,32,220,Yellow
 property,TITLE DEED,Tintagel Castle,200,100,300,750,925,1100,35,240,Yellow
-property,TITLE DEED,Bodiam Castle,220,110,330,800,974,1150,37,260,White
-property,TITLE DEED,Bojnice Castle,220,110,330,800,974,1150,37,260,White
-property,TITLE DEED,Bran Castle,245,120,360,850,1025,1200,40,280,White
+property,TITLE DEED,Bodiam Castle,220,110,330,800,974,1150,37,260,Orange
+property,TITLE DEED,Bojnice Castle,220,110,330,800,974,1150,37,260,Orange
+property,TITLE DEED,Bran Castle,245,120,360,850,1025,1200,40,280,Orange
 property,TITLE DEED,Komine Castle,260,130,390,900,1100,1275,43,300,Green
 property,TITLE DEED,Kōchi Castle,260,130,390,900,1100,1275,43,300,Green
 property,TITLE DEED,Kilkenny Castle,280,150,450,1000,1200,1400,45,320,Green
